@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "Qingdao Quickleader - Power Plant 4S Service Center"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
-theme = ""
 
 [params]
   companyName = "Qingdao Quickleader"
