@@ -1,0 +1,73 @@
+{{ define "main" }}
+<section class="page-header">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Params.subtitle }}</p>
+    <div class="breadcrumb"><a href="{{ .Site.Home.RelPermalink }}">{{ T "home" }}</a> / {{ .Title }}</div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    {{ if eq .Type "products" }}
+    <div class="products-toolbar">
+      <div class="filter-label">{{ T "filter_by" }}:</div>
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-cat="all">{{ T "filter_all" }}</button>
+        <button class="filter-btn" data-cat="turbine">{{ T "category_turbine" }}</button>
+        <button class="filter-btn" data-cat="gas">{{ T "category_gas" }}</button>
+        <button class="filter-btn" data-cat="boiler">{{ T "category_boiler" }}</button>
+        <button class="filter-btn" data-cat="equipment">{{ T "category_equipment" }}</button>
+        <button class="filter-btn" data-cat="turbine_parts">{{ T "category_turbine_parts" }}</button>
+        <button class="filter-btn" data-cat="epc">{{ T "category_epc" }}</button>
+        <button class="filter-btn" data-cat="service">{{ T "category_service" }}</button>
+        <button class="filter-btn" data-cat="new_energy">{{ T "category_new_energy" }}</button>
+      </div>
+    </div>
+    <div class="products-count" id="productCount">{{ len .Pages }} {{ T "product_count" }}</div>
+    <div class="products-grid products-grid-full" id="productsGrid">
+      {{ range .Pages }}
+      <div class="product-card" data-cat="{{ .Params.category }}">
+        <div class="product-img">
+          {{ with .Params.image }}
+          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+          {{ else }}
+          <span>{{ .Params.icon | default "⚙" }}</span>
+          {{ end }}
+        </div>
+        <div class="product-body">
+          <span class="product-tag cat-{{ .Params.category }}">{{ T (printf "category_%s" .Params.category) }}</span>
+          <h3>{{ .Title }}</h3>
+          <p>{{ .Summary | truncate 100 }}</p>
+          <a href="{{ .RelPermalink }}" class="product-link">{{ T "request_quote" }} →</a>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ else }}
+    <article class="article">
+      {{ .Content }}
+    </article>
+    {{ end }}
+  </div>
+</section>
+
+<script>
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const cat = btn.dataset.cat;
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    let visible = 0;
+    document.querySelectorAll('.product-card').forEach(card => {
+      if (cat === 'all' || card.dataset.cat === cat) {
+        card.style.display = '';
+        visible++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+    document.getElementById('productCount').textContent = visible + ' {{ T "product_count" }}';
+  });
+});
+</script>
+{{ end }}

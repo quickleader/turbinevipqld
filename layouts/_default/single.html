@@ -1,0 +1,12 @@
+{{ define "main" }}
+<section class="page-header">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Params.subtitle }}</p>
+    <div class="breadcrumb"><a href="{{ .Site.Home.RelPermalink }}">{{ T "home" }}</a> / {{ .Title }}</div>
+  </div>
+</section>
+<article class="article container">
+  {{ .Content }}
+</article>
+{{ end }}

@@ -1,0 +1,162 @@
+{{ define "title" }}{{ .Title }}{{ end }}
+{{ define "main" }}
+<section class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <span class="hero-eyebrow">{{ T "hero_eyebrow" }}</span>
+        <h1>{{ T "hero_title_1" }} <span>{{ T "hero_title_2" }}</span> {{ T "hero_title_3" }}</h1>
+        <p class="hero-subtitle">{{ T "hero_subtitle" }}</p>
+        <div class="hero-cta">
+          <a href="{{ "products/" | relLangURL }}" class="btn btn-primary">{{ T "view_products" }} →</a>
+          <a href="{{ "contact/" | relLangURL }}" class="btn btn-outline">{{ T "get_quote" }}</a>
+        </div>
+        <div class="hero-stats">
+          <div><div class="stat-num">20+</div><div class="stat-label">{{ T "stat_years" }}</div></div>
+          <div><div class="stat-num">25+</div><div class="stat-label">{{ T "stat_countries" }}</div></div>
+          <div><div class="stat-num">10+</div><div class="stat-label">{{ T "stat_brands" }}</div></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="/img/banner/000公司全景.jpg" alt="Company panorama" style="width:100%;height:100%;object-fit:cover;border-radius:16px;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-title">
+      <h2>{{ T "why_choose_title" }}</h2>
+      <p>{{ T "why_choose_subtitle" }}</p>
+    </div>
+    <div class="features-grid features-4">
+      <div class="feature-card">
+        <div class="feature-icon">①</div>
+        <h3>{{ T "feature1_title" }}</h3>
+        <p>{{ T "feature1_desc" }}</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">②</div>
+        <h3>{{ T "feature2_title" }}</h3>
+        <p>{{ T "feature2_desc" }}</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">③</div>
+        <h3>{{ T "feature3_title" }}</h3>
+        <p>{{ T "feature3_desc" }}</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">④</div>
+        <h3>{{ T "feature4_title" }}</h3>
+        <p>{{ T "feature4_desc" }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-soft">
+  <div class="container">
+    <div class="section-title">
+      <h2>{{ T "products_title" }}</h2>
+      <p>{{ T "products_subtitle" }}</p>
+    </div>
+    <div class="products-grid">
+      <div class="product-card">
+        <div class="product-img"><img src="/img/products/industrial-turbine.jpg" alt="Industrial steam turbine"></div>
+        <div class="product-body">
+          <span class="product-tag">{{ T "cat_turbine" }}</span>
+          <h3>{{ T "product_industrial_turbine" }}</h3>
+          <p>{{ T "product_industrial_turbine_desc" }}</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img"><img src="/img/products/htc-turbine.jpg" alt="HTC steam turbine"></div>
+        <div class="product-body">
+          <span class="product-tag">{{ T "cat_turbine" }}</span>
+          <h3>{{ T "product_htc_turbine" }}</h3>
+          <p>{{ T "product_htc_turbine_desc" }}</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img"><img src="/img/products/gas-turbine.jpg" alt="Gas turbine"></div>
+        <div class="product-body">
+          <span class="product-tag">{{ T "cat_equipment" }}</span>
+          <h3>{{ T "product_gas_turbine" }}</h3>
+          <p>{{ T "product_gas_turbine_desc" }}</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img"><img src="/img/products/boiler.jpg" alt="Boiler"></div>
+        <div class="product-body">
+          <span class="product-tag">{{ T "cat_equipment" }}</span>
+          <h3>{{ T "product_boiler" }}</h3>
+          <p>{{ T "product_boiler_desc" }}</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img"><img src="/img/products/epc.jpg" alt="EPC project"></div>
+        <div class="product-body">
+          <span class="product-tag">{{ T "cat_epc" }}</span>
+          <h3>{{ T "product_epc" }}</h3>
+          <p>{{ T "product_epc_desc" }}</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img"><img src="/img/products/maintenance.jpg" alt="Maintenance service"></div>
+        <div class="product-body">
+          <span class="product-tag">{{ T "cat_service" }}</span>
+          <h3>{{ T "product_maintenance" }}</h3>
+          <p>{{ T "product_maintenance_desc" }}</p>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:40px;">
+      <a href="{{ "products/" | relLangURL }}" class="btn btn-outline">{{ T "view_all_products" }} →</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-title">
+      <h2>{{ T "partners_title" }}</h2>
+      <p>{{ T "partners_subtitle" }}</p>
+    </div>
+    <div class="partners-grid">
+      <div class="partner-item">Nanjing Turbine Group (NTC)</div>
+      <div class="partner-item">Hangzhou Turbine Group (HTC)</div>
+      <div class="partner-item">Qingdao Jieneng Steam Turbine</div>
+      <div class="partner-item">GE Technology Gas Turbine</div>
+      <div class="partner-item">Siemens Steam Turbine</div>
+      <div class="partner-item">Jinan Boiler Group</div>
+      <div class="partner-item">Wuxi Boiler Group</div>
+      <div class="partner-item">Tai'an Boiler Group</div>
+      <div class="partner-item">Sergi Transformer Protector</div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-soft">
+  <div class="container">
+    <div class="section-title">
+      <h2>{{ T "certs_title" }}</h2>
+      <p>{{ T "certs_subtitle" }}</p>
+    </div>
+    <div class="certs-grid">
+      <div class="cert-card"><img src="/img/certs/BV1-1.JPG" alt="BV Certification"></div>
+      <div class="cert-card"><img src="/img/certs/CE证书.jpg" alt="CE Certification"></div>
+      <div class="cert-card"><img src="/img/certs/SGS2.JPG" alt="SGS Certification"></div>
+      <div class="cert-card"><img src="/img/certs/CE POWER PLANT.jpg" alt="CE Power Plant"></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2>{{ T "cta_title" }}</h2>
+    <p>{{ T "cta_subtitle" }}</p>
+    <a href="{{ "contact/" | relLangURL }}" class="btn btn-primary">{{ T "contact_us_now" }} →</a>
+  </div>
+</section>
+{{ end }}

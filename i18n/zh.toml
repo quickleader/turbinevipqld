@@ -1,0 +1,218 @@
+[home]
+other = "首页"
+
+[company]
+other = "公司"
+
+[products_title]
+other = "产品与服务"
+
+[contact_title]
+other = "联系我们"
+
+[rights_reserved]
+other = "版权所有。"
+
+[banner_title]
+other = "乾利得国际贸易"
+
+[banner_subtitle]
+other = "销售 · 备件 · 服务 · 巡检"
+
+[hero_eyebrow]
+other = "电站4S服务中心 · 始于2003"
+
+[hero_title_1]
+other = "您的电站"
+
+[hero_title_2]
+other = "4S服务"
+
+[hero_title_3]
+other = "中心"
+
+[hero_subtitle]
+other = "销售 / 备件 / 服务 / 巡检 —— 一步式EPC解决方案、汽轮机、锅炉及电站维修服务。20余年工程经验，源自一带一路起点青岛。"
+
+[view_products]
+other = "查看产品与服务"
+
+[get_quote]
+other = "获取报价"
+
+[stat_years]
+other = "年（始于2003）"
+
+[stat_countries]
+other = "服务国家"
+
+[stat_brands]
+other = "合作品牌"
+
+[stat_products]
+other = "产品"
+
+[why_choose_title]
+other = "为什么选择乾利得"
+
+[why_choose_subtitle]
+other = "我们将汽车4S服务中心的概念引入电站行业 —— 帮助业主更简单地获取能源。"
+
+[feature1_title]
+other = "销售 Sale"
+
+[feature1_desc]
+other = "EPC工程总包或主要设备供应 —— 汽轮机、锅炉、电站系统，来自南汽NTC、杭汽HTC、GE、西门子等顶级制造商。"
+
+[feature2_title]
+other = "备件 Spare Parts"
+
+[feature2_desc]
+other = "精准供应原厂备件。直接从OEM工厂采购，全流程可追溯，附质量证明文件。"
+
+[feature3_title]
+other = "服务 Service"
+
+[feature3_desc]
+other = "工程团队现场维护电站。安装、调试、大修及技术支持，由资质工程师执行。"
+
+[feature4_title]
+other = "巡检 Survey"
+
+[feature4_desc]
+other = "年度缺陷检查与报告。预防性维护计划与设备健康评估，保障持续运行。"
+
+[products_subtitle]
+other = "完整的电站设备与服务组合 —— 7大类、20+产品，覆盖电站全生命周期。"
+
+[view_all_products]
+other = "查看全部产品与服务"
+
+[cta_title]
+other = "立即注册您的电站"
+
+[cta_subtitle]
+other = "24小时内获取免费咨询与报价。新注册用户可获100美元优惠。"
+
+[contact_us_now]
+other = "立即联系我们"
+
+[contact_subtitle]
+other = "我们的团队24小时内回复。请告诉我们您的电站需求。"
+
+[email]
+other = "邮箱"
+
+[phone]
+other = "电话"
+
+[mobile]
+other = "手机 / WhatsApp / 微信"
+
+[address_label]
+other = "地址"
+
+[skype_label]
+other = "Skype"
+
+[business_hours]
+other = "营业时间"
+
+[hours_value]
+other = "周一至周五 9:00 - 18:00 (GMT+8)"
+
+[send_message]
+other = "给我们留言"
+
+[form_name]
+other = "您的姓名"
+
+[form_email]
+other = "邮箱地址"
+
+[form_company]
+other = "公司名称"
+
+[form_product]
+other = "感兴趣的产品/服务"
+
+[form_message]
+other = "您的留言"
+
+[submit]
+other = "发送留言"
+
+[other]
+other = "其他"
+
+[partners_title]
+other = "合作品牌"
+
+[partners_subtitle]
+other = "我们供应中国领先制造商及国际授权方的设备。"
+
+[certs_title]
+other = "资质认证"
+
+[certs_subtitle]
+other = "我们的产品与流程通过国际第三方机构认证。"
+
+[philosophy_title]
+other = "企业理念"
+
+[philosophy_profession]
+other = "专业"
+
+[philosophy_innovation]
+other = "创新"
+
+[philosophy_integrity]
+other = "诚信"
+
+[philosophy_winwin]
+other = "共赢"
+
+[filter_all]
+other = "全部"
+
+[filter_by]
+other = "按分类筛选"
+
+[product_count]
+other = "个产品"
+
+[request_quote]
+other = "询价"
+
+[specifications]
+other = "技术规格"
+
+[applications]
+other = "应用场景"
+
+[back_to_products]
+other = "← 返回产品列表"
+
+[category_turbine]
+other = "汽轮机"
+
+[category_gas]
+other = "燃气轮机"
+
+[category_boiler]
+other = "锅炉"
+
+[category_equipment]
+other = "电厂设备"
+
+[category_turbine_parts]
+other = "汽轮机配件"
+
+[category_epc]
+other = "EPC工程"
+
+[category_service]
+other = "维修服务"
+
+[category_new_energy]
+other = "新能源"

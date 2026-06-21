@@ -1,0 +1,218 @@
+[home]
+other = "Home"
+
+[company]
+other = "Azienda"
+
+[products_title]
+other = "Prodotti e Servizi"
+
+[contact_title]
+other = "Contatti"
+
+[rights_reserved]
+other = "Tutti i diritti riservati."
+
+[banner_title]
+other = "Quickleader Commercio Internazionale"
+
+[banner_subtitle]
+other = "Vendita · Ricambi · Servizio · Ispezione"
+
+[hero_eyebrow]
+other = "Centro di Servizio 4S per Centrali Elettriche · Dal 2003"
+
+[hero_title_1]
+other = "Centro di Servizio 4S"
+
+[hero_title_2]
+other = "per la Tua"
+
+[hero_title_3]
+other = "Centrale Elettrica"
+
+[hero_subtitle]
+other = "Vendita / Ricambi / Servizio / Ispezione — Soluzioni EPC un solo passo, turbine a vapore, caldaie e manutenzione per centrali elettriche in tutto il mondo. Oltre 20 anni di eccellenza ingegneristica da Qingdao, punto di partenza della Belt and Road."
+
+[view_products]
+other = "Vedi Prodotti e Servizi"
+
+[get_quote]
+other = "Richiedi Preventivo"
+
+[stat_years]
+other = "Anni (dal 2003)"
+
+[stat_countries]
+other = "Paesi Serviti"
+
+[stat_brands]
+other = "Marchi Partner"
+
+[stat_products]
+other = "Prodotti"
+
+[why_choose_title]
+other = "Perché Scegliere Quickleader"
+
+[why_choose_subtitle]
+other = "Abbiamo introdotto il concetto del centro di servizio automobilistico 4S nel settore delle centrali elettriche — aiutando i proprietari a ottenere energia più semplicemente."
+
+[feature1_title]
+other = "Vendita (Sale)"
+
+[feature1_desc]
+other = "Contratti EPC o fornitura di apparecchiature principali — turbine a vapore, caldaie, sistemi per centrali da NTC, HTC, GE, Siemens e altri produttori top."
+
+[feature2_title]
+other = "Ricambi (Spare Parts)"
+
+[feature2_desc]
+other = "Fornitura precisa di ricambi originali. Approvvigionamento diretto dalle fabbriche OEM con tracciabilità completa e documentazione di qualità."
+
+[feature3_title]
+other = "Servizio (Service)"
+
+[feature3_desc]
+other = "Il team ingegneristico manutenge le centrali elettriche in loco. Installazione, messa in servizio, revisione generale e supporto tecnico da ingegneri qualificati."
+
+[feature4_title]
+other = "Ispezione (Survey)"
+
+[feature4_desc]
+other = "Ispezione annuale dei difetti e report. Pianificazione della manutenzione preventiva e valutazione della salute delle apparecchiature per un funzionamento sostenuto."
+
+[products_subtitle]
+other = "Portafoglio completo di apparecchiature e servizi per centrali elettriche — 7 categorie, oltre 20 prodotti che coprono l'intero ciclo di vita della tua centrale."
+
+[view_all_products]
+other = "Vedi Tutti i Prodotti e Servizi"
+
+[cta_title]
+other = "Registra la Tua Centrale Elettrica Ora"
+
+[cta_subtitle]
+other = "Ricevi una consulenza gratuita e un preventivo entro 24 ore. Le nuove registrazioni ricevono un bonus di $100."
+
+[contact_us_now]
+other = "Contattaci Ora"
+
+[contact_subtitle]
+other = "Il nostro team risponde entro 24 ore. Raccontaci delle esigenze della tua centrale elettrica."
+
+[email]
+other = "Email"
+
+[phone]
+other = "Tel"
+
+[mobile]
+other = "Mobile / WhatsApp / WeChat"
+
+[address_label]
+other = "Indirizzo"
+
+[skype_label]
+other = "Skype"
+
+[business_hours]
+other = "Orari di Lavoro"
+
+[hours_value]
+other = "Lun - Ven, 9:00 - 18:00 (GMT+8)"
+
+[send_message]
+other = "Inviaci un Messaggio"
+
+[form_name]
+other = "Il Tuo Nome"
+
+[form_email]
+other = "Indirizzo Email"
+
+[form_company]
+other = "Nome Azienda"
+
+[form_product]
+other = "Prodotto / Servizio di Interesse"
+
+[form_message]
+other = "Il Tuo Messaggio"
+
+[submit]
+other = "Invia Messaggio"
+
+[other]
+other = "Altro"
+
+[partners_title]
+other = "Marchi Cooperativi"
+
+[partners_subtitle]
+other = "Forniamo apparecchiature dai principali produttori cinesi e licenziatari internazionali."
+
+[certs_title]
+other = "Certificazioni"
+
+[certs_subtitle]
+other = "I nostri prodotti e processi sono certificati da istituti internazionali di terze parti."
+
+[philosophy_title]
+other = "Filosofia Aziendale"
+
+[philosophy_profession]
+other = "Professione"
+
+[philosophy_innovation]
+other = "Innovazione"
+
+[philosophy_integrity]
+other = "Integrità"
+
+[philosophy_winwin]
+other = "Win-Win"
+
+[filter_all]
+other = "Tutti"
+
+[filter_by]
+other = "Filtra per Categoria"
+
+[product_count]
+other = "prodotti"
+
+[request_quote]
+other = "Richiedi Preventivo"
+
+[specifications]
+other = "Specifiche"
+
+[applications]
+other = "Applicazioni"
+
+[back_to_products]
+other = "← Torna ai Prodotti"
+
+[category_turbine]
+other = "Turbina a Vapore"
+
+[category_gas]
+other = "Turbina a Gas"
+
+[category_boiler]
+other = "Caldaia"
+
+[category_equipment]
+other = "Attrezzature Centrali"
+
+[category_turbine_parts]
+other = "Ricambi Turbina"
+
+[category_epc]
+other = "Progetto EPC"
+
+[category_service]
+other = "Servizio di Manutenzione"
+
+[category_new_energy]
+other = "Nuova Energia"

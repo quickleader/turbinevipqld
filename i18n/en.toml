@@ -1,0 +1,218 @@
+[home]
+other = "Home"
+
+[company]
+other = "Company"
+
+[products_title]
+other = "Products & Services"
+
+[contact_title]
+other = "Contact Us"
+
+[rights_reserved]
+other = "All rights reserved."
+
+[banner_title]
+other = "Quickleader International Trade"
+
+[banner_subtitle]
+other = "Sale · Spare Parts · Service · Survey"
+
+[hero_eyebrow]
+other = "Power Plant 4S Service Center · Since 2003"
+
+[hero_title_1]
+other = "4S Service Center"
+
+[hero_title_2]
+other = "for Your"
+
+[hero_title_3]
+other = "Power Plant"
+
+[hero_subtitle]
+other = "Sale / Spare Parts / Service / Survey — One-step EPC solutions, steam turbines, boilers and maintenance for power plants worldwide. 20+ years of engineering excellence from Qingdao, the starting point of the Belt and Road."
+
+[view_products]
+other = "View Products & Services"
+
+[get_quote]
+other = "Get a Quote"
+
+[stat_years]
+other = "Years Since 2003"
+
+[stat_countries]
+other = "Countries Served"
+
+[stat_brands]
+other = "Partner Brands"
+
+[stat_products]
+other = "Products"
+
+[why_choose_title]
+other = "Why Choose Quickleader"
+
+[why_choose_subtitle]
+other = "We introduced the concept of automobile 4S service center to the power plant industry — helping owners obtain energy more simply."
+
+[feature1_title]
+other = "Sale"
+
+[feature1_desc]
+other = "EPC contracts or main equipment supply — steam turbines, boilers, power plant systems from NTC, HTC, GE, Siemens and other top manufacturers."
+
+[feature2_title]
+other = "Spare Parts"
+
+[feature2_desc]
+other = "Supply original spare parts accurately. Direct sourcing from OEM factories with full traceability and quality documentation."
+
+[feature3_title]
+other = "Service"
+
+[feature3_desc]
+other = "Engineering team maintains power plants on site. Installation, commissioning, overhaul and technical support by qualified engineers."
+
+[feature4_title]
+other = "Survey"
+
+[feature4_desc]
+other = "Annual defect inspection and report. Preventive maintenance planning and equipment health assessment for sustained operation."
+
+[products_subtitle]
+other = "Complete power plant equipment and service portfolio — 7 categories, 20+ products covering the full lifecycle of your power plant."
+
+[view_all_products]
+other = "View All Products & Services"
+
+[cta_title]
+other = "Register Your Power Plant Now"
+
+[cta_subtitle]
+other = "Get a free consultation and quotation within 24 hours. New registrations receive a $100 bonus."
+
+[contact_us_now]
+other = "Contact Us Now"
+
+[contact_subtitle]
+other = "Our team responds within 24 hours. Tell us about your power plant needs."
+
+[email]
+other = "Email"
+
+[phone]
+other = "Tel"
+
+[mobile]
+other = "Mobile / WhatsApp / WeChat"
+
+[address_label]
+other = "Address"
+
+[skype_label]
+other = "Skype"
+
+[business_hours]
+other = "Business Hours"
+
+[hours_value]
+other = "Mon - Fri, 9:00 - 18:00 (GMT+8)"
+
+[send_message]
+other = "Send Us a Message"
+
+[form_name]
+other = "Your Name"
+
+[form_email]
+other = "Email Address"
+
+[form_company]
+other = "Company Name"
+
+[form_product]
+other = "Product / Service Interest"
+
+[form_message]
+other = "Your Message"
+
+[submit]
+other = "Send Message"
+
+[other]
+other = "Other"
+
+[partners_title]
+other = "Cooperative Brands"
+
+[partners_subtitle]
+other = "We supply equipment from China's leading manufacturers and international licensors."
+
+[certs_title]
+other = "Certifications"
+
+[certs_subtitle]
+other = "Our products and processes are certified by international third-party institutions."
+
+[philosophy_title]
+other = "Enterprise Philosophy"
+
+[philosophy_profession]
+other = "Profession"
+
+[philosophy_innovation]
+other = "Innovation"
+
+[philosophy_integrity]
+other = "Integrity"
+
+[philosophy_winwin]
+other = "Win-Win"
+
+[filter_all]
+other = "All"
+
+[filter_by]
+other = "Filter by Category"
+
+[product_count]
+other = "products"
+
+[request_quote]
+other = "Request Quote"
+
+[specifications]
+other = "Specifications"
+
+[applications]
+other = "Applications"
+
+[back_to_products]
+other = "← Back to Products"
+
+[category_turbine]
+other = "Steam Turbine"
+
+[category_gas]
+other = "Gas Turbine"
+
+[category_boiler]
+other = "Boiler"
+
+[category_equipment]
+other = "Power Plant Equipment"
+
+[category_turbine_parts]
+other = "Turbine Spare Parts"
+
+[category_epc]
+other = "EPC Project"
+
+[category_service]
+other = "Maintenance Service"
+
+[category_new_energy]
+other = "New Energy"

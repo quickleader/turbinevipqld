@@ -1,0 +1,117 @@
+baseURL = "https://www.turbinevip.com/"
+languageCode = "en-us"
+title = "Qingdao Quickleader - Power Plant 4S Service Center"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+theme = ""
+
+[params]
+  companyName = "Qingdao Quickleader"
+  companyFullName = "Qingdao Quickleader International Trade Co., Ltd"
+  companyNameZh = "青岛乾利得国际贸易有限公司"
+  tagline = "Power Plant 4S Service Center"
+  slogan = "4S Service Center for Your Power Plant"
+  foundedYear = 2003
+  email = "turbinevip@163.com"
+  phone = "+86-532-68880703"
+  mobile = "+86-18669821130"
+  whatsapp = "+86-18669821130"
+  wechat = "+86-18669821130"
+  skype = "power plant spare parts"
+  address = "RM.210, Tower B, Qingdao Plaza, No.379, Dunhua Road, Qingdao, China"
+  addressZh = "中国青岛市敦化路379号青岛广场B座210室"
+  description = "Established in 2003, Qingdao Quickleader provides EPC solutions, steam turbines, boilers, power plant equipment, spare parts and maintenance services. Power Plant 4S Service Center: Sale, Spare Parts, Service, Survey."
+
+[params.social]
+  whatsapp = "https://wa.me/8618669821130"
+  skype = "skype:power plant spare parts?chat"
+
+[languages.en]
+  languageName = "English"
+  languageCode = "en"
+  weight = 1
+  title = "Qingdao Quickleader - Power Plant 4S Service Center"
+  contentDir = "content/en"
+
+  [[languages.en.menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[languages.en.menu.main]]
+    identifier = "about"
+    name = "About Us"
+    url = "/about/"
+    weight = 2
+  [[languages.en.menu.main]]
+    identifier = "products"
+    name = "Products & Services"
+    url = "/products/"
+    weight = 3
+  [[languages.en.menu.main]]
+    identifier = "contact"
+    name = "Contact Us"
+    url = "/contact/"
+    weight = 4
+
+[languages.zh]
+  languageName = "中文"
+  languageCode = "zh-cn"
+  weight = 2
+  title = "青岛乾利得 - 电站4S服务中心"
+  contentDir = "content/zh"
+
+  [[languages.zh.menu.main]]
+    identifier = "home"
+    name = "首页"
+    url = "/"
+    weight = 1
+  [[languages.zh.menu.main]]
+    identifier = "about"
+    name = "关于我们"
+    url = "/about/"
+    weight = 2
+  [[languages.zh.menu.main]]
+    identifier = "products"
+    name = "产品与服务"
+    url = "/products/"
+    weight = 3
+  [[languages.zh.menu.main]]
+    identifier = "contact"
+    name = "联系我们"
+    url = "/contact/"
+    weight = 4
+
+[languages.it]
+  languageName = "Italiano"
+  languageCode = "it"
+  weight = 3
+  title = "Qingdao Quickleader - Centro di Servizio 4S per Centrali Elettriche"
+  contentDir = "content/it"
+
+  [[languages.it.menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[languages.it.menu.main]]
+    identifier = "about"
+    name = "Chi Siamo"
+    url = "/about/"
+    weight = 2
+  [[languages.it.menu.main]]
+    identifier = "products"
+    name = "Prodotti e Servizi"
+    url = "/products/"
+    weight = 3
+  [[languages.it.menu.main]]
+    identifier = "contact"
+    name = "Contatti"
+    url = "/contact/"
+    weight = 4
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS"]

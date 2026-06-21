@@ -1,0 +1,38 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">{{ .Site.Params.companyName }}</div>
+        <p style="font-size:14px;line-height:1.7;max-width:320px;">{{ .Site.Params.description }}</p>
+      </div>
+      <div class="footer-col">
+        <h4>{{ T "company" }}</h4>
+        <ul>
+          {{ range .Site.Menus.main }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>{{ T "products_title" }}</h4>
+        <ul>
+          <li><a href="/products/">{{ T "steam_turbine" }}</a></li>
+          <li><a href="/products/">{{ T "gas_turbine" }}</a></li>
+          <li><a href="/products/">{{ T "boiler" }}</a></li>
+          <li><a href="/products/">{{ T "valves" }}</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>{{ T "contact_title" }}</h4>
+        <ul>
+          <li><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></li>
+          <li><a href="tel:{{ replace .Site.Params.phone " " "" }}">{{ .Site.Params.phone }}</a></li>
+          <li>{{ .Site.Params.address }}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; {{ now.Format "2006" }} {{ .Site.Params.companyName }}. {{ T "rights_reserved" }}
+    </div>
+  </div>
+</footer>
