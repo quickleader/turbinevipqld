@@ -32,7 +32,7 @@ enableRobotsTXT = true
   skype = "skype:power plant spare parts?chat"
 
 [languages.en]
-  label = "English"
+  languageName = "English"
   locale = "en"
   weight = 1
   title = "Qingdao Quickleader - Power Plant 4S Service Center"
@@ -60,7 +60,7 @@ enableRobotsTXT = true
     weight = 4
 
 [languages.zh]
-  label = "中文"
+  languageName = "中文"
   locale = "zh-cn"
   weight = 2
   title = "青岛乾利得 - 电站4S服务中心"
@@ -88,7 +88,7 @@ enableRobotsTXT = true
     weight = 4
 
 [languages.it]
-  label = "Italiano"
+  languageName = "Italiano"
   locale = "it"
   weight = 3
   title = "Qingdao Quickleader - Centro di Servizio 4S per Centrali Elettriche"

@@ -12,13 +12,13 @@
     <div class="lang-switch">
       {{ range site.Languages }}
       {{ if eq .Lang $.Site.Language.Lang }}
-      <a href="#" class="active">{{ .Label | upper }}</a>
+      <a href="#" class="active">{{ .LanguageName | upper }}</a>
       {{ else }}
       {{ $link := printf "/%s/" .Lang }}
       {{ if eq .Lang $.Site.Params.defaultContentLanguage }}
       {{ $link = "/" }}
       {{ end }}
-      <a href="{{ $link }}">{{ .Label | upper }}</a>
+      <a href="{{ $link }}">{{ .LanguageName | upper }}</a>
       {{ end }}
       {{ end }}
     </div>
