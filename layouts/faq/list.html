@@ -1,0 +1,35 @@
+{{ define "main" }}
+<section class="page-header">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Params.subtitle }}</p>
+    <div class="breadcrumb"><a href="{{ .Site.Home.RelPermalink }}">{{ T "home" }}</a> / {{ .Title }}</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container faq-container">
+    {{ .Content }}
+
+    {{ $products := where .Site.RegularPages "Type" "products" }}
+    {{ range $products }}
+    <div class="faq-section">
+      <h2 class="faq-section-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      {{ with .Params.faq }}
+      <div class="faq-list">
+        {{ range $i, $item := . }}
+        <div class="faq-item">
+          <div class="faq-q">
+            <span class="faq-num">Q{{ add $i 1 }}</span>
+            {{ $item.q }}
+          </div>
+          <div class="faq-a">{{ $item.a | markdownify }}</div>
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

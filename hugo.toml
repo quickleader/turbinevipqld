@@ -1,8 +1,14 @@
 baseURL = "https://www.turbinevip.com/"
-languageCode = "en-us"
+locale = "en-us"
 title = "Qingdao Quickleader - Power Plant 4S Service Center"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
 
 [params]
   companyName = "Qingdao Quickleader"
@@ -26,8 +32,8 @@ defaultContentLanguageInSubdir = true
   skype = "skype:power plant spare parts?chat"
 
 [languages.en]
-  languageName = "English"
-  languageCode = "en"
+  label = "English"
+  locale = "en"
   weight = 1
   title = "Qingdao Quickleader - Power Plant 4S Service Center"
   contentDir = "content/en"
@@ -54,8 +60,8 @@ defaultContentLanguageInSubdir = true
     weight = 4
 
 [languages.zh]
-  languageName = "中文"
-  languageCode = "zh-cn"
+  label = "中文"
+  locale = "zh-cn"
   weight = 2
   title = "青岛乾利得 - 电站4S服务中心"
   contentDir = "content/zh"
@@ -82,8 +88,8 @@ defaultContentLanguageInSubdir = true
     weight = 4
 
 [languages.it]
-  languageName = "Italiano"
-  languageCode = "it"
+  label = "Italiano"
+  locale = "it"
   weight = 3
   title = "Qingdao Quickleader - Centro di Servizio 4S per Centrali Elettriche"
   contentDir = "content/it"

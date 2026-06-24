@@ -1,0 +1,50 @@
+{{ define "main" }}
+<section class="page-header">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Params.subtitle }}</p>
+    <div class="breadcrumb">
+      <a href="{{ .Site.Home.RelPermalink }}">{{ T "home" }}</a> /
+      {{ with .Site.GetPage "products" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a> /{{ end }}
+      {{ .Title }}
+    </div>
+  </div>
+</section>
+
+<article class="article container product-single">
+  {{ with .Params.image }}
+  <div class="product-hero">
+    <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+  </div>
+  {{ end }}
+
+  <div class="product-overview">
+    <h2>{{ T "overview" }}</h2>
+    {{ .Content }}
+  </div>
+
+  {{ with .Params.faq }}
+  <div class="product-faq">
+    <h2>{{ T "faq" }} <span class="faq-count">({{ len . }} {{ T "core_qa" }})</span></h2>
+    <div class="faq-list">
+      {{ range $i, $item := . }}
+      <div class="faq-item">
+        <div class="faq-q">
+          <span class="faq-num">Q{{ add $i 1 }}</span>
+          {{ $item.q }}
+        </div>
+        <div class="faq-a">{{ $item.a | markdownify }}</div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+  <div class="product-cta">
+    <a href="{{ "contact/" | relLangURL }}" class="btn btn-primary">{{ T "request_quote" }}</a>
+    {{ with .Site.GetPage "products" }}
+    <a href="{{ .RelPermalink }}" class="btn btn-outline">{{ T "back_to_products" }}</a>
+    {{ end }}
+  </div>
+</article>
+{{ end }}

@@ -1,0 +1,22 @@
+---
+title: "Project Cases"
+subtitle: "Representative project types and applications we support"
+type: "cases"
+cases:
+  - title: "Steam Turbine Overhaul & Spare Parts Supply"
+    scope: "Major overhaul of a 50 MW condensing steam turbine including rotor inspection, blade replacement and bearing refurbishment."
+    region: "Southeast Asia"
+    highlight: "Reduced downtime by coordinating parts and specialist tooling together."
+  - title: "Biomass Power Plant EPC"
+    scope: "Turnkey EPC of a 10 MW biomass-fired power plant including boiler, turbine, generator and electrical systems."
+    region: "Central Asia"
+    highlight: "Completed commissioning and performance test within the contracted window."
+  - title: "Gas Turbine Hot-Section Maintenance"
+    scope: "Hot-section inspection, combustion hardware replacement and reassembly supervision for a Frame 6B-class unit."
+    region: "Middle East"
+    highlight: "Sourced qualified hot-section parts and dispatched field engineers."
+  - title: "Coal-Fired Boiler Retrofit"
+    scope: "Replacement of water-wall tubes, economizer and burner upgrade for an existing industrial boiler."
+    region: "Africa"
+    highlight: "Improved availability and efficiency through tailored pressure-part design."
+---

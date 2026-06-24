@@ -216,3 +216,95 @@ other = "Maintenance Service"
 
 [category_new_energy]
 other = "New Energy"
+
+[view_details]
+other = "View Details"
+
+[overview]
+other = "Overview"
+
+[faq]
+other = "FAQ"
+
+[core_qa]
+other = "core Q&A"
+
+[category_steam_turbine]
+other = "Steam Turbine"
+
+[category_gas_turbine]
+other = "Gas Turbine"
+
+[category_power_plant_service]
+other = "Power Plant Service & EPC"
+
+[certification_gallery]
+other = "Certification Gallery"
+
+[issuer]
+other = "Issuer"
+
+[cases_title]
+other = "Project Cases"
+
+[cases_subtitle]
+other = "Representative power plant projects and applications"
+
+[faq_title]
+other = "FAQ"
+
+[faq_subtitle]
+other = "Common questions about our products and services"
+
+[certifications]
+other = "Certifications"
+
+[sitemap_title]
+other = "Sitemap"
+
+[product_industrial_turbine]
+other = "Industrial Steam Turbine"
+
+[product_industrial_turbine_desc]
+other = "Robust steam turbines for power generation and industrial drive."
+
+[product_htc_turbine]
+other = "HTC Steam Turbine"
+
+[product_htc_turbine_desc]
+other = "High-performance steam turbines from Hangzhou Turbine Group."
+
+[product_gas_turbine]
+other = "Gas Turbine"
+
+[product_gas_turbine_desc]
+other = "Heavy-duty and industrial gas turbines for CCGT and captive power."
+
+[product_boiler]
+other = "Boiler"
+
+[product_boiler_desc]
+other = "Coal, biomass and HRSG boilers for power and process steam."
+
+[product_epc]
+other = "EPC Project"
+
+[product_epc_desc]
+other = "Turnkey engineering, procurement and construction for power plants."
+
+[product_maintenance]
+other = "Maintenance Service"
+
+[product_maintenance_desc]
+other = "On-site overhaul, spare parts and inspection services."
+
+[product_small_turbine]
+other = "Small Steam Turbine"
+
+[product_spare_parts]
+other = "Spare Parts"
+
+[product_new_energy]
+other = "New Energy"
+
+

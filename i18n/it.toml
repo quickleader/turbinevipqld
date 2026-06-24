@@ -216,3 +216,95 @@ other = "Servizio di Manutenzione"
 
 [category_new_energy]
 other = "Nuova Energia"
+
+[view_details]
+other = "Vedi Dettagli"
+
+[overview]
+other = "Panoramica"
+
+[faq]
+other = "FAQ"
+
+[core_qa]
+other = "domande e risposte chiave"
+
+[category_steam_turbine]
+other = "Turbina a Vapore"
+
+[category_gas_turbine]
+other = "Turbina a Gas"
+
+[category_power_plant_service]
+other = "Servizio Centrale & EPC"
+
+[certification_gallery]
+other = "Galleria Certificazioni"
+
+[issuer]
+other = "Ente Emittente"
+
+[cases_title]
+other = "Casi di Progetto"
+
+[cases_subtitle]
+other = "Tipologie di progetto rappresentative e applicazioni"
+
+[faq_title]
+other = "Domande Frequenti"
+
+[faq_subtitle]
+other = "Domande comuni sui nostri prodotti e servizi"
+
+[certifications]
+other = "Certificazioni"
+
+[sitemap_title]
+other = "Mappa del Sito"
+
+[product_industrial_turbine]
+other = "Turbina a Vapore Industriale"
+
+[product_industrial_turbine_desc]
+other = "Turbine a vapore robuste per generazione di energia e azionamento industriale."
+
+[product_htc_turbine]
+other = "Turbina a Vapore HTC"
+
+[product_htc_turbine_desc]
+other = "Turbine a vapore ad alte prestazioni del Hangzhou Turbine Group."
+
+[product_gas_turbine]
+other = "Turbina a Gas"
+
+[product_gas_turbine_desc]
+other = "Turbine a gas heavy-duty e industriali per CCGT e energia cattiva."
+
+[product_boiler]
+other = "Caldaia"
+
+[product_boiler_desc]
+other = "Caldaie a carbone, a biomassa e HRSG per energia e vapore di processo."
+
+[product_epc]
+other = "Progetto EPC"
+
+[product_epc_desc]
+other = "Ingegneria, approvvigionamento e costruzione chiavi in mano per centrali elettriche."
+
+[product_maintenance]
+other = "Servizio di Manutenzione"
+
+[product_maintenance_desc]
+other = "Revisione in campo, ricambi e servizi di ispezione."
+
+[product_small_turbine]
+other = "Piccola Turbina a Vapore"
+
+[product_spare_parts]
+other = "Ricambi"
+
+[product_new_energy]
+other = "Nuova Energia"
+
+

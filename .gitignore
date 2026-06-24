@@ -3,6 +3,9 @@
 /resources/_gen/
 .hugo_build.lock
 
+# Local tooling / downloads
+/tools/
+
 # OS files
 .DS_Store
 Thumbs.db

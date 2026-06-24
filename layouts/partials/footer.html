@@ -2,6 +2,7 @@
   <div class="container">
     <div class="footer-grid">
       <div>
+        <img src="/img/logo/logo.jpg" alt="{{ .Site.Params.companyName }}" class="footer-logo" style="max-width:180px;height:auto;margin-bottom:12px;">
         <div class="footer-brand">{{ .Site.Params.companyName }}</div>
         <p style="font-size:14px;line-height:1.7;max-width:320px;">{{ .Site.Params.description }}</p>
       </div>
@@ -11,15 +12,18 @@
           {{ range .Site.Menus.main }}
           <li><a href="{{ .URL }}">{{ .Name }}</a></li>
           {{ end }}
+          <li><a href="{{ "certifications/" | relLangURL }}">{{ T "certifications" }}</a></li>
+          <li><a href="{{ "faq/" | relLangURL }}">{{ T "faq_title" }}</a></li>
+          <li><a href="{{ "cases/" | relLangURL }}">{{ T "cases_title" }}</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>{{ T "products_title" }}</h4>
         <ul>
-          <li><a href="/products/">{{ T "steam_turbine" }}</a></li>
-          <li><a href="/products/">{{ T "gas_turbine" }}</a></li>
-          <li><a href="/products/">{{ T "boiler" }}</a></li>
-          <li><a href="/products/">{{ T "valves" }}</a></li>
+          <li><a href="{{ "products/steam-turbine/" | relLangURL }}">{{ T "category_steam_turbine" }}</a></li>
+          <li><a href="{{ "products/gas-turbine/" | relLangURL }}">{{ T "category_gas_turbine" }}</a></li>
+          <li><a href="{{ "products/boiler/" | relLangURL }}">{{ T "category_boiler" }}</a></li>
+          <li><a href="{{ "products/power-plant-service/" | relLangURL }}">{{ T "category_power_plant_service" }}</a></li>
         </ul>
       </div>
       <div class="footer-col">

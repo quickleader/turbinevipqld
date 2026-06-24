@@ -359,3 +359,181 @@ img { max-width: 100%; height: auto; display: block; }
   .hero h1 { font-size: 36px; }
   .nav-menu { display: none; }
 }
+
+/* Product card as link (homepage) */
+a.product-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+a.product-card:hover { color: inherit; }
+
+/* Product single page */
+.product-single .product-hero {
+  margin: -32px 0 40px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+.product-single .product-hero img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+.product-faq { margin-top: 48px; }
+.faq-count { font-size: 18px; color: var(--c-text-muted); font-weight: 400; }
+.faq-list { margin-top: 28px; }
+.faq-item {
+  background: var(--c-bg);
+  border: 1px solid var(--c-border);
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 16px;
+}
+.faq-q {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--c-text);
+  margin-bottom: 12px;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+.faq-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  background: var(--c-primary);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.faq-a {
+  font-size: 15px;
+  color: var(--c-text-muted);
+  line-height: 1.7;
+  padding-left: 38px;
+}
+.faq-a p { margin-bottom: 0; }
+.product-cta {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  padding-top: 32px;
+  border-top: 1px solid var(--c-border);
+}
+
+/* FAQ list page */
+.faq-container { max-width: 920px; }
+.faq-section { margin-bottom: 48px; }
+.faq-section-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--c-border);
+}
+.faq-section-title a { color: var(--c-text); }
+.faq-section-title a:hover { color: var(--c-primary); }
+
+/* Certifications page */
+.certs-grid-detail {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  margin-top: 32px;
+}
+.cert-detail {
+  flex-direction: column;
+  padding: 24px;
+  aspect-ratio: auto;
+  background: var(--c-bg);
+  border: 1px solid var(--c-border);
+  border-radius: 12px;
+}
+.cert-detail img {
+  max-height: 260px;
+  object-fit: contain;
+  margin-bottom: 16px;
+}
+.cert-info h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--c-text);
+}
+.cert-info p {
+  font-size: 14px;
+  color: var(--c-text-muted);
+  line-height: 1.6;
+  margin-bottom: 6px;
+}
+
+/* Cases page */
+.cases-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 32px;
+}
+.case-card {
+  background: var(--c-bg);
+  border: 1px solid var(--c-border);
+  border-radius: 12px;
+  padding: 28px;
+  transition: all 0.2s;
+}
+.case-card:hover { border-color: var(--c-primary); box-shadow: var(--shadow-md); }
+.case-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--c-text);
+}
+.case-region {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--c-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+.case-scope {
+  font-size: 14px;
+  color: var(--c-text-muted);
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+.case-highlight {
+  font-size: 14px;
+  color: var(--c-text);
+  line-height: 1.6;
+}
+
+/* Category color tags for new product categories */
+.product-tag.cat-steam_turbine { background: rgba(24,95,165,0.1); color: #185fa5; }
+.product-tag.cat-gas_turbine { background: rgba(232,119,34,0.1); color: #c5571a; }
+.product-tag.cat-power_plant_service { background: rgba(163,45,45,0.1); color: #a32d2d; }
+
+/* Footer logo */
+.footer-logo {
+  max-width: 180px;
+  height: auto;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  background: #fff;
+  padding: 6px;
+}
+
+/* Responsive for new elements */
+@media (max-width: 900px) {
+  .product-single .product-hero img { height: 220px; }
+  .certs-grid-detail { grid-template-columns: 1fr; }
+  .cases-grid { grid-template-columns: 1fr; }
+  .product-cta { flex-direction: column; }
+  .product-cta .btn { width: 100%; justify-content: center; }
+}

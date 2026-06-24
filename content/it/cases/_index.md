@@ -1,0 +1,22 @@
+---
+title: "Casi di Progetto"
+subtitle: "Tipologie di progetto rappresentative e applicazioni che supportiamo"
+type: "cases"
+cases:
+  - title: "Overhaul Turbina a Vapore e Fornitura Ricambi"
+    scope: "Revisione generale di una turbina a vapore a condensazione da 50 MW, inclusa ispezione rotore, sostituzione pale e revisione cuscinetti."
+    region: "Sud-Est Asiatico"
+    highlight: "Riduzione del downtime coordinando ricambi e attrezzature specializzate."
+  - title: "EPC Centrale a Biomassa"
+    scope: "EPC chiavi in mano di una centrale a biomassa da 10 MW, inclusa caldaia, turbina, generatore e sistemi elettrici."
+    region: "Asia Centrale"
+    highlight: "Commissioning e prove di prestazione completate entro la finestra contrattuale."
+  - title: "Manutenzione Hot-Section Turbina a Gas"
+    scope: "Ispezione hot-section, sostituzione hardware combustione e supervisione rimontaggio per unità classe Frame 6B."
+    region: "Medio Oriente"
+    highlight: "Sourcing di parti hot-section qualificate e invio ingegneri in campo."
+  - title: "Retrofit Caldaia a Carbone"
+    scope: "Sostituzione tubi parete acqua, economizzatore e upgrade bruciatori per una caldaia industriale esistente."
+    region: "Africa"
+    highlight: "Miglioramento disponibilità ed efficienza tramite progettazione su misura delle parti in pressione."
+---

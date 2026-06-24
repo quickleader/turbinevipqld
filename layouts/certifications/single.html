@@ -1,0 +1,29 @@
+{{ define "main" }}
+<section class="page-header">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Params.subtitle }}</p>
+    <div class="breadcrumb"><a href="{{ .Site.Home.RelPermalink }}">{{ T "home" }}</a> / {{ .Title }}</div>
+  </div>
+</section>
+
+<article class="article container certifications-single">
+  {{ .Content }}
+
+  {{ with .Params.certificates }}
+  <h2>{{ T "certification_gallery" }}</h2>
+  <div class="certs-grid certs-grid-detail">
+    {{ range . }}
+    <div class="cert-card cert-detail">
+      <img src="{{ .image }}" alt="{{ .name }}" loading="lazy">
+      <div class="cert-info">
+        <h3>{{ .name }}</h3>
+        <p><strong>{{ T "issuer" }}:</strong> {{ .issuer }}</p>
+        <p>{{ .scope }}</p>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+</article>
+{{ end }}

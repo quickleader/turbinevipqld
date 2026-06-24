@@ -1,0 +1,28 @@
+{{ define "main" }}
+<section class="page-header">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Params.subtitle }}</p>
+    <div class="breadcrumb"><a href="{{ .Site.Home.RelPermalink }}">{{ T "home" }}</a> / {{ .Title }}</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {{ .Content }}
+
+    {{ with .Params.cases }}
+    <div class="cases-grid">
+      {{ range . }}
+      <div class="case-card">
+        <h3>{{ .title }}</h3>
+        <p class="case-region">{{ .region }}</p>
+        <p class="case-scope">{{ .scope }}</p>
+        <p class="case-highlight">{{ .highlight }}</p>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
