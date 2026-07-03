@@ -1,0 +1,101 @@
+{{/* SEO Partial — 为每个页面生成完整的 meta 标签 */}}
+
+{{/* Canonical URL */}}
+<link rel="canonical" href="{{ .Permalink }}">
+
+{{/* Open Graph 标签 */}}
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+{{ $logo := .Site.Params.logo | default "img/logo/mark.jpg" }}
+<meta property="og:image" content="{{ if strings.HasPrefix $logo "http" }}{{ $logo }}{{ else }}{{ absURL $logo }}{{ end }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+{{ with .Site.Language.Lang }}<meta property="og:locale" content="{{ . }}">{{ end }}
+
+{{/* Twitter Card */}}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+{{ $logo := .Site.Params.logo | default "img/logo/mark.jpg" }}
+<meta name="twitter:image" content="{{ if strings.HasPrefix $logo "http" }}{{ $logo }}{{ else }}{{ absURL $logo }}{{ end }}">
+
+{{/* Hreflang — 多语言站点核心 */}}
+{{ range .AllTranslations }}
+<link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
+{{ end }}
+<link rel="alternate" hreflang="{{ .Site.Language.Lang }}" href="{{ .Permalink }}">
+<link rel="alternate" hreflang="x-default" href="{{ .Site.Home.Permalink }}">
+
+{{/* JSON-LD Structured Data */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{ .Site.Home.Permalink }}#organization",
+      "name": {{ .Site.Params.companyName | default .Site.Title | jsonify }},
+      "url": "{{ .Site.BaseURL }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ if .Site.Params.logo }}{{ .Site.Params.logo }}{{ else }}{{ absURL "img/logo/mark.jpg" }}{{ end }}"
+      },
+      "description": {{ .Site.Params.description | jsonify }},
+      "foundingDate": {{ .Site.Params.foundedYear | default "2003" }},
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": {{ .Site.Params.phone | default "+86-532-68880703" | jsonify }},
+        "contactType": "customer service",
+        "email": {{ .Site.Params.email | default "turbinevip@163.com" | jsonify }},
+        "availableLanguage": [
+          {"@type": "Language", "name": "English", "alternateName": "en"},
+          {"@type": "Language", "name": "中文", "alternateName": "zh"},
+          {"@type": "Language", "name": "Italiano", "alternateName": "it"}
+        ]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": {{ .Site.Params.address | default "RM.210, Tower B, Qingdao Plaza, No.379, Dunhua Road" | jsonify }},
+        "addressLocality": "Qingdao",
+        "addressCountry": "CN"
+      }
+    }
+    {{ if not .IsHome }},
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ .Permalink }}#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "{{ .Site.Home.Title }}",
+          "item": "{{ .Site.Home.Permalink }}"
+        }
+        {{ range .Ancestors.Reverse }}
+        ,{
+          "@type": "ListItem",
+          "position": {{ .Level }},
+          "name": {{ .Title | jsonify }},
+          "item": "{{ .Permalink }}"
+        }
+        {{ end }}
+        ,{
+          "@type": "ListItem",
+          "position": {{ add (len (.Ancestors)) 2 }},
+          "name": {{ .Title | jsonify }},
+          "item": "{{ .Permalink }}"
+        }
+      ]
+    }
+    {{ end }}
+  ]
+}
+</script>
+
+{{/* RSS Feed */}}
+{{ range .AlternativeTranslations }}
+{{ with .OutputFormats.Get "RSS" }}
+<link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ $.Site.Title }} ({{ $.Lang }})">
+{{ end }}
+{{ end }}

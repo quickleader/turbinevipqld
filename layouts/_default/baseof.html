@@ -5,45 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  {{ with .Params.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
+  {{ partial "seo.html" . }}
   {{ $css := resources.Get "css/style.css" | minify }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">
-  <link rel="icon" type="image/png" href="/img/logo/favicon.png">
-  <link rel="apple-touch-icon" href="/img/logo/mark.jpg">
 </head>
 <body>
-  {{ if .IsHome }}
-  <div class="top-banner">
-    <div class="top-banner-carousel">
-      <img src="/img/banner/indonesia-plant.jpg" alt="Indonesia power plant aerial view" class="top-banner-slide active">
-      <img src="/img/banner/company-signboard.jpg" alt="Power plant panoramic view" class="top-banner-slide">
-      <img src="/img/banner/company-panorama.jpg" alt="JITU power machinery company panorama" class="top-banner-slide">
-    </div>
-    <div class="top-banner-overlay">
-      <div class="container">
-        <p class="top-banner-title">{{ T "banner_title" }}</p>
-        <p>{{ T "banner_subtitle" }}</p>
-      </div>
-    </div>
-  </div>
-  {{ end }}
   {{ partial "header.html" . }}
   <main>
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}
-  {{ if .IsHome }}
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      var slides = document.querySelectorAll('.top-banner-slide');
-      if (slides.length <= 1) return;
-      var current = 0;
-      setInterval(function() {
-        slides[current].classList.remove('active');
-        current = (current + 1) % slides.length;
-        slides[current].classList.add('active');
-      }, 5000);
-    });
-  </script>
-  {{ end }}
 </body>
 </html>

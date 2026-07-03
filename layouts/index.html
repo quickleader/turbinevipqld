@@ -1,4 +1,3 @@
-{{ define "title" }}{{ .Title }}{{ end }}
 {{ define "main" }}
 <section class="hero">
   <div class="container">
@@ -12,13 +11,13 @@
           <a href="{{ "contact/" | relLangURL }}" class="btn btn-outline">{{ T "get_quote" }}</a>
         </div>
         <div class="hero-stats">
-          <div><div class="stat-num">23</div><div class="stat-label">{{ T "stat_years" }}</div></div>
+          <div><div class="stat-num">20+</div><div class="stat-label">{{ T "stat_years" }}</div></div>
           <div><div class="stat-num">25+</div><div class="stat-label">{{ T "stat_countries" }}</div></div>
           <div><div class="stat-num">10+</div><div class="stat-label">{{ T "stat_brands" }}</div></div>
         </div>
       </div>
       <div class="hero-visual">
-        <img src="/img/banner/company-panorama.jpg" alt="Company panorama" style="width:100%;height:100%;object-fit:cover;border-radius:16px;">
+        <img src="/img/banner/indonesia-plant.jpg" alt="Indonesia power plant aerial view" style="width:100%;height:100%;object-fit:cover;border-radius:16px;">
       </div>
     </div>
   </div>
@@ -29,7 +28,6 @@
     <div class="section-title">
       <h2>{{ T "why_choose_title" }}</h2>
       <p>{{ T "why_choose_subtitle" }}</p>
-      <span class="section-badge">电厂4S服务中心</span>
     </div>
     <div class="features-grid features-4">
       <div class="feature-card">
@@ -63,54 +61,54 @@
       <p>{{ T "products_subtitle" }}</p>
     </div>
     <div class="products-grid">
-      <a class="product-card" href="{{ "products/steam-turbine/" | relLangURL }}">
+      <div class="product-card">
         <div class="product-img"><img src="/img/products/industrial-turbine.jpg" alt="Industrial steam turbine"></div>
         <div class="product-body">
-          <span class="product-tag">{{ T "category_steam_turbine" }}</span>
+          <span class="product-tag">{{ T "cat_turbine" }}</span>
           <h3>{{ T "product_industrial_turbine" }}</h3>
           <p>{{ T "product_industrial_turbine_desc" }}</p>
         </div>
-      </a>
-      <a class="product-card" href="{{ "products/steam-turbine/" | relLangURL }}">
+      </div>
+      <div class="product-card">
         <div class="product-img"><img src="/img/products/htc-turbine.jpg" alt="HTC steam turbine"></div>
         <div class="product-body">
-          <span class="product-tag">{{ T "category_steam_turbine" }}</span>
+          <span class="product-tag">{{ T "cat_turbine" }}</span>
           <h3>{{ T "product_htc_turbine" }}</h3>
           <p>{{ T "product_htc_turbine_desc" }}</p>
         </div>
-      </a>
-      <a class="product-card" href="{{ "products/gas-turbine/" | relLangURL }}">
+      </div>
+      <div class="product-card">
         <div class="product-img"><img src="/img/products/gas-turbine.jpg" alt="Gas turbine"></div>
         <div class="product-body">
-          <span class="product-tag">{{ T "category_gas_turbine" }}</span>
+          <span class="product-tag">{{ T "cat_equipment" }}</span>
           <h3>{{ T "product_gas_turbine" }}</h3>
           <p>{{ T "product_gas_turbine_desc" }}</p>
         </div>
-      </a>
-      <a class="product-card" href="{{ "products/boiler/" | relLangURL }}">
+      </div>
+      <div class="product-card">
         <div class="product-img"><img src="/img/products/boiler.jpg" alt="Boiler"></div>
         <div class="product-body">
-          <span class="product-tag">{{ T "category_boiler" }}</span>
+          <span class="product-tag">{{ T "cat_equipment" }}</span>
           <h3>{{ T "product_boiler" }}</h3>
           <p>{{ T "product_boiler_desc" }}</p>
         </div>
-      </a>
-      <a class="product-card" href="{{ "products/power-plant-service/" | relLangURL }}">
+      </div>
+      <div class="product-card">
         <div class="product-img"><img src="/img/products/epc.jpg" alt="EPC project"></div>
         <div class="product-body">
-          <span class="product-tag">{{ T "category_power_plant_service" }}</span>
+          <span class="product-tag">{{ T "cat_epc" }}</span>
           <h3>{{ T "product_epc" }}</h3>
           <p>{{ T "product_epc_desc" }}</p>
         </div>
-      </a>
-      <a class="product-card" href="{{ "products/power-plant-service/" | relLangURL }}">
+      </div>
+      <div class="product-card">
         <div class="product-img"><img src="/img/products/maintenance.jpg" alt="Maintenance service"></div>
         <div class="product-body">
-          <span class="product-tag">{{ T "category_service" }}</span>
+          <span class="product-tag">{{ T "cat_service" }}</span>
           <h3>{{ T "product_maintenance" }}</h3>
           <p>{{ T "product_maintenance_desc" }}</p>
         </div>
-      </a>
+      </div>
     </div>
     <div style="text-align:center;margin-top:40px;">
       <a href="{{ "products/" | relLangURL }}" class="btn btn-outline">{{ T "view_all_products" }} →</a>
@@ -145,9 +143,10 @@
       <p>{{ T "certs_subtitle" }}</p>
     </div>
     <div class="certs-grid">
-      <div class="cert-card"><img src="/img/certs/ce-certification.jpg" alt="CE Certification"></div>
-      <div class="cert-card"><img src="/img/certs/sgs2.jpg" alt="SGS Certification"></div>
-      <div class="cert-card"><img src="/img/certs/ce-power-plant.jpg" alt="CE Power Plant"></div>
+      <div class="cert-card"><img src="/img/certs/BV1-1.JPG" alt="BV Certification"></div>
+      <div class="cert-card"><img src="/img/certs/CE证书.jpg" alt="CE Certification"></div>
+      <div class="cert-card"><img src="/img/certs/SGS2.JPG" alt="SGS Certification"></div>
+      <div class="cert-card"><img src="/img/certs/CE POWER PLANT.jpg" alt="CE Power Plant"></div>
     </div>
   </div>
 </section>

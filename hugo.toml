@@ -1,14 +1,11 @@
 baseURL = "https://www.turbinevip.com/"
-locale = "en-us"
+languageCode = "en-us"
 title = "Qingdao Quickleader - Power Plant 4S Service Center"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 enableRobotsTXT = true
-
-[sitemap]
-  changefreq = "weekly"
-  filename = "sitemap.xml"
-  priority = 0.5
+enableGitInfo = true
+theme = ""
 
 [params]
   companyName = "Qingdao Quickleader"
@@ -18,19 +15,22 @@ enableRobotsTXT = true
   slogan = "4S Service Center for Your Power Plant"
   foundedYear = 2003
   email = "turbinevip@163.com"
+  phone = "+86-532-68880703"
   mobile = "+86-18669821130"
   whatsapp = "+86-18669821130"
   wechat = "+86-18669821130"
+  skype = "power plant spare parts"
   address = "RM.210, Tower B, Qingdao Plaza, No.379, Dunhua Road, Qingdao, China"
   addressZh = "中国青岛市敦化路379号青岛广场B座210室"
   description = "Established in 2003, Qingdao Quickleader provides EPC solutions, steam turbines, boilers, power plant equipment, spare parts and maintenance services. Power Plant 4S Service Center: Sale, Spare Parts, Service, Survey."
 
 [params.social]
   whatsapp = "https://wa.me/8618669821130"
+  skype = "skype:power plant spare parts?chat"
 
 [languages.en]
   languageName = "English"
-  locale = "en"
+  languageCode = "en"
   weight = 1
   title = "Qingdao Quickleader - Power Plant 4S Service Center"
   contentDir = "content/en"
@@ -58,7 +58,7 @@ enableRobotsTXT = true
 
 [languages.zh]
   languageName = "中文"
-  locale = "zh-cn"
+  languageCode = "zh-cn"
   weight = 2
   title = "青岛乾利得 - 电站4S服务中心"
   contentDir = "content/zh"
@@ -86,7 +86,7 @@ enableRobotsTXT = true
 
 [languages.it]
   languageName = "Italiano"
-  locale = "it"
+  languageCode = "it"
   weight = 3
   title = "Qingdao Quickleader - Centro di Servizio 4S per Centrali Elettriche"
   contentDir = "content/it"

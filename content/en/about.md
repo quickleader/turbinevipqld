@@ -1,6 +1,8 @@
 +++
 title = "About Us — Qingdao Quickleader"
 subtitle = "Power Plant 4S Service Center · Since 2003"
+description = "Established in 2003, Qingdao Quickleader is a Power Plant 4S Service Center providing EPC solutions, steam/gas turbines, boilers, spare parts and maintenance. BV/CE/SGS certified. HQ in Qingdao, China."
+keywords = "power plant 4S, EPC contractor, steam turbine supplier, gas turbine, boiler manufacturer, turbine maintenance, Qingdao Quickleader"
 +++
 
 ## Company Profile

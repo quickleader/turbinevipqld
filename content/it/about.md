@@ -1,6 +1,8 @@
 +++
 title = "Chi Siamo — Qingdao Quickleader"
 subtitle = "Centro di Servizio 4S per Centrali Elettriche · Dal 2003"
+description = "Fondata nel 2003, Qingdao Quickleader è un Centro di Servizio 4S per centrali elettriche che fornisce soluzioni EPC, turbine a vapore/gas, caldaie, ricambi e manutenzione. Certificata BV/CE/SGS. HQ a Qingdao, Cina."
+keywords = "centro di servizio 4S, contrattista EPC, fornitore turbina a vapore, turbina a gas, produttore caldaia, manutenzione turbina, Qingdao Quickleader"
 +++
 
 ## Profilo Aziendale

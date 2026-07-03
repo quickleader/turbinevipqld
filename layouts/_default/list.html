@@ -29,7 +29,7 @@
       <div class="product-card" data-cat="{{ .Params.category }}">
         <div class="product-img">
           {{ with .Params.image }}
-          <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+          <img src="{{ . }}" alt="{{ .Parent.Title | default $.Title }} — {{ .Title }}" loading="lazy">
           {{ else }}
           <span>{{ .Params.icon | default "⚙" }}</span>
           {{ end }}

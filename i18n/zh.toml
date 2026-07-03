@@ -13,26 +13,20 @@ other = "联系我们"
 [rights_reserved]
 other = "版权所有。"
 
-[banner_title]
-other = "乾利得国际贸易"
-
-[banner_subtitle]
-other = "销售 · 备件 · 服务 · 巡检"
-
 [hero_eyebrow]
-other = "青岛乾利得 · 电厂4S服务中心"
+other = "电站4S服务中心 · 始于2003"
 
 [hero_title_1]
-other = "青岛乾利得"
+other = "您的电站"
 
 [hero_title_2]
-other = "电厂"
+other = "4S服务"
 
 [hero_title_3]
-other = "4S服务中心"
+other = "中心"
 
 [hero_subtitle]
-other = "销售 · 备件 · 服务 · 巡检 —— 为火电、生物质、垃圾焚烧、分布式能源等电厂提供全生命周期一站式解决方案。源自中国青岛，服务全球25+国家。"
+other = "销售 / 备件 / 服务 / 巡检 —— 一步式EPC解决方案、汽轮机、锅炉及电站维修服务。20余年工程经验，源自一带一路起点青岛。"
 
 [view_products]
 other = "查看产品与服务"
@@ -56,43 +50,43 @@ other = "产品"
 other = "为什么选择乾利得"
 
 [why_choose_subtitle]
-other = "我们将汽车行业4S服务模式引入电力行业 —— 让电厂运营变得更简单"
+other = "我们将汽车4S服务中心的概念引入电站行业 —— 帮助业主更简单地获取能源。"
 
 [feature1_title]
-other = "销售"
+other = "销售 Sale"
 
 [feature1_desc]
-other = "EPC工程总包或主要设备供应 —— 汽轮机、锅炉、电站系统，来自南汽NTC、杭汽HTC、GE、西门子等顶级制造商的一站式采购服务。"
+other = "EPC工程总包或主要设备供应 —— 汽轮机、锅炉、电站系统，来自南汽NTC、杭汽HTC、GE、西门子等顶级制造商。"
 
 [feature2_title]
-other = "备件"
+other = "备件 Spare Parts"
 
 [feature2_desc]
-other = "精准供应原厂备件。直接从OEM工厂采购，全流程可追溯，附质量证明文件，确保停机时间最小化。"
+other = "精准供应原厂备件。直接从OEM工厂采购，全流程可追溯，附质量证明文件。"
 
 [feature3_title]
-other = "服务"
+other = "服务 Service"
 
 [feature3_desc]
-other = "专业工程团队驻场维护。安装调试、大修改造、性能测试、Operator Training等全方位运维服务。"
+other = "工程团队现场维护电站。安装、调试、大修及技术支持，由资质工程师执行。"
 
 [feature4_title]
-other = "巡检"
+other = "巡检 Survey"
 
 [feature4_desc]
-other = "年度缺陷检查与专项报告。预防性维护计划与设备健康评估，保障电厂长期稳定运行。"
+other = "年度缺陷检查与报告。预防性维护计划与设备健康评估，保障持续运行。"
 
 [products_subtitle]
-other = "覆盖电厂全生命周期的设备与服务 —— 7大类、20+产品，满足电站从建设到运营的全部需求。"
+other = "完整的电站设备与服务组合 —— 7大类、20+产品，覆盖电站全生命周期。"
 
 [view_all_products]
 other = "查看全部产品与服务"
 
 [cta_title]
-other = "需要电厂4S服务？"
+other = "立即注册您的电站"
 
 [cta_subtitle]
-other = "发送邮件或致电，我们的技术团队将在24小时内为您提供专业咨询与报价。"
+other = "24小时内获取免费咨询与报价。新注册用户可获100美元优惠。"
 
 [contact_us_now]
 other = "立即联系我们"
@@ -107,10 +101,7 @@ other = "邮箱"
 other = "电话"
 
 [mobile]
-other = "手机"
-
-[whatsapp]
-other = "WhatsApp"
+other = "手机 / WhatsApp / 微信"
 
 [address_label]
 other = "地址"
@@ -219,95 +210,3 @@ other = "维修服务"
 
 [category_new_energy]
 other = "新能源"
-
-[view_details]
-other = "查看详情"
-
-[overview]
-other = "产品概述"
-
-[faq]
-other = "常见问题"
-
-[core_qa]
-other = "核心问答"
-
-[category_steam_turbine]
-other = "汽轮机"
-
-[category_gas_turbine]
-other = "燃气轮机"
-
-[category_power_plant_service]
-other = "电站服务与EPC"
-
-[certification_gallery]
-other = "认证图库"
-
-[issuer]
-other = "发证机构"
-
-[cases_title]
-other = "项目案例"
-
-[cases_subtitle]
-other = "我们支持的电站项目类型与典型应用"
-
-[faq_title]
-other = "常见问题"
-
-[faq_subtitle]
-other = "关于产品与服务的常见问答"
-
-[certifications]
-other = "资质认证"
-
-[sitemap_title]
-other = "网站地图"
-
-[product_industrial_turbine]
-other = "工业汽轮机"
-
-[product_industrial_turbine_desc]
-other = "用于发电和工业驱动的可靠汽轮机。"
-
-[product_htc_turbine]
-other = "杭汽汽轮机"
-
-[product_htc_turbine_desc]
-other = "杭州汽轮机集团高性能汽轮机。"
-
-[product_gas_turbine]
-other = "燃气轮机"
-
-[product_gas_turbine_desc]
-other = "重型和工业燃气轮机，用于联合循环和自备电厂。"
-
-[product_boiler]
-other = "锅炉"
-
-[product_boiler_desc]
-other = "燃煤、生物质和余热锅炉，用于发电和工艺蒸汽。"
-
-[product_epc]
-other = "EPC工程"
-
-[product_epc_desc]
-other = "电站交钥匙工程总承包。"
-
-[product_maintenance]
-other = "维修服务"
-
-[product_maintenance_desc]
-other = "现场大修、备件和检查服务。"
-
-[product_small_turbine]
-other = "小型汽轮机"
-
-[product_spare_parts]
-other = "备件"
-
-[product_new_energy]
-other = "新能源"
-
-

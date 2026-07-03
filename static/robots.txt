@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: {{ "sitemap.xml" | absURL }}
+Sitemap: https://www.turbinevip.com/sitemap.xml

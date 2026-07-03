@@ -13,26 +13,20 @@ other = "Contatti"
 [rights_reserved]
 other = "Tutti i diritti riservati."
 
-[banner_title]
-other = "Quickleader Commercio Internazionale"
-
-[banner_subtitle]
-other = "Vendita · Ricambi · Servizio · Ispezione"
-
 [hero_eyebrow]
-other = "Qingdao Quickleader · Centro di Servizio 4S per Centrali Elettriche"
+other = "Centro di Servizio 4S per Centrali Elettriche · Dal 2003"
 
 [hero_title_1]
 other = "Centro di Servizio 4S"
 
 [hero_title_2]
-other = "per Centrali"
+other = "per la Tua"
 
 [hero_title_3]
-other = "Elettriche"
+other = "Centrale Elettrica"
 
 [hero_subtitle]
-other = "Vendita · Ricambi · Servizio · Ispezione — Soluzioni one-stop per ciclo di vita di centrali a carbone, biomassa, rifiuti urbani ed energia distribuita. Basati a Qingdao, serviamo 25+ paesi in tutto il mondo."
+other = "Vendita / Ricambi / Servizio / Ispezione — Soluzioni EPC un solo passo, turbine a vapore, caldaie e manutenzione per centrali elettriche in tutto il mondo. Oltre 20 anni di eccellenza ingegneristica da Qingdao, punto di partenza della Belt and Road."
 
 [view_products]
 other = "Vedi Prodotti e Servizi"
@@ -56,43 +50,43 @@ other = "Prodotti"
 other = "Perché Scegliere Quickleader"
 
 [why_choose_subtitle]
-other = "Abbiamo introdotto il modello di servizio 4S dell'industria automobilistica nel settore energetico — rendendo le operazioni delle centrali più semplici e affidabili"
+other = "Abbiamo introdotto il concetto del centro di servizio automobilistico 4S nel settore delle centrali elettriche — aiutando i proprietari a ottenere energia più semplicemente."
 
 [feature1_title]
 other = "Vendita (Sale)"
 
 [feature1_desc]
-other = "Contratti EPC o fornitura di apparecchiature principali — turbine a vapore, caldaie, sistemi per centrali da NTC, HTC, GE, Siemens e altri produttori top con servizio di approvvigionamento one-stop."
+other = "Contratti EPC o fornitura di apparecchiature principali — turbine a vapore, caldaie, sistemi per centrali da NTC, HTC, GE, Siemens e altri produttori top."
 
 [feature2_title]
-other = "Ricambi"
+other = "Ricambi (Spare Parts)"
 
 [feature2_desc]
-other = "Fornitura precisa di ricambi OEM. Approvvigionamento diretto dalle fabbriche con tracciabilità completa e certificati di qualità, garantendo tempi di fermo minimi."
+other = "Fornitura precisa di ricambi originali. Approvvigionamento diretto dalle fabbriche OEM con tracciabilità completa e documentazione di qualità."
 
 [feature3_title]
-other = "Servizio"
+other = "Servizio (Service)"
 
 [feature3_desc]
-other = "Team ingegneristico professionale sul posto. Installazione, messa in servizio, revisione, test di prestazioni, formazione operatori e servizi O&M completi."
+other = "Il team ingegneristico manutenge le centrali elettriche in loco. Installazione, messa in servizio, revisione generale e supporto tecnico da ingegneri qualificati."
 
 [feature4_title]
-other = "Ispezione"
+other = "Ispezione (Survey)"
 
 [feature4_desc]
-other = "Ispezione annuale dei difetti e report specialistici. Pianificazione della manutenzione preventiva e valutazione della salute delle apparecchiature per un funzionamento sostenuto."
+other = "Ispezione annuale dei difetti e report. Pianificazione della manutenzione preventiva e valutazione della salute delle apparecchiature per un funzionamento sostenuto."
 
 [products_subtitle]
-other = "Apparecchiature e servizi che coprono l'intero ciclo di vita della centrale — 7 categorie, oltre 20 prodotti che soddisfano tutte le esigenze dalla costruzione all'esercizio."
+other = "Portafoglio completo di apparecchiature e servizi per centrali elettriche — 7 categorie, oltre 20 prodotti che coprono l'intero ciclo di vita della tua centrale."
 
 [view_all_products]
 other = "Vedi Tutti i Prodotti e Servizi"
 
 [cta_title]
-other = "Hai Bisogno del Servizio 4S per Centrali Elettriche?"
+other = "Registra la Tua Centrale Elettrica Ora"
 
 [cta_subtitle]
-other = "Inviateci un'email o chiamaci. Il nostro team tecnico fornirà consulenza professionale e preventivo entro 24 ore."
+other = "Ricevi una consulenza gratuita e un preventivo entro 24 ore. Le nuove registrazioni ricevono un bonus di $100."
 
 [contact_us_now]
 other = "Contattaci Ora"
@@ -107,10 +101,7 @@ other = "Email"
 other = "Tel"
 
 [mobile]
-other = "Mobile"
-
-[whatsapp]
-other = "WhatsApp"
+other = "Mobile / WhatsApp / WeChat"
 
 [address_label]
 other = "Indirizzo"
@@ -219,95 +210,3 @@ other = "Servizio di Manutenzione"
 
 [category_new_energy]
 other = "Nuova Energia"
-
-[view_details]
-other = "Vedi Dettagli"
-
-[overview]
-other = "Panoramica"
-
-[faq]
-other = "FAQ"
-
-[core_qa]
-other = "domande e risposte chiave"
-
-[category_steam_turbine]
-other = "Turbina a Vapore"
-
-[category_gas_turbine]
-other = "Turbina a Gas"
-
-[category_power_plant_service]
-other = "Servizio Centrale & EPC"
-
-[certification_gallery]
-other = "Galleria Certificazioni"
-
-[issuer]
-other = "Ente Emittente"
-
-[cases_title]
-other = "Casi di Progetto"
-
-[cases_subtitle]
-other = "Tipologie di progetto rappresentative e applicazioni"
-
-[faq_title]
-other = "Domande Frequenti"
-
-[faq_subtitle]
-other = "Domande comuni sui nostri prodotti e servizi"
-
-[certifications]
-other = "Certificazioni"
-
-[sitemap_title]
-other = "Mappa del Sito"
-
-[product_industrial_turbine]
-other = "Turbina a Vapore Industriale"
-
-[product_industrial_turbine_desc]
-other = "Turbine a vapore robuste per generazione di energia e azionamento industriale."
-
-[product_htc_turbine]
-other = "Turbina a Vapore HTC"
-
-[product_htc_turbine_desc]
-other = "Turbine a vapore ad alte prestazioni del Hangzhou Turbine Group."
-
-[product_gas_turbine]
-other = "Turbina a Gas"
-
-[product_gas_turbine_desc]
-other = "Turbine a gas heavy-duty e industriali per CCGT e energia cattiva."
-
-[product_boiler]
-other = "Caldaia"
-
-[product_boiler_desc]
-other = "Caldaie a carbone, a biomassa e HRSG per energia e vapore di processo."
-
-[product_epc]
-other = "Progetto EPC"
-
-[product_epc_desc]
-other = "Ingegneria, approvvigionamento e costruzione chiavi in mano per centrali elettriche."
-
-[product_maintenance]
-other = "Servizio di Manutenzione"
-
-[product_maintenance_desc]
-other = "Revisione in campo, ricambi e servizi di ispezione."
-
-[product_small_turbine]
-other = "Piccola Turbina a Vapore"
-
-[product_spare_parts]
-other = "Ricambi"
-
-[product_new_energy]
-other = "Nuova Energia"
-
-
