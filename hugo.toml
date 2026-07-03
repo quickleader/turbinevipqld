@@ -18,18 +18,15 @@ enableRobotsTXT = true
   slogan = "4S Service Center for Your Power Plant"
   foundedYear = 2003
   email = "turbinevip@163.com"
-  phone = "+86-532-68880703"
   mobile = "+86-18669821130"
   whatsapp = "+86-18669821130"
   wechat = "+86-18669821130"
-  skype = "power plant spare parts"
   address = "RM.210, Tower B, Qingdao Plaza, No.379, Dunhua Road, Qingdao, China"
   addressZh = "中国青岛市敦化路379号青岛广场B座210室"
   description = "Established in 2003, Qingdao Quickleader provides EPC solutions, steam turbines, boilers, power plant equipment, spare parts and maintenance services. Power Plant 4S Service Center: Sale, Spare Parts, Service, Survey."
 
 [params.social]
   whatsapp = "https://wa.me/8618669821130"
-  skype = "skype:power plant spare parts?chat"
 
 [languages.en]
   languageName = "English"

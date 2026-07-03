@@ -20,19 +20,19 @@ other = "Quickleader Commercio Internazionale"
 other = "Vendita · Ricambi · Servizio · Ispezione"
 
 [hero_eyebrow]
-other = "Centro di Servizio 4S per Centrali Elettriche · Dal 2003"
+other = "Qingdao Quickleader · Centro di Servizio 4S per Centrali Elettriche"
 
 [hero_title_1]
 other = "Centro di Servizio 4S"
 
 [hero_title_2]
-other = "per la Tua"
+other = "per Centrali"
 
 [hero_title_3]
-other = "Centrale Elettrica"
+other = "Elettriche"
 
 [hero_subtitle]
-other = "Vendita / Ricambi / Servizio / Ispezione — Soluzioni EPC un solo passo, turbine a vapore, caldaie e manutenzione per centrali elettriche in tutto il mondo. Oltre 20 anni di eccellenza ingegneristica da Qingdao, punto di partenza della Belt and Road."
+other = "Vendita · Ricambi · Servizio · Ispezione — Soluzioni one-stop per ciclo di vita di centrali a carbone, biomassa, rifiuti urbani ed energia distribuita. Basati a Qingdao, serviamo 25+ paesi in tutto il mondo."
 
 [view_products]
 other = "Vedi Prodotti e Servizi"
@@ -56,43 +56,43 @@ other = "Prodotti"
 other = "Perché Scegliere Quickleader"
 
 [why_choose_subtitle]
-other = "Abbiamo introdotto il concetto del centro di servizio automobilistico 4S nel settore delle centrali elettriche — aiutando i proprietari a ottenere energia più semplicemente."
+other = "Abbiamo introdotto il modello di servizio 4S dell'industria automobilistica nel settore energetico — rendendo le operazioni delle centrali più semplici e affidabili"
 
 [feature1_title]
 other = "Vendita (Sale)"
 
 [feature1_desc]
-other = "Contratti EPC o fornitura di apparecchiature principali — turbine a vapore, caldaie, sistemi per centrali da NTC, HTC, GE, Siemens e altri produttori top."
+other = "Contratti EPC o fornitura di apparecchiature principali — turbine a vapore, caldaie, sistemi per centrali da NTC, HTC, GE, Siemens e altri produttori top con servizio di approvvigionamento one-stop."
 
 [feature2_title]
-other = "Ricambi (Spare Parts)"
+other = "Ricambi"
 
 [feature2_desc]
-other = "Fornitura precisa di ricambi originali. Approvvigionamento diretto dalle fabbriche OEM con tracciabilità completa e documentazione di qualità."
+other = "Fornitura precisa di ricambi OEM. Approvvigionamento diretto dalle fabbriche con tracciabilità completa e certificati di qualità, garantendo tempi di fermo minimi."
 
 [feature3_title]
-other = "Servizio (Service)"
+other = "Servizio"
 
 [feature3_desc]
-other = "Il team ingegneristico manutenge le centrali elettriche in loco. Installazione, messa in servizio, revisione generale e supporto tecnico da ingegneri qualificati."
+other = "Team ingegneristico professionale sul posto. Installazione, messa in servizio, revisione, test di prestazioni, formazione operatori e servizi O&M completi."
 
 [feature4_title]
-other = "Ispezione (Survey)"
+other = "Ispezione"
 
 [feature4_desc]
-other = "Ispezione annuale dei difetti e report. Pianificazione della manutenzione preventiva e valutazione della salute delle apparecchiature per un funzionamento sostenuto."
+other = "Ispezione annuale dei difetti e report specialistici. Pianificazione della manutenzione preventiva e valutazione della salute delle apparecchiature per un funzionamento sostenuto."
 
 [products_subtitle]
-other = "Portafoglio completo di apparecchiature e servizi per centrali elettriche — 7 categorie, oltre 20 prodotti che coprono l'intero ciclo di vita della tua centrale."
+other = "Apparecchiature e servizi che coprono l'intero ciclo di vita della centrale — 7 categorie, oltre 20 prodotti che soddisfano tutte le esigenze dalla costruzione all'esercizio."
 
 [view_all_products]
 other = "Vedi Tutti i Prodotti e Servizi"
 
 [cta_title]
-other = "Registra la Tua Centrale Elettrica Ora"
+other = "Hai Bisogno del Servizio 4S per Centrali Elettriche?"
 
 [cta_subtitle]
-other = "Ricevi una consulenza gratuita e un preventivo entro 24 ore. Le nuove registrazioni ricevono un bonus di $100."
+other = "Inviateci un'email o chiamaci. Il nostro team tecnico fornirà consulenza professionale e preventivo entro 24 ore."
 
 [contact_us_now]
 other = "Contattaci Ora"
@@ -107,7 +107,10 @@ other = "Email"
 other = "Tel"
 
 [mobile]
-other = "Mobile / WhatsApp / WeChat"
+other = "Mobile"
+
+[whatsapp]
+other = "WhatsApp"
 
 [address_label]
 other = "Indirizzo"

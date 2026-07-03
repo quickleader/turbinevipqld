@@ -7,7 +7,7 @@
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   {{ $css := resources.Get "css/style.css" | minify }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">
-  <link rel="icon" type="image/svg+xml" href="/img/logo/favicon.svg">
+  <link rel="icon" type="image/png" href="/img/logo/favicon.png">
   <link rel="apple-touch-icon" href="/img/logo/mark.jpg">
 </head>
 <body>
@@ -15,8 +15,8 @@
   <div class="top-banner">
     <div class="top-banner-carousel">
       <img src="/img/banner/indonesia-plant.jpg" alt="Indonesia power plant aerial view" class="top-banner-slide active">
-      <img src="/img/banner/招牌5.jpg" alt="Power plant panoramic view" class="top-banner-slide">
-      <img src="/img/banner/000公司全景.jpg" alt="JITU power machinery company panorama" class="top-banner-slide">
+      <img src="/img/banner/company-signboard.jpg" alt="Power plant panoramic view" class="top-banner-slide">
+      <img src="/img/banner/company-panorama.jpg" alt="JITU power machinery company panorama" class="top-banner-slide">
     </div>
     <div class="top-banner-overlay">
       <div class="container">

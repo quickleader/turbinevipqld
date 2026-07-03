@@ -20,19 +20,19 @@ other = "乾利得国际贸易"
 other = "销售 · 备件 · 服务 · 巡检"
 
 [hero_eyebrow]
-other = "电站4S服务中心 · 始于2003"
+other = "青岛乾利得 · 电厂4S服务中心"
 
 [hero_title_1]
-other = "您的电站"
+other = "青岛乾利得"
 
 [hero_title_2]
-other = "4S服务"
+other = "电厂"
 
 [hero_title_3]
-other = "中心"
+other = "4S服务中心"
 
 [hero_subtitle]
-other = "销售 / 备件 / 服务 / 巡检 —— 一步式EPC解决方案、汽轮机、锅炉及电站维修服务。20余年工程经验，源自一带一路起点青岛。"
+other = "销售 · 备件 · 服务 · 巡检 —— 为火电、生物质、垃圾焚烧、分布式能源等电厂提供全生命周期一站式解决方案。源自中国青岛，服务全球25+国家。"
 
 [view_products]
 other = "查看产品与服务"
@@ -56,43 +56,43 @@ other = "产品"
 other = "为什么选择乾利得"
 
 [why_choose_subtitle]
-other = "我们将汽车4S服务中心的概念引入电站行业 —— 帮助业主更简单地获取能源。"
+other = "我们将汽车行业4S服务模式引入电力行业 —— 让电厂运营变得更简单"
 
 [feature1_title]
-other = "销售 Sale"
+other = "销售"
 
 [feature1_desc]
-other = "EPC工程总包或主要设备供应 —— 汽轮机、锅炉、电站系统，来自南汽NTC、杭汽HTC、GE、西门子等顶级制造商。"
+other = "EPC工程总包或主要设备供应 —— 汽轮机、锅炉、电站系统，来自南汽NTC、杭汽HTC、GE、西门子等顶级制造商的一站式采购服务。"
 
 [feature2_title]
-other = "备件 Spare Parts"
+other = "备件"
 
 [feature2_desc]
-other = "精准供应原厂备件。直接从OEM工厂采购，全流程可追溯，附质量证明文件。"
+other = "精准供应原厂备件。直接从OEM工厂采购，全流程可追溯，附质量证明文件，确保停机时间最小化。"
 
 [feature3_title]
-other = "服务 Service"
+other = "服务"
 
 [feature3_desc]
-other = "工程团队现场维护电站。安装、调试、大修及技术支持，由资质工程师执行。"
+other = "专业工程团队驻场维护。安装调试、大修改造、性能测试、Operator Training等全方位运维服务。"
 
 [feature4_title]
-other = "巡检 Survey"
+other = "巡检"
 
 [feature4_desc]
-other = "年度缺陷检查与报告。预防性维护计划与设备健康评估，保障持续运行。"
+other = "年度缺陷检查与专项报告。预防性维护计划与设备健康评估，保障电厂长期稳定运行。"
 
 [products_subtitle]
-other = "完整的电站设备与服务组合 —— 7大类、20+产品，覆盖电站全生命周期。"
+other = "覆盖电厂全生命周期的设备与服务 —— 7大类、20+产品，满足电站从建设到运营的全部需求。"
 
 [view_all_products]
 other = "查看全部产品与服务"
 
 [cta_title]
-other = "立即注册您的电站"
+other = "需要电厂4S服务？"
 
 [cta_subtitle]
-other = "24小时内获取免费咨询与报价。新注册用户可获100美元优惠。"
+other = "发送邮件或致电，我们的技术团队将在24小时内为您提供专业咨询与报价。"
 
 [contact_us_now]
 other = "立即联系我们"
@@ -107,7 +107,10 @@ other = "邮箱"
 other = "电话"
 
 [mobile]
-other = "手机 / WhatsApp / 微信"
+other = "手机"
+
+[whatsapp]
+other = "WhatsApp"
 
 [address_label]
 other = "地址"
@@ -227,7 +230,7 @@ other = "产品概述"
 other = "常见问题"
 
 [core_qa]
-other = "道核心问答"
+other = "核心问答"
 
 [category_steam_turbine]
 other = "汽轮机"

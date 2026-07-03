@@ -518,6 +518,16 @@ a.product-card:hover { color: inherit; }
 .product-tag.cat-steam_turbine { background: rgba(24,95,165,0.1); color: #185fa5; }
 .product-tag.cat-gas_turbine { background: rgba(232,119,34,0.1); color: #c5571a; }
 .product-tag.cat-power_plant_service { background: rgba(163,45,45,0.1); color: #a32d2d; }
+.product-tag.cat-boiler { background: rgba(29,158,117,0.1); color: #0f6e56; }
+
+/* Legacy category color tags (backward compatibility) */
+.product-tag.cat-turbine { background: rgba(24,95,165,0.1); color: #185fa5; }
+.product-tag.cat-gas { background: rgba(232,119,34,0.1); color: #c5571a; }
+.product-tag.cat-equipment { background: rgba(139,92,246,0.1); color: #6d28d9; }
+.product-tag.cat-turbine_parts { background: rgba(99,153,34,0.1); color: #3b6d11; }
+.product-tag.cat-epc { background: rgba(186,117,23,0.1); color: #854f0b; }
+.product-tag.cat-service { background: rgba(163,45,45,0.1); color: #a32d2d; }
+.product-tag.cat-new_energy { background: rgba(15,110,86,0.1); color: #085041; }
 
 /* Footer logo */
 .footer-logo {

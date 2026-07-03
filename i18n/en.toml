@@ -20,19 +20,19 @@ other = "Quickleader International Trade"
 other = "Sale · Spare Parts · Service · Survey"
 
 [hero_eyebrow]
-other = "Power Plant 4S Service Center · Since 2003"
+other = "Qingdao Quickleader · Power Plant 4S Service Center"
 
 [hero_title_1]
-other = "4S Service Center"
-
-[hero_title_2]
-other = "for Your"
-
-[hero_title_3]
 other = "Power Plant"
 
+[hero_title_2]
+other = "4S Service"
+
+[hero_title_3]
+other = "Center"
+
 [hero_subtitle]
-other = "Sale / Spare Parts / Service / Survey — One-step EPC solutions, steam turbines, boilers and maintenance for power plants worldwide. 20+ years of engineering excellence from Qingdao, the starting point of the Belt and Road."
+other = "Sale · Spare Parts · Service · Survey — One-stop lifecycle solutions for coal, biomass, waste-to-energy, and distributed power plants. Based in Qingdao, serving 25+ countries worldwide."
 
 [view_products]
 other = "View Products & Services"
@@ -56,43 +56,43 @@ other = "Products"
 other = "Why Choose Quickleader"
 
 [why_choose_subtitle]
-other = "We introduced the concept of automobile 4S service center to the power plant industry — helping owners obtain energy more simply."
+other = "We brought the automotive 4S service model to the power industry — making plant operations simpler and more reliable"
 
 [feature1_title]
 other = "Sale"
 
 [feature1_desc]
-other = "EPC contracts or main equipment supply — steam turbines, boilers, power plant systems from NTC, HTC, GE, Siemens and other top manufacturers."
+other = "EPC turnkey or main equipment supply — steam turbines, boilers, power plant systems from NTC, HTC, GE, Siemens and other top manufacturers with one-stop procurement service."
 
 [feature2_title]
 other = "Spare Parts"
 
 [feature2_desc]
-other = "Supply original spare parts accurately. Direct sourcing from OEM factories with full traceability and quality documentation."
+other = "Accurate OEM spare parts supply. Direct sourcing from factories with full traceability and quality certificates, ensuring minimal downtime."
 
 [feature3_title]
 other = "Service"
 
 [feature3_desc]
-other = "Engineering team maintains power plants on site. Installation, commissioning, overhaul and technical support by qualified engineers."
+other = "Professional engineering teams on-site. Installation, commissioning, overhaul, performance testing, operator training and comprehensive O&M services."
 
 [feature4_title]
 other = "Survey"
 
 [feature4_desc]
-other = "Annual defect inspection and report. Preventive maintenance planning and equipment health assessment for sustained operation."
+other = "Annual defect inspection and specialized reports. Preventive maintenance planning and equipment health assessment for sustained plant operation."
 
 [products_subtitle]
-other = "Complete power plant equipment and service portfolio — 7 categories, 20+ products covering the full lifecycle of your power plant."
+other = "Equipment and services covering the full power plant lifecycle — 7 categories, 20+ products meeting all needs from construction to operation."
 
 [view_all_products]
 other = "View All Products & Services"
 
 [cta_title]
-other = "Register Your Power Plant Now"
+other = "Need Power Plant 4S Service?"
 
 [cta_subtitle]
-other = "Get a free consultation and quotation within 24 hours. New registrations receive a $100 bonus."
+other = "Send us an email or call. Our technical team will provide professional consultation and quotation within 24 hours."
 
 [contact_us_now]
 other = "Contact Us Now"
@@ -107,7 +107,10 @@ other = "Email"
 other = "Tel"
 
 [mobile]
-other = "Mobile / WhatsApp / WeChat"
+other = "Mobile"
+
+[whatsapp]
+other = "WhatsApp"
 
 [address_label]
 other = "Address"

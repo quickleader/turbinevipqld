@@ -30,7 +30,7 @@
         <h4>{{ T "contact_title" }}</h4>
         <ul>
           <li><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></li>
-          <li><a href="tel:{{ replace .Site.Params.phone " " "" }}">{{ .Site.Params.phone }}</a></li>
+          <li><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.mobile }}</a></li>
           <li>{{ .Site.Params.address }}</li>
         </ul>
       </div>
