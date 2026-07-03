@@ -1,0 +1,101 @@
+{{/* Product Schema Partial — 为产品页注入 Google Product/Service 结构化数据 */}}
+
+{{/* 只有产品页面才注入 Product + Service + FAQ Schema */}}
+{{ if and .Params.category (or (eq .Section "products") (.HasShortcode "products")) }}
+
+{{ $categoryMap := dict
+  "turbine" "Steam Turbine"
+  "gas" "Gas Turbine"
+  "boiler" "Industrial Boiler"
+  "epc" "Power Plant EPC"
+  "equipment" "Power Plant Equipment"
+  "turbine_parts" "Turbine Spare Parts"
+  "service" "Power Plant Service"
+  "new_energy" "Pyrolysis Plant"
+}}
+
+{{ $catLabel := index $categoryMap .Params.category | default "Industrial Equipment" }}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": {{ .Title | jsonify }},
+  "description": {{ with .Description }}{{ . | jsonify }}{{ else }}"High-performance {{ $catLabel }} from Qingdao Quickleader International Trade Co., Ltd."{{ end }},
+  "brand": {
+    "@type": "Brand",
+    "name": "Qingdao Quickleader"
+  },
+  "manufacturer": {
+    "@type": "Organization",
+    "name": "Qingdao Quickleader International Trade Co., Ltd."
+  },
+  "category": {{ $catLabel | jsonify }},
+  "url": {{ .Permalink | jsonify }},
+  {{ with .Params.image }}"image": ["{{ absURL . }}"],
+  {{ end }}
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "Qingdao Quickleader International Trade Co., Ltd."
+    },
+    "url": {{ .Permalink | jsonify }},
+    "description": {{ with .Description }}{{ . | jsonify }}{{ else }}Get a quote for {{ .Title }}{{ end }}
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": {{ $catLabel | jsonify }},
+  "provider": {
+    "@type": "Organization",
+    "name": "Qingdao Quickleader International Trade Co., Ltd.",
+    "url": "{{ .Site.BaseURL }}"
+  },
+  "areaServed": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Qingdao",
+        "addressCountry": "CN"
+      }
+    },
+    "geoRadius": "10000000"
+  },
+  "description": {{ with .Description }}{{ . | jsonify }}{{ else }}"Professional {{ $catLabel }} supply and EPC services."{{ end }},
+  "url": {{ .Permalink | jsonify }}
+}
+</script>
+
+{{/* FAQ Section Schema */}}
+{{ if .Params.faq }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{ range $i, $faq := .Params.faq }}
+    {{ if gt $i 0 }},{{ end }}
+    {
+      "@type": "Question",
+      "name": {{ $faq.question | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ $faq.answer | jsonify }}
+      }
+    }
+    {{ end }}
+  ]
+}
+</script>
+{{ end }}
+
+{{ end }}

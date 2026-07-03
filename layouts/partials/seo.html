@@ -42,7 +42,7 @@
         "url": "{{ if .Site.Params.logo }}{{ .Site.Params.logo }}{{ else }}{{ absURL "img/logo/mark.jpg" }}{{ end }}"
       },
       "description": {{ .Site.Params.description | jsonify }},
-      "foundingDate": {{ .Site.Params.foundedYear | default "2003" }},
+      "foundingDate": {{ with .Site.Params.foundedYear }}"{{ . }}"{{ else }}"2003"{{ end }},
       "contactPoint": {
         "@type": "ContactPoint",
         "telephone": {{ .Site.Params.phone | default "+86-532-68880703" | jsonify }},

@@ -1,0 +1,15 @@
+{{/* Google Analytics 4 — 老板替换 XXXXXXXXX 为真实 GA4 ID */}}
+{{ if and .Site.Params.googleAnalytics (not (eq .Site.Params.googleAnalytics "G-XXXXXXXXXX")) }}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.googleAnalytics }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ .Site.Params.googleAnalytics }}');
+</script>
+{{ end }}
+
+{{/* Google Search Console 验证 — 老板替换 XXXXXXXXX 为真实验证码 */}}
+{{ if and .Site.Params.googleSiteVerification (not (eq .Site.Params.googleSiteVerification "google-site-verification=XXXXXXXXXXX")) }}
+<meta name="google-site-verification" content="{{ .Site.Params.googleSiteVerification }}">
+{{ end }}
