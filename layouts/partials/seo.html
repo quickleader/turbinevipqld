@@ -72,12 +72,12 @@
           "name": "{{ .Site.Home.Title }}",
           "item": "{{ .Site.Home.Permalink }}"
         }
-        {{ range .Ancestors.Reverse }}
+        {{ range $i, $anc := .Ancestors.Reverse }}
         ,{
           "@type": "ListItem",
-          "position": {{ .Level }},
-          "name": {{ .Title | jsonify }},
-          "item": "{{ .Permalink }}"
+          "position": {{ add $i 2 }},
+          "name": {{ $anc.Title | jsonify }},
+          "item": "{{ $anc.Permalink }}"
         }
         {{ end }}
         ,{
@@ -94,7 +94,7 @@
 </script>
 
 {{/* RSS Feed */}}
-{{ range .AlternativeTranslations }}
+{{ range .Translations }}
 {{ with .OutputFormats.Get "RSS" }}
 <link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ $.Site.Title }} ({{ $.Lang }})">
 {{ end }}
