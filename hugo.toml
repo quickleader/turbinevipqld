@@ -5,7 +5,6 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 enableRobotsTXT = true
 enableGitInfo = true
-theme = ""
 
 googleAnalytics = "G-XXXXXXXXXX"
 googleSiteVerification = "google-site-verification=XXXXXXXXXXX"
