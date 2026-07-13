@@ -67,6 +67,11 @@ googleSiteVerification = "google-site-verification=XXXXXXXXXXX"
     name = "Testimonials"
     url = "/testimonials/"
     weight = 6
+  [[languages.en.menu.main]]
+    identifier = "transformers_eu"
+    name = "Transformers · EU"
+    url = "/transformers-eu/"
+    weight = 7
 
 [languages.zh]
   languageName = "中文"
@@ -105,6 +110,11 @@ googleSiteVerification = "google-site-verification=XXXXXXXXXXX"
     name = "客户评价"
     url = "/testimonials/"
     weight = 6
+  [[languages.zh.menu.main]]
+    identifier = "transformers_eu"
+    name = "变压器·欧美"
+    url = "/transformers-eu/"
+    weight = 7
 
 [languages.it]
   languageName = "Italiano"
@@ -143,6 +153,11 @@ googleSiteVerification = "google-site-verification=XXXXXXXXXXX"
     name = "Testimonianze"
     url = "/testimonials/"
     weight = 6
+  [[languages.it.menu.main]]
+    identifier = "transformers_eu"
+    name = "Trasformatori · EU"
+    url = "/transformers-eu/"
+    weight = 7
 
 [markup.goldmark.renderer]
   unsafe = true

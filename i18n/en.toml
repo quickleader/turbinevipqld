@@ -210,3 +210,285 @@ other = "Maintenance Service"
 
 [category_new_energy]
 other = "New Energy"
+
+[overview]
+other = "Overview"
+
+[faq]
+other = "FAQ"
+
+[core_q_a]
+other = "key Q&A"
+
+[teu_hero_eyebrow]
+other = "EU & North America · Substation Solutions"
+
+[teu_hero_title]
+other = "Power Transformers & Substation Equipment"
+
+[teu_hero_subtitle]
+other = "One-stop source for IEC- and IEEE-compliant transformers and substation equipment — from 11 kV distribution to UHV, engineered for the way the West actually buys."
+
+[teu_hero_cta1]
+other = "View Product Range →"
+
+[teu_hero_cta2]
+other = "Get a Quote"
+
+[teu_stat1]
+other = "Voltage envelope"
+
+[teu_stat2]
+other = "Dual-grid design"
+
+[teu_stat3]
+other = "Standards coverage"
+
+[teu_gates_title]
+other = "Four Gates to Western Market Entry"
+
+[teu_gates_sub]
+other = "In mature markets price is rarely the decider. Buyers screen against four hard gates — we are built to clear all four."
+
+[teu_gate1_t]
+other = "Standards"
+
+[teu_gate1_d]
+other = "Dual-standard design: IEC 60076 (EU) and IEEE C57 (US/CA), built for both 50 Hz and 60 Hz grids."
+
+[teu_gate2_t]
+other = "Efficiency Law"
+
+[teu_gate2_d]
+other = "Engineered to EU Reg. 548/2014 (EcoDesign Tier 2) and US DOE 10 CFR 431 loss limits."
+
+[teu_gate3_t]
+other = "Environment & Safety"
+
+[teu_gate3_d]
+other = "Biodegradable ester-fluid options, low-noise designs and dry-type units for fire-sensitive sites."
+
+[teu_gate4_t]
+other = "Third-Party Proof"
+
+[teu_gate4_d]
+other = "Type tests aligned with KEMA / CESI / ASTA, ISO 9001/14001/45001, seismic per IEEE 693."
+
+[teu_prod_title]
+other = "One Source for the Whole Substation"
+
+[teu_prod_sub]
+other = "A single coordinated supply chain from distribution class to the highest transmission voltages."
+
+[teu_tag_power]
+other = "Power Transformer"
+
+[teu_tag_dry]
+other = "Dry-Type"
+
+[teu_tag_special]
+other = "Special"
+
+[teu_tag_instr]
+other = "Instrument"
+
+[teu_tag_reactor]
+other = "Reactor"
+
+[teu_tag_arrester]
+other = "Protection"
+
+[teu_tag_test]
+other = "Test"
+
+[teu_tag_tap]
+other = "Tap Changer"
+
+[teu_tag_monitor]
+other = "Monitoring"
+
+[teu_p1_t]
+other = "Oil-Immersed Power Transformers"
+
+[teu_p1_d]
+other = "Distribution, medium and large power ratings for utility and industrial grids."
+
+[teu_p2_t]
+other = "Dry-Type (Cast-Resin) Transformers"
+
+[teu_p2_d]
+other = "Indoor, fire-safe, low-maintenance for commercial, data-centre and renewable sites."
+
+[teu_p3_t]
+other = "Special & Application Transformers"
+
+[teu_p3_d]
+other = "Furnace, rectifier, traction, converter and other custom-duty units."
+
+[teu_p4_t]
+other = "Instrument Transformers"
+
+[teu_p4_d]
+other = "Current & voltage transformers, 10–1000 kV class, per IEC 61869."
+
+[teu_p5_t]
+other = "Reactors"
+
+[teu_p5_d]
+other = "Shunt, series and filter reactors for grid stability and power quality."
+
+[teu_p6_t]
+other = "Surge Arresters"
+
+[teu_p6_d]
+other = "Station-class overvoltage protection for substation assets."
+
+[teu_p7_t]
+other = "Test Transformers"
+
+[teu_p7_d]
+other = "High-voltage testing sets for commissioning and maintenance."
+
+[teu_p8_t]
+other = "Tap Changers"
+
+[teu_p8_d]
+other = "On-load (OLTC) and off-circuit tap changers, available as spares."
+
+[teu_p9_t]
+other = "Intelligent Online Monitoring"
+
+[teu_p9_d]
+other = "Condition monitoring for HV assets — bushing, DGA, hot-spot."
+
+[teu_env_str]
+other = "Voltage envelope: up to AC 1000 kV and DC ±800 kV"
+
+[teu_env_sub]
+other = "From 11/33 kV distribution to UHV transmission and HVDC links."
+
+[teu_diff_title]
+other = "Tailored to How the West Buys"
+
+[teu_diff_sub]
+other = "Concrete differentiators to lead with in a first meeting or RFQ response."
+
+[teu_d1_t]
+other = "Ester-fluid & fire-safe"
+
+[teu_d1_d]
+other = "Natural/synthetic ester-filled and dry-type units with high fire points and full biodegradability for urban, offshore and data-centre sites."
+
+[teu_d2_t]
+other = "Low loss = lower TCO"
+
+[teu_d2_d]
+other = "Designed to EcoDesign / DOE loss caps, with guaranteed no-load & load losses and penalty clauses — the language tender committees expect."
+
+[teu_d3_t]
+other = "60 Hz-native for North America"
+
+[teu_d3_d]
+other = "Genuine 60 Hz magnetic design with ANSI/IEEE C57 insulation coordination, bushings and accessories to North American practice."
+
+[teu_d4_t]
+other = "Grid-code & renewable ready"
+
+[teu_d4_d]
+other = "Reactors, monitoring and special transformers for wind, solar and HVDC interconnection."
+
+[teu_d5_t]
+other = "Full-scope EPC support"
+
+[teu_d5_d]
+other = "Coordinated switchgear, GIS, arresters and turnkey substation packages — reducing interface risk for the buyer."
+
+[teu_d6_t]
+other = "Independent test evidence"
+
+[teu_d6_d]
+other = "Routine, type and special tests witnessable by client or third party (KEMA / CESI / ASTA), with certified reports."
+
+[teu_cert_title]
+other = "Certifications & Quality Backbone"
+
+[teu_cert_sub]
+other = "For tender qualification files and independent assurance."
+
+[teu_c1]
+other = "Independent international type-test authorities."
+
+[teu_c2]
+other = "Quality, environmental and H&S management systems."
+
+[teu_c3]
+other = "Seismic qualification — California, Pacific Northwest & seismic zones."
+
+[teu_c4]
+other = "Design standards for power & instrument transformers."
+
+[teu_pitch_title]
+other = "Elevator Pitch"
+
+[teu_pitch_body]
+other = "One-stop source for IEC- and IEEE-compliant power transformers and substation equipment — from 11 kV distribution to UHV, in 50 Hz and 60 Hz. Ester-fluid, dry-type and low-loss designs engineered to EU EcoDesign and US DOE efficiency law, backed by KEMA/CESI/ASTA type tests and IEEE 693 seismic qualification. Guaranteed losses, witnessed testing, full EPC support."
+
+[teu_pitch_cta]
+other = "Request the Full Capability Sheet →"
+
+[teu_mkt_title]
+other = "Market-Specific Angle"
+
+[teu_mkt_sub]
+other = "How to lead the conversation in each target market."
+
+[teu_mkt_h1]
+other = "Market"
+
+[teu_mkt_h2]
+other = "Lead With"
+
+[teu_mkt_h3]
+other = "Key Standard / Law"
+
+[teu_mkt_h4]
+other = "Hot Button"
+
+[teu_m_usa1]
+other = "60 Hz-native, DOE efficiency, IEEE 693 seismic"
+
+[teu_m_usa2]
+other = "ANSI/IEEE C57, DOE 10 CFR 431"
+
+[teu_m_usa3]
+other = "Lead-time & long-lead capacity; capitalised losses"
+
+[teu_m_ca1]
+other = "CSA-aligned, cold-climate, 60 Hz"
+
+[teu_m_ca2]
+other = "CSA C88 / IEEE C57"
+
+[teu_m_ca3]
+other = "Ester fluid for environmental permitting"
+
+[teu_m_eu1]
+other = "EcoDesign Tier 2, ester/dry-type, low noise"
+
+[teu_m_eu2]
+other = "IEC 60076, EU 548/2014"
+
+[teu_m_eu3]
+other = "TCO / carbon footprint; noise limits near towns"
+
+[teu_m_uk1]
+other = "IEC + G-code, ester fluid"
+
+[teu_m_uk2]
+other = "IEC 60076, ENA specs"
+
+[teu_m_uk3]
+other = "Fire safety, urban substations"
+
+[teu_legal]
+other = "Specifications are marketing-level and subject to per-unit factory confirmation. Certifications such as CE / UL / CSA are listed per market and must be verified with the manufacturer before any compliance claim to the client."

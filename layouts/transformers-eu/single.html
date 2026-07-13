@@ -1,0 +1,118 @@
+{{ define "main" }}
+<style>
+.teu-hero-visual { position: relative; border-radius: 16px; overflow: hidden; background: linear-gradient(135deg, var(--c-primary), var(--c-primary-light)); aspect-ratio: 4/3; box-shadow: var(--shadow-md); display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.15); font-size: 110px; font-weight: 800; }
+.teu-env { margin-top: 36px; background: var(--c-primary); color: #fff; border-radius: 12px; padding: 24px 32px; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+.teu-env strong { font-size: 18px; }
+.teu-env span { font-size: 14px; opacity: 0.9; }
+.cert-badge { font-size: 13px; font-weight: 700; color: var(--c-primary); letter-spacing: 0.5px; margin-bottom: 8px; }
+.teu-market-table { width: 100%; border-collapse: collapse; background: var(--c-bg); border: 1px solid var(--c-border); border-radius: 12px; overflow: hidden; }
+.teu-market-table th, .teu-market-table td { padding: 16px 18px; text-align: left; border-bottom: 1px solid var(--c-border); font-size: 14px; vertical-align: top; }
+.teu-market-table th { background: var(--c-bg-soft); color: var(--c-primary); font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; }
+.teu-market-table tr:last-child td { border-bottom: none; }
+.teu-market-table td.teu-mname { font-weight: 700; color: var(--c-text); white-space: nowrap; }
+.teu-legal { font-size: 12px; color: var(--c-text-muted); text-align: center; margin-top: 16px; }
+@media (max-width: 900px) { .teu-market-table { display: block; overflow-x: auto; white-space: nowrap; } }
+</style>
+
+<section class="hero" id="home">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <span class="hero-eyebrow">{{ T "teu_hero_eyebrow" }}</span>
+        <h1>{{ T "teu_hero_title" }}</h1>
+        <p class="hero-subtitle">{{ T "teu_hero_subtitle" }}</p>
+        <div class="hero-cta">
+          <a href="#products" class="btn btn-primary">{{ T "teu_hero_cta1" }}</a>
+          <a href="{{ "contact/" | relLangURL }}" class="btn btn-outline">{{ T "teu_hero_cta2" }}</a>
+        </div>
+        <div class="hero-stats">
+          <div><div class="stat-num">AC 1000 kV</div><div class="stat-label">{{ T "teu_stat1" }}</div></div>
+          <div><div class="stat-num">50 / 60 Hz</div><div class="stat-label">{{ T "teu_stat2" }}</div></div>
+          <div><div class="stat-num">IEC · IEEE</div><div class="stat-label">{{ T "teu_stat3" }}</div></div>
+        </div>
+      </div>
+      <div class="teu-hero-visual">⚡</div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="gates">
+  <div class="container">
+    <div class="section-title"><h2>{{ T "teu_gates_title" }}</h2><p>{{ T "teu_gates_sub" }}</p></div>
+    <div class="features-grid features-4">
+      <div class="feature-card"><div class="feature-icon">①</div><h3>{{ T "teu_gate1_t" }}</h3><p>{{ T "teu_gate1_d" }}</p></div>
+      <div class="feature-card"><div class="feature-icon">②</div><h3>{{ T "teu_gate2_t" }}</h3><p>{{ T "teu_gate2_d" }}</p></div>
+      <div class="feature-card"><div class="feature-icon">③</div><h3>{{ T "teu_gate3_t" }}</h3><p>{{ T "teu_gate3_d" }}</p></div>
+      <div class="feature-card"><div class="feature-icon">④</div><h3>{{ T "teu_gate4_t" }}</h3><p>{{ T "teu_gate4_d" }}</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-soft" id="products">
+  <div class="container">
+    <div class="section-title"><h2>{{ T "teu_prod_title" }}</h2><p>{{ T "teu_prod_sub" }}</p></div>
+    <div class="products-grid">
+      <div class="product-card"><div class="product-img">🛢️</div><div class="product-body"><span class="product-tag cat-turbine">{{ T "teu_tag_power" }}</span><h3>{{ T "teu_p1_t" }}</h3><p>{{ T "teu_p1_d" }}</p></div></div>
+      <div class="product-card"><div class="product-img">🧊</div><div class="product-body"><span class="product-tag cat-new_energy">{{ T "teu_tag_dry" }}</span><h3>{{ T "teu_p2_t" }}</h3><p>{{ T "teu_p2_d" }}</p></div></div>
+      <div class="product-card"><div class="product-img">⚙️</div><div class="product-body"><span class="product-tag cat-equipment">{{ T "teu_tag_special" }}</span><h3>{{ T "teu_p3_t" }}</h3><p>{{ T "teu_p3_d" }}</p></div></div>
+      <div class="product-card"><div class="product-img">📐</div><div class="product-body"><span class="product-tag cat-gas">{{ T "teu_tag_instr" }}</span><h3>{{ T "teu_p4_t" }}</h3><p>{{ T "teu_p4_d" }}</p></div></div>
+      <div class="product-card"><div class="product-img">🌀</div><div class="product-body"><span class="product-tag cat-boiler">{{ T "teu_tag_reactor" }}</span><h3>{{ T "teu_p5_t" }}</h3><p>{{ T "teu_p5_d" }}</p></div></div>
+      <div class="product-card"><div class="product-img">🛡️</div><div class="product-body"><span class="product-tag cat-service">{{ T "teu_tag_arrester" }}</span><h3>{{ T "teu_p6_t" }}</h3><p>{{ T "teu_p6_d" }}</p></div></div>
+      <div class="product-card"><div class="product-img">🔬</div><div class="product-body"><span class="product-tag cat-turbine_parts">{{ T "teu_tag_test" }}</span><h3>{{ T "teu_p7_t" }}</h3><p>{{ T "teu_p7_d" }}</p></div></div>
+      <div class="product-card"><div class="product-img">🔀</div><div class="product-body"><span class="product-tag cat-epc">{{ T "teu_tag_tap" }}</span><h3>{{ T "teu_p8_t" }}</h3><p>{{ T "teu_p8_d" }}</p></div></div>
+      <div class="product-card"><div class="product-img">📡</div><div class="product-body"><span class="product-tag cat-turbine">{{ T "teu_tag_monitor" }}</span><h3>{{ T "teu_p9_t" }}</h3><p>{{ T "teu_p9_d" }}</p></div></div>
+    </div>
+    <div class="teu-env"><strong>{{ T "teu_env_str" }}</strong><span>{{ T "teu_env_sub" }}</span></div>
+  </div>
+</section>
+
+<section class="section" id="diff">
+  <div class="container">
+    <div class="section-title"><h2>{{ T "teu_diff_title" }}</h2><p>{{ T "teu_diff_sub" }}</p></div>
+    <div class="features-grid">
+      <div class="feature-card"><div class="feature-icon">1</div><h3>{{ T "teu_d1_t" }}</h3><p>{{ T "teu_d1_d" }}</p></div>
+      <div class="feature-card"><div class="feature-icon">2</div><h3>{{ T "teu_d2_t" }}</h3><p>{{ T "teu_d2_d" }}</p></div>
+      <div class="feature-card"><div class="feature-icon">3</div><h3>{{ T "teu_d3_t" }}</h3><p>{{ T "teu_d3_d" }}</p></div>
+      <div class="feature-card"><div class="feature-icon">4</div><h3>{{ T "teu_d4_t" }}</h3><p>{{ T "teu_d4_d" }}</p></div>
+      <div class="feature-card"><div class="feature-icon">5</div><h3>{{ T "teu_d5_t" }}</h3><p>{{ T "teu_d5_d" }}</p></div>
+      <div class="feature-card"><div class="feature-icon">6</div><h3>{{ T "teu_d6_t" }}</h3><p>{{ T "teu_d6_d" }}</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-soft" id="certs">
+  <div class="container">
+    <div class="section-title"><h2>{{ T "teu_cert_title" }}</h2><p>{{ T "teu_cert_sub" }}</p></div>
+    <div class="certs-grid">
+      <div class="cert-card"><div class="cert-badge">KEMA · CESI · ASTA</div><p>{{ T "teu_c1" }}</p></div>
+      <div class="cert-card"><div class="cert-badge">ISO 9001 / 14001 / 45001</div><p>{{ T "teu_c2" }}</p></div>
+      <div class="cert-card"><div class="cert-badge">IEEE 693</div><p>{{ T "teu_c3" }}</p></div>
+      <div class="cert-card"><div class="cert-badge">IEC 60076 · IEEE C57</div><p>{{ T "teu_c4" }}</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band" id="pitch">
+  <div class="container">
+    <h2>{{ T "teu_pitch_title" }}</h2>
+    <p class="pitch">{{ T "teu_pitch_body" }}</p>
+    <a href="{{ "contact/" | relLangURL }}" class="btn btn-primary">{{ T "teu_pitch_cta" }}</a>
+  </div>
+</section>
+
+<section class="section" id="market">
+  <div class="container">
+    <div class="section-title"><h2>{{ T "teu_mkt_title" }}</h2><p>{{ T "teu_mkt_sub" }}</p></div>
+    <table class="teu-market-table">
+      <thead><tr><th>{{ T "teu_mkt_h1" }}</th><th>{{ T "teu_mkt_h2" }}</th><th>{{ T "teu_mkt_h3" }}</th><th>{{ T "teu_mkt_h4" }}</th></tr></thead>
+      <tbody>
+        <tr><td class="teu-mname">USA</td><td>{{ T "teu_m_usa1" }}</td><td>{{ T "teu_m_usa2" }}</td><td>{{ T "teu_m_usa3" }}</td></tr>
+        <tr><td class="teu-mname">Canada</td><td>{{ T "teu_m_ca1" }}</td><td>{{ T "teu_m_ca2" }}</td><td>{{ T "teu_m_ca3" }}</td></tr>
+        <tr><td class="teu-mname">EU</td><td>{{ T "teu_m_eu1" }}</td><td>{{ T "teu_m_eu2" }}</td><td>{{ T "teu_m_eu3" }}</td></tr>
+        <tr><td class="teu-mname">UK</td><td>{{ T "teu_m_uk1" }}</td><td>{{ T "teu_m_uk2" }}</td><td>{{ T "teu_m_uk3" }}</td></tr>
+      </tbody>
+    </table>
+    <p class="teu-legal">{{ T "teu_legal" }}</p>
+  </div>
+</section>
+{{ end }}

@@ -210,3 +210,276 @@ other = "Servizio di Manutenzione"
 
 [category_new_energy]
 other = "Nuova Energia"
+
+[teu_hero_eyebrow]
+other = "Europa & Nord America · Soluzioni per Substation"
+
+[teu_hero_title]
+other = "Trasformatori di Potenza e Apparecchiature per Substation"
+
+[teu_hero_subtitle]
+other = "Una fonte unica per trasformatori e apparecchiature per substation conformi a IEC e IEEE — dalla distribuzione 11 kV fino all'UHV, progettati per il modo in cui l'Occidente acquista."
+
+[teu_hero_cta1]
+other = "Vedi Gamma Prodotti →"
+
+[teu_hero_cta2]
+other = "Richiedi Preventivo"
+
+[teu_stat1]
+other = "Range di tensione"
+
+[teu_stat2]
+other = "Progetto bifrequenza"
+
+[teu_stat3]
+other = "Copertura standard"
+
+[teu_gates_title]
+other = "Quattro Soglie di Accesso al Mercato Occidentale"
+
+[teu_gates_sub]
+other = "Nei mercati maturi il prezzo raramente decide. I buyer selezionano su quattro soglie rigide — siamo fatti per superarle tutte."
+
+[teu_gate1_t]
+other = "Standard"
+
+[teu_gate1_d]
+other = "Progetto dual-standard: IEC 60076 (UE) e IEEE C57 (USA/CA), per reti sia a 50 Hz che a 60 Hz."
+
+[teu_gate2_t]
+other = "Efficienza"
+
+[teu_gate2_d]
+other = "Progettati per il Reg. UE 548/2014 (EcoDesign Tier 2) e i limiti di perdita US DOE 10 CFR 431."
+
+[teu_gate3_t]
+other = "Ambiente & Sicurezza"
+
+[teu_gate3_d]
+other = "Opzioni a fluido estero biodegradabile, design a basso rumore e unità a secco per siti sensibili al fuoco."
+
+[teu_gate4_t]
+other = "Prove Terze"
+
+[teu_gate4_d]
+other = "Prove di tipo allineate a KEMA / CESI / ASTA, ISO 9001/14001/45001, qualifica sismica per IEEE 693."
+
+[teu_prod_title]
+other = "Una Fonte Unica per l'Intera Substation"
+
+[teu_prod_sub]
+other = "Una singola catena di fornitura coordinata dalla distribuzione alle tensioni di trasmissione più alte."
+
+[teu_tag_power]
+other = "Trasformatore"
+
+[teu_tag_dry]
+other = "A Secco"
+
+[teu_tag_special]
+other = "Speciale"
+
+[teu_tag_instr]
+other = "Misura"
+
+[teu_tag_reactor]
+other = "Reattore"
+
+[teu_tag_arrester]
+other = "Protezione"
+
+[teu_tag_test]
+other = "Prova"
+
+[teu_tag_tap]
+other = "Regolatore"
+
+[teu_tag_monitor]
+other = "Monitoraggio"
+
+[teu_p1_t]
+other = "Trasformatori di Potenza a Olio"
+
+[teu_p1_d]
+other = "Potenze di distribuzione, medie e grandi per reti utility e industriali."
+
+[teu_p2_t]
+other = "Trasformatori a Secco (Resina Colata)"
+
+[teu_p2_d]
+other = "Interni, ignifughi, bassa manutenzione per siti commerciali, data centre e rinnovabili."
+
+[teu_p3_t]
+other = "Trasformatori Speciali e di Applicazione"
+
+[teu_p3_d]
+other = "Forno, raddrizzatore, trazione, convertitore e altri servizi su misura."
+
+[teu_p4_t]
+other = "Trasformatori di Misura"
+
+[teu_p4_d]
+other = "Trasformatori di corrente e tensione, classe 10–1000 kV, secondo IEC 61869."
+
+[teu_p5_t]
+other = "Reattori"
+
+[teu_p5_d]
+other = "Reattori shunt, serie e di filtro per stabilità e qualità della rete."
+
+[teu_p6_t]
+other = "Limitatori di Sovratensione (Arrester)"
+
+[teu_p6_d]
+other = "Protezione da sovratensione di classe stazione per le apparecchiature."
+
+[teu_p7_t]
+other = "Trasformatori di Prova"
+
+[teu_p7_d]
+other = "Set per prove ad alta tensione per commissioning e manutenzione."
+
+[teu_p8_t]
+other = "Regolatori di Presa (Tap Changer)"
+
+[teu_p8_d]
+other = "Regolatori sotto carico (OLTC) e fuori carico, disponibili come ricambi."
+
+[teu_p9_t]
+other = "Monitoraggio Intelligente Online"
+
+[teu_p9_d]
+other = "Monitoraggio di condizione per asset HV — bushings, DGA, hot-spot."
+
+[teu_env_str]
+other = "Range di tensione: fino a AC 1000 kV e DC ±800 kV"
+
+[teu_env_sub]
+other = "Dalla distribuzione 11/33 kV fino all'UHV e ai collegamenti HVDC."
+
+[teu_diff_title]
+other = "Pensato per il Modo di Acquistare dell'Occidente"
+
+[teu_diff_sub]
+other = "Differenziatori concreti da guidare al primo incontro o nella risposta a un RFQ."
+
+[teu_d1_t]
+other = "Fluido estero e ignifugo"
+
+[teu_d1_d]
+other = "Unità a fluido estero naturale/sintetico e a secco, alto punto di infiammabilità e piena biodegradabilità per siti urbani, off-shore e data centre."
+
+[teu_d2_t]
+other = "Basse perdite = minor TCO"
+
+[teu_d2_d]
+other = "Progettate per i limiti EcoDesign / DOE, con perdite a vuoto e a carico garantite e clausole penali — il linguaggio che le commissioni d'appalto si aspettano."
+
+[teu_d3_t]
+other = "60 Hz nativo per il Nord America"
+
+[teu_d3_d]
+other = "Vero progetto magnetico a 60 Hz con coordinamento isolamento ANSI/IEEE C57, bushings e accessori secondo la prassi nordamericana."
+
+[teu_d4_t]
+other = "Pronto per rinnovabili e grid-code"
+
+[teu_d4_d]
+other = "Reattori, monitoraggio e trasformatori speciali per interconnessione eolica, solare e HVDC."
+
+[teu_d5_t]
+other = "Supporto EPC a tutto campo"
+
+[teu_d5_d]
+other = "Switchgear, GIS, arrester coordinati e pacchetti substation chiavi in mano — riducendo il rischio di interfaccia per il buyer."
+
+[teu_d6_t]
+other = "Prove indipendenti"
+
+[teu_d6_d]
+other = "Prove routine, di tipo e speciali witnessabili dal client o terze parti (KEMA / CESI / ASTA), con report certificati."
+
+[teu_cert_title]
+other = "Certificazioni e Sistema Qualità"
+
+[teu_cert_sub]
+other = "Per i fascicoli di qualificazione alle gare e garanzia indipendente."
+
+[teu_c1]
+other = "Autorità indipendenti internazionali per prove di tipo."
+
+[teu_c2]
+other = "Sistemi di gestione qualità, ambiente e H&S."
+
+[teu_c3]
+other = "Qualifica sismica — California, Pacific Northwest e zone sismiche."
+
+[teu_c4]
+other = "Standard di progetto per trasformatori di potenza e misura."
+
+[teu_pitch_title]
+other = "Elevator Pitch"
+
+[teu_pitch_body]
+other = "Una fonte unica per trasformatori di potenza e apparecchiature per substation conformi a IEC e IEEE — dalla distribuzione 11 kV all'UHV, a 50 Hz e 60 Hz. Design a fluido estero, a secco e a basse perdite ingegnerizzati per l'EcoDesign UE e la legge efficienza US DOE, supportati da prove di tipo KEMA/CESI/ASTA e qualifica sismica IEEE 693. Perdite garantite, prove witnessabili, supporto EPC completo."
+
+[teu_pitch_cta]
+other = "Richiedi il Capability Sheet Completo →"
+
+[teu_mkt_title]
+other = "Angolazione per Mercato"
+
+[teu_mkt_sub]
+other = "Come guidare la conversazione in ciascun mercato target."
+
+[teu_mkt_h1]
+other = "Mercato"
+
+[teu_mkt_h2]
+other = "Punta su"
+
+[teu_mkt_h3]
+other = "Standard / Legge Chiave"
+
+[teu_mkt_h4]
+other = "Hot Button"
+
+[teu_m_usa1]
+other = "60 Hz nativo, efficienza DOE, sismica IEEE 693"
+
+[teu_m_usa2]
+other = "ANSI/IEEE C57, DOE 10 CFR 431"
+
+[teu_m_usa3]
+other = "Lead-time e capacità long-lead; perdite capitalizzate"
+
+[teu_m_ca1]
+other = "Allineato CSA, clima freddo, 60 Hz"
+
+[teu_m_ca2]
+other = "CSA C88 / IEEE C57"
+
+[teu_m_ca3]
+other = "Fluido estero per permessi ambientali"
+
+[teu_m_eu1]
+other = "EcoDesign Tier 2, estero/a secco, basso rumore"
+
+[teu_m_eu2]
+other = "IEC 60076, UE 548/2014"
+
+[teu_m_eu3]
+other = "TCO / impronta carbonio; limiti di rumore vicino ai centri abitati"
+
+[teu_m_uk1]
+other = "IEC + G-code, fluido estero"
+
+[teu_m_uk2]
+other = "IEC 60076, specifiche ENA"
+
+[teu_m_uk3]
+other = "Sicurezza antincendio, substation urbane"
+
+[teu_legal]
+other = "Le specifiche sono di livello marketing e soggette a conferma fabbrica per singola unità. Certificazioni come CE / UL / CSA sono elencate per mercato e devono essere verificate con il costruttore prima di ogni dichiarazione di conformità al client."

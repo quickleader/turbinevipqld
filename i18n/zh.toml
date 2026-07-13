@@ -210,3 +210,276 @@ other = "维修服务"
 
 [category_new_energy]
 other = "新能源"
+
+[teu_hero_eyebrow]
+other = "欧美市场 · 变电站解决方案"
+
+[teu_hero_title]
+other = "电力变压器与变电站设备"
+
+[teu_hero_subtitle]
+other = "符合 IEC 与 IEEE 标准的变压器及变电站设备一站式供应——从 11 kV 配电到特高压，按欧美市场的真实采购逻辑打造。"
+
+[teu_hero_cta1]
+other = "查看产品系列 →"
+
+[teu_hero_cta2]
+other = "获取报价"
+
+[teu_stat1]
+other = "电压覆盖"
+
+[teu_stat2]
+other = "双频设计"
+
+[teu_stat3]
+other = "标准覆盖"
+
+[teu_gates_title]
+other = "欧美市场的四道门槛"
+
+[teu_gates_sub]
+other = "成熟市场里价格很少是决定性因素。买方用四道硬门槛筛供应商——我们为全部通关而建。"
+
+[teu_gate1_t]
+other = "标准合规"
+
+[teu_gate1_d]
+other = "双标准设计：IEC 60076（欧盟）与 IEEE C57（美/加），同时满足 50 Hz 与 60 Hz 电网。"
+
+[teu_gate2_t]
+other = "能效法规"
+
+[teu_gate2_d]
+other = "设计满足欧盟 548/2014 法规（EcoDesign 二级）与美国 DOE 10 CFR 431 损耗限值。"
+
+[teu_gate3_t]
+other = "环境与安全"
+
+[teu_gate3_d]
+other = "可生物降解酯类油方案、低噪声设计，以及用于防火敏感场所的高燃点干式变压器。"
+
+[teu_gate4_t]
+other = "第三方验证"
+
+[teu_gate4_d]
+other = "型式试验对标 KEMA / CESI / ASTA，ISO 9001/14001/45001 体系，抗震按 IEEE 693。"
+
+[teu_prod_title]
+other = "变电站全系列一站式供应"
+
+[teu_prod_sub]
+other = "从配电等级到最高输电电压，单一协同供应链。"
+
+[teu_tag_power]
+other = "电力变压器"
+
+[teu_tag_dry]
+other = "干式"
+
+[teu_tag_special]
+other = "特种"
+
+[teu_tag_instr]
+other = "互感器"
+
+[teu_tag_reactor]
+other = "电抗器"
+
+[teu_tag_arrester]
+other = "保护"
+
+[teu_tag_test]
+other = "试验"
+
+[teu_tag_tap]
+other = "分接开关"
+
+[teu_tag_monitor]
+other = "监测"
+
+[teu_p1_t]
+other = "油浸式电力变压器"
+
+[teu_p1_d]
+other = "覆盖配电、中大型电力容量，面向电网与工业用户。"
+
+[teu_p2_t]
+other = "干式（环氧树脂浇注）变压器"
+
+[teu_p2_d]
+other = "室内、防火、低维护，适用于商用、数据中心及新能源场站。"
+
+[teu_p3_t]
+other = "特种与应用变压器"
+
+[teu_p3_d]
+other = "电炉、整流、牵引、换流及其他定制工况机组。"
+
+[teu_p4_t]
+other = "互感器"
+
+[teu_p4_d]
+other = "电流互感器与电压互感器，10–1000 kV 等级，符合 IEC 61869。"
+
+[teu_p5_t]
+other = "电抗器"
+
+[teu_p5_d]
+other = "并联、串联及滤波电抗器，保障电网稳定与电能质量。"
+
+[teu_p6_t]
+other = "避雷器"
+
+[teu_p6_d]
+other = "站用级过电压保护，守护变电站资产。"
+
+[teu_p7_t]
+other = "试验变压器"
+
+[teu_p7_d]
+other = "高压试验装置，用于投运与检修。"
+
+[teu_p8_t]
+other = "分接开关"
+
+[teu_p8_d]
+other = "有载（OLTC）与无励磁分接开关，可作备件供应。"
+
+[teu_p9_t]
+other = "智能在线监测"
+
+[teu_p9_d]
+other = "高压设备状态监测——套管、油中溶解气体（DGA）、热点。"
+
+[teu_env_str]
+other = "电压覆盖：最高 AC 1000 kV、DC ±800 kV"
+
+[teu_env_sub]
+other = "从 11/33 kV 配电到特高压输电与高压直流（HVDC）联络。"
+
+[teu_diff_title]
+other = "贴合欧美的采购逻辑"
+
+[teu_diff_sub]
+other = "首次接洽或应答 RFQ 时可直接主打的差异化要点。"
+
+[teu_d1_t]
+other = "酯类油与防火安全"
+
+[teu_d1_d]
+other = "天然/合成酯油浸与干式机组，高燃点、完全可生物降解，适用于城市、海上及数据中心场景。"
+
+[teu_d2_t]
+other = "低损耗 = 更低总拥有成本"
+
+[teu_d2_d]
+other = "按 EcoDesign / DOE 损耗上限设计，可提供保证空载与负载损耗及违约罚则——正是招标委员会的行话。"
+
+[teu_d3_t]
+other = "北美原生 60 Hz"
+
+[teu_d3_d]
+other = "真正的 60 Hz 磁路设计，ANSI/IEEE C57 绝缘配合，套管与附件按北美惯例。"
+
+[teu_d4_t]
+other = "电网规范与新能源就绪"
+
+[teu_d4_d]
+other = "面向风电、光伏与高压直流并网的电抗器、监测与特种变压器。"
+
+[teu_d5_t]
+other = "全流程 EPC 支持"
+
+[teu_d5_d]
+other = "协同开关柜、GIS、避雷器与交钥匙变电站成套，降低买方接口风险。"
+
+[teu_d6_t]
+other = "独立试验证据"
+
+[teu_d6_d]
+other = "例行、型式与特殊试验可由客户或第三方（KEMA / CESI / ASTA）见证，并出具有证报告。"
+
+[teu_cert_title]
+other = "认证与质量体系"
+
+[teu_cert_sub]
+other = "用于投标资质文件与独立保证。"
+
+[teu_c1]
+other = "国际独立型式试验机构。"
+
+[teu_c2]
+other = "质量、环境与职业健康安全（H&S）管理体系。"
+
+[teu_c3]
+other = "抗震资格——加州、太平洋西北及地震带。"
+
+[teu_c4]
+other = "电力与互感器变压器设计标准。"
+
+[teu_pitch_title]
+other = "一句话卖点"
+
+[teu_pitch_body]
+other = "符合 IEC 与 IEEE 标准的电力变压器及变电站设备一站式供应——从 11 kV 配电到特高压，50 Hz 与 60 Hz 兼具。酯类油、干式与低损耗设计满足欧盟 EcoDesign 与美国 DOE 能效法规，由 KEMA/CESI/ASTA 型式试验与 IEEE 693 抗震资格背书。保证损耗、可见证试验、全流程 EPC 支持。"
+
+[teu_pitch_cta]
+other = "索取完整能力表 →"
+
+[teu_mkt_title]
+other = "分市场切入角度"
+
+[teu_mkt_sub]
+other = "在各目标市场如何打开话题。"
+
+[teu_mkt_h1]
+other = "市场"
+
+[teu_mkt_h2]
+other = "主打"
+
+[teu_mkt_h3]
+other = "关键标准 / 法规"
+
+[teu_mkt_h4]
+other = "关注点"
+
+[teu_m_usa1]
+other = "原生 60 Hz、DOE 能效、IEEE 693 抗震"
+
+[teu_m_usa2]
+other = "ANSI/IEEE C57、DOE 10 CFR 431"
+
+[teu_m_usa3]
+other = "交期与长周期产能；资本化损耗"
+
+[teu_m_ca1]
+other = "对齐 CSA、严寒气候、60 Hz"
+
+[teu_m_ca2]
+other = "CSA C88 / IEEE C57"
+
+[teu_m_ca3]
+other = "用酯类油满足环保许可"
+
+[teu_m_eu1]
+other = "EcoDesign 二级、酯类/干式、低噪声"
+
+[teu_m_eu2]
+other = "IEC 60076、EU 548/2014"
+
+[teu_m_eu3]
+other = "总拥有成本 / 碳足迹；城镇附近噪声限值"
+
+[teu_m_uk1]
+other = "IEC + G 规范、酯类油"
+
+[teu_m_uk2]
+other = "IEC 60076、ENA 规范"
+
+[teu_m_uk3]
+other = "防火安全、城市变电站"
+
+[teu_legal]
+other = "本页为营销级资料，具体参数须逐台向工厂确认。CE / UL / CSA 等认证按市场列示，向客户做任何合规声明前须与制造商核实。"
