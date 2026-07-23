@@ -40,25 +40,6 @@ Abbiamo introdotto il concetto del **centro di servizio automobilistico 4S** nel
 - Manutenzione turbine a vapore
 - Nuova energia (pirolisi, biomassa, energia pulita)
 
-## Marchi Cooperativi
-
-Forniamo apparecchiature dai principali produttori cinesi e licenziatari internazionali:
-
-- **Nanjing Turbine Group (NTC)**
-- **Hangzhou Turbine Group (HTC)**
-- **Qingdao Jieneng Steam Turbine Group**
-- **GE Technology Gas Turbine** (sotto licenza)
-- **Siemens Technology Steam Turbine**
-- **Jinan Boiler Group**
-- **Wuxi Boiler Group**
-- **Tai'an Boiler Group**
-- **Sergi Transformer Protector**
-- Produttori per altri sistemi di centrali elettriche
-
 ## Vantaggio di Posizione
 
 La nostra azienda si trova a **Qingdao, Cina** — il punto di partenza dell'iniziativa "Belt and Road". Tutti i nostri prodotti sono conformi agli standard di qualità internazionali e sono molto apprezzati in una varietà di mercati in tutto il mondo.
-
-## Certificazioni
-
-I nostri prodotti e processi sono certificati da istituti internazionali di terze parti tra cui **BV (Bureau Veritas)**, **CE**, e **SGS**.

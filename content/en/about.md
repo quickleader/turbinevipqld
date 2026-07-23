@@ -40,25 +40,6 @@ We introduced the concept of the **automobile 4S service center** to the power p
 - Steam turbine maintenance
 - New energy (pyrolysis, biomass, clean energy)
 
-## Cooperative Brands
-
-We supply equipment from China's leading manufacturers and international licensors:
-
-- **Nanjing Turbine Group (NTC)**
-- **Hangzhou Turbine Group (HTC)**
-- **Qingdao Jieneng Steam Turbine Group**
-- **GE Technology Gas Turbine** (under licence)
-- **Siemens Technology Steam Turbine**
-- **Jinan Boiler Group**
-- **Wuxi Boiler Group**
-- **Tai'an Boiler Group**
-- **Sergi Transformer Protector**
-- Manufacturers for other power plant systems
-
 ## Location Advantage
 
 Our company is located in **Qingdao, China** — the starting point of the "Belt and Road" Initiative. All of our products comply with international quality standards and are greatly appreciated in a variety of markets around the world.
-
-## Certifications
-
-Our products and processes are certified by international third-party institutions including **BV (Bureau Veritas)**, **CE**, and **SGS**.
