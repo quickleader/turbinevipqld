@@ -1,6 +1,6 @@
 +++
 title = "Chi Siamo — Qingdao Quickleader"
-subtitle = "Centro di Servizio 4S per Centrali Elettriche · Dal 2003"
+subtitle = "Due decenni di ingegneria per centrali — EPC, turbine, caldaie e servizio full-lifecycle"
 description = "Fondata nel 2003, Qingdao Quickleader è un Centro di Servizio 4S per centrali elettriche che fornisce soluzioni EPC, turbine a vapore/gas, caldaie, ricambi e manutenzione. Certificata BV/CE/SGS. HQ a Qingdao, Cina."
 keywords = "centro di servizio 4S, contrattista EPC, fornitore turbina a vapore, turbina a gas, produttore caldaia, manutenzione turbina, Qingdao Quickleader"
 +++
@@ -13,14 +13,14 @@ Combinando decenni di eccellenza in design, ingegneria e produzione, ci siamo co
 
 ## Il Concetto 4S
 
-Abbiamo introdotto il concetto del **centro di servizio automobilistico 4S** nel settore delle centrali elettriche — aiutando i proprietari a ottenere energia più semplicemente.
+Quando un proprietario di centrale acquista una turbina o una caldaia, ottiene l'apparecchiatura — ma non la partnership di lungo termine che gli automobilisti danno per scontata. Ispirandoci al modello del **centro di servizio automobilistico 4S**, siamo stati tra i primi nel settore a racchiudere l'intero ciclo di vita della centrale in un unico rapporto responsabile: acquisti da noi, noi teniamo i ricambi originali a magazzino, manuteniamo la centrale e la ispezioniamo ogni anno.
 
-| Pilastro 4S | Descrizione |
+| Pilastro 4S | Cosa significa per la tua centrale |
 |-------------|-------------|
 | **Vendita (Sale)** | Contratto EPC o fornitura apparecchiature principali |
-| **Ricambi (Spare Parts)** | Fornitura precisa di ricambi originali |
-| **Servizio (Service)** | Team ingegneristico manutiene la centrale in loco |
-| **Ispezione (Survey)** | Ispezione annuale dei difetti e report |
+| **Ricambi (Spare Parts)** | Ricambi originali critici a magazzino e spediti su richiesta |
+| **Servizio (Service)** | Team ingegneristico in loco per installazione, revisione e supporto |
+| **Ispezione (Survey)** | Ispezione annuale dei difetti con report di salute scritto |
 
 ## Filosofia Aziendale
 

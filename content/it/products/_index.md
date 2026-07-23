@@ -1,6 +1,6 @@
 +++
 title = "Prodotti e Servizi"
-subtitle = "4S per Centrali — Vendita, Ricambi, Servizio, Ispezione"
+subtitle = "Turbine a vapore, turbine a gas, caldaie, generatori ed EPC — 28 prodotti in 7 categorie"
 type = "products"
 description = "Portafoglio completo apparecchiature per centrali elettriche: turbine a vapore industriali, turbine HTC/NTC, turbine a gas, caldaie, generatori, compressori, progetti EPC, ricambi e servizi ispezione annuale."
 keywords = "turbina a vapore, turbina a gas, caldaia, generatore, compressore, EPC centrale elettrica, ricambi turbina, manutenzione centrale"

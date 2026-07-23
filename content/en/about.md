@@ -1,6 +1,6 @@
 +++
 title = "About Us — Qingdao Quickleader"
-subtitle = "Power Plant 4S Service Center · Since 2003"
+subtitle = "Two decades engineering power plants — EPC, turbines, boilers & lifecycle service"
 description = "Established in 2003, Qingdao Quickleader is a Power Plant 4S Service Center providing EPC solutions, steam/gas turbines, boilers, spare parts and maintenance. BV/CE/SGS certified. HQ in Qingdao, China."
 keywords = "power plant 4S, EPC contractor, steam turbine supplier, gas turbine, boiler manufacturer, turbine maintenance, Qingdao Quickleader"
 +++
@@ -13,14 +13,14 @@ Combining over decades of design, engineering and manufacturing excellence, we h
 
 ## The 4S Concept
 
-We introduced the concept of the **automobile 4S service center** to the power plant industry — helping owners obtain energy more simply.
+When a plant owner buys a turbine or a boiler, they get the equipment — but rarely the long-term partnership a car owner takes for granted. Borrowing the **automobile 4S service-center** model, we were among the first in the industry to wrap a power plant's entire lifecycle into one accountable relationship: we sell you the plant, keep your critical spares in stock, maintain it on site, and inspect it every year.
 
-| 4S Pillar | Description |
+| 4S Pillar | What it means for your plant |
 |-----------|-------------|
 | **Sale** | EPC contract or main equipment supply |
-| **Spare Parts** | Supply original spare parts accurately |
-| **Service** | Engineering team maintains power plant on site |
-| **Survey** | Annually defect inspection and report |
+| **Spare Parts** | Critical OEM spares stocked and shipped on demand |
+| **Service** | Engineering team on site for install, overhaul and support |
+| **Survey** | Annual defect inspection with a written health report |
 
 ## Enterprise Philosophy
 

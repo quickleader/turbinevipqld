@@ -1,6 +1,6 @@
 +++
 title = "Products & Services"
-subtitle = "Power Plant 4S — Sale, Spare Parts, Service, Survey"
+subtitle = "Steam turbines, gas turbines, boilers, generators & EPC — 28 products across 7 categories"
 type = "products"
 description = "Complete power plant equipment portfolio: industrial steam turbines, HTC/NTC turbines, gas turbines, boilers, generators, compressors, EPC projects, spare parts and annual survey services."
 keywords = "steam turbine, gas turbine, boiler, generator, compressor, EPC power plant, turbine spare parts, power plant maintenance"
