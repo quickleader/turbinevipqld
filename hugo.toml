@@ -57,17 +57,7 @@ googleSiteVerification = "google-site-verification=XXXXXXXXXXX"
     name = "Contact Us"
     url = "/contact/"
     weight = 4
-  [[languages.en.menu.main]]
-    identifier = "team"
-    name = "Our Team"
-    url = "/team/"
-    weight = 5
-  [[languages.en.menu.main]]
-    identifier = "testimonials"
-    name = "Testimonials"
-    url = "/testimonials/"
-    weight = 6
-  [[languages.en.menu.main]]
+      [[languages.en.menu.main]]
     identifier = "transformers_eu"
     name = "Transformers · EU"
     url = "/transformers-eu/"
@@ -100,17 +90,7 @@ googleSiteVerification = "google-site-verification=XXXXXXXXXXX"
     name = "联系我们"
     url = "/contact/"
     weight = 4
-  [[languages.zh.menu.main]]
-    identifier = "team"
-    name = "我们的团队"
-    url = "/team/"
-    weight = 5
-  [[languages.zh.menu.main]]
-    identifier = "testimonials"
-    name = "客户评价"
-    url = "/testimonials/"
-    weight = 6
-  [[languages.zh.menu.main]]
+      [[languages.zh.menu.main]]
     identifier = "transformers_eu"
     name = "变压器·欧美"
     url = "/transformers-eu/"
@@ -143,17 +123,7 @@ googleSiteVerification = "google-site-verification=XXXXXXXXXXX"
     name = "Contatti"
     url = "/contact/"
     weight = 4
-  [[languages.it.menu.main]]
-    identifier = "team"
-    name = "Il Nostro Team"
-    url = "/team/"
-    weight = 5
-  [[languages.it.menu.main]]
-    identifier = "testimonials"
-    name = "Testimonianze"
-    url = "/testimonials/"
-    weight = 6
-  [[languages.it.menu.main]]
+      [[languages.it.menu.main]]
     identifier = "transformers_eu"
     name = "Trasformatori · EU"
     url = "/transformers-eu/"
