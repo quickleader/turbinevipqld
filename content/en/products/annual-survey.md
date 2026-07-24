@@ -1,5 +1,5 @@
 +++
-title = "Annual Survey & Inspection"
+title = "Annual Survey and Inspection"
 category = "service"
 icon = "📋"
 image = "/img/products/maintenance-3.jpg"

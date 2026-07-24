@@ -43,7 +43,7 @@
       "name": "Qingdao Quickleader International Trade Co., Ltd."
     },
     "url": {{ .Permalink | jsonify }},
-    "description": {{ with .Description }}{{ . | jsonify }}{{ else }}Get a quote for {{ .Title }}{{ end }}
+    "description": {{ with .Description }}{{ . | jsonify }}{{ else }}{{ printf "Get a quote for %s" .Title | jsonify }}{{ end }}
   }
 }
 </script>
@@ -86,10 +86,10 @@
     {{ if gt $i 0 }},{{ end }}
     {
       "@type": "Question",
-      "name": {{ $faq.question | jsonify }},
+      "name": {{ $faq.q | jsonify }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": {{ $faq.answer | jsonify }}
+        "text": {{ $faq.a | jsonify }}
       }
     }
     {{ end }}

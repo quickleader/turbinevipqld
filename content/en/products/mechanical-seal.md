@@ -1,5 +1,5 @@
 +++
-title = "Mechanical Seal & Contactor"
+title = "Mechanical Seal and Contactor"
 category = "equipment"
 icon = "🔩"
 image = "/img/products/mechanical-seal.jpg"
