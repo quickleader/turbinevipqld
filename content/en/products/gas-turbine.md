@@ -1,5 +1,5 @@
 ---
-title: "Gas Turbine 1–50 MW | Qingdao Quickleader (TurbineVIP)"
+title: "Gas Turbine 1–50 MW"
 subtitle: "Authorized distributor of 1–50 MW gas turbines with 4S service, spare parts and HRSG combined-cycle support"
 description: "Qingdao Quickleader (TurbineVIP) supplies 1–50 MW gas turbines as an authorized distributor + 4S center. Get a quote for parts and service."
 type: "products"

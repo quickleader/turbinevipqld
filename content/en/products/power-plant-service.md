@@ -1,5 +1,5 @@
 ---
-title: "Power Plant EPC and 4S Service | Qingdao Quickleader (TurbineVIP)"
+title: "Power Plant EPC and 4S Service"
 subtitle: "Turnkey EPC, turbine retrofitting, major overhaul and 4S spare-parts service for your power plant"
 description: "Qingdao Quickleader (TurbineVIP) delivers power plant EPC, turbine retrofitting and 4S overhaul service. Contact our engineers for a quote."
 type: "products"

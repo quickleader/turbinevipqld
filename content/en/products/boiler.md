@@ -1,5 +1,5 @@
 ---
-title: "Boiler and HRSG Solutions | Qingdao Quickleader (TurbineVIP)"
+title: "Boiler and HRSG Solutions"
 subtitle: "Authorized distributor of biomass, coal, oil and HRSG boilers with 4S service and spare parts"
 description: "Qingdao Quickleader (TurbineVIP) supplies biomass, coal, oil and HRSG boilers as an authorized distributor + 4S center. Request a quote for parts and service."
 type: "products"

@@ -1,5 +1,5 @@
 ---
-title: "Servizio Centrale & EPC per Centrali Elettriche | Centro 4S"
+title: "Servizio Centrale & EPC per Centrali Elettriche"
 subtitle: "Contratti EPC, installazione, revisione, ricambi e ispezione annuale"
 description: "Qingdao Quickleader fornisce EPC, servizio 4S, installazione, messa in servizio, revisione e gestione ricambi per centrali a vapore, a gas e a biomassa. Partner one-stop."
 type: "products"

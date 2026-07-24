@@ -1,5 +1,5 @@
 ---
-title: "Boiler Supplier in Indonesia | Qingdao Quickleader (TurbineVIP)"
+title: "Boiler Supplier in Indonesia"
 subtitle: "Industrial and utility boilers for Indonesian plants — biomass, palm oil, sugar & cement"
 description: "Industrial boiler supplier in Indonesia — biomass, palm oil, sugar & cement. CE/ISO certified, Bahasa support, fast shipping. Get a quote via WhatsApp."
 type: "products"

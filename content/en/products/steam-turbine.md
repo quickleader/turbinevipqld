@@ -1,5 +1,5 @@
 ---
-title: "Steam Turbine 50 kW – 200 MW+ | Qingdao Quickleader (TurbineVIP)"
+title: "Steam Turbine 50 kW – 200 MW+"
 subtitle: "Condensing & back-pressure steam turbines for power plants, factories and CHP — OEM spare parts and full lifecycle service"
 description: "Condensing & back-pressure steam turbines 50kW–200MW for power plants, factories & CHP. OEM spare parts, retrofit & full service. Get a quote within 24h."
 type: "products"
