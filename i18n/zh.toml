@@ -483,3 +483,63 @@ other = "防火安全、城市变电站"
 
 [teu_legal]
 other = "本页为营销级资料，具体参数须逐台向工厂确认。CE / UL / CSA 等认证按市场列示，向客户做任何合规声明前须与制造商核实。"
+
+
+# --- homepage product grid (added) ---
+[cat_turbine]
+other = "汽轮机"
+
+[cat_equipment]
+other = "发电设备"
+
+[cat_epc]
+other = "EPC 总包"
+
+[cat_service]
+other = "运维服务"
+
+[product_industrial_turbine]
+other = "工业汽轮机"
+
+[product_industrial_turbine_desc]
+other = "凝汽式与背压式汽轮机，50 kW 至 200 MW+，适用于电站、工厂及热电联产。"
+
+[product_htc_turbine]
+other = "杭汽（HTC）汽轮机"
+
+[product_htc_turbine_desc]
+other = "杭州汽轮机（HTC）高效汽轮机，原厂全套技术支持。"
+
+[product_gas_turbine]
+other = "燃气轮机"
+
+[product_gas_turbine_desc]
+other = "GE / 西门子技术燃气轮机 1 至 50 MW，适用于调峰与基荷。"
+
+[product_boiler]
+other = "工业锅炉"
+
+[product_boiler_desc]
+other = "燃煤、生物质及 HRSG 余热锅炉，通过 BV/CE/SGS 认证。"
+
+[product_epc]
+other = "电站 EPC 总包"
+
+[product_epc_desc]
+other = "交钥匙 EPC 交付：设计、设备、安装与调试一站式。"
+
+[product_maintenance]
+other = "检修与运维"
+
+[product_maintenance_desc]
+other = "现场服务、年度巡检与全生命周期技术支持，由资质工程师执行。"
+
+
+
+# --- transformers-eu sub-brand (added) ---
+[teu_ribbon]
+other = "TurbineVIP - 欧盟与北美 - 电力变压器与变电站设备"
+
+[teu_badge]
+other = "欧盟与北美电力事业部"
+

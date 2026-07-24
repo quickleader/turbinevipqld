@@ -1,4 +1,6 @@
 {{ define "main" }}
+<div class="teu-page">
+<div class="teu-ribbon">{{ T "teu_ribbon" }}</div>
 <style>
 .teu-hero-visual { position: relative; border-radius: 16px; overflow: hidden; background: linear-gradient(135deg, var(--c-primary), var(--c-primary-light)); aspect-ratio: 4/3; box-shadow: var(--shadow-md); display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.15); font-size: 110px; font-weight: 800; }
 .teu-env { margin-top: 36px; background: var(--c-primary); color: #fff; border-radius: 12px; padding: 24px 32px; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
@@ -12,6 +14,9 @@
 .teu-market-table td.teu-mname { font-weight: 700; color: var(--c-text); white-space: nowrap; }
 .teu-legal { font-size: 12px; color: var(--c-text-muted); text-align: center; margin-top: 16px; }
 @media (max-width: 900px) { .teu-market-table { display: block; overflow-x: auto; white-space: nowrap; } }
+.teu-page { --c-primary: #4338ca; --c-primary-light: #6366f1; --c-accent: #06b6d4; }
+.teu-ribbon { background: linear-gradient(90deg, var(--c-primary), var(--c-primary-light)); color:#fff; font-size:13px; font-weight:700; letter-spacing:.3px; padding:9px 0; text-align:center; }
+.teu-badge { display:inline-flex; align-items:center; gap:8px; background:rgba(67,56,202,.10); color:var(--c-primary); border:1px solid rgba(67,56,202,.28); font-size:12px; font-weight:700; padding:6px 13px; border-radius:999px; margin-bottom:14px; }
 </style>
 
 <section class="hero" id="home">
@@ -19,6 +24,7 @@
     <div class="hero-grid">
       <div>
         <span class="hero-eyebrow">{{ T "teu_hero_eyebrow" }}</span>
+        <div class="teu-badge">⚡ {{ T "teu_badge" }}</div>
         <h1>{{ T "teu_hero_title" }}</h1>
         <p class="hero-subtitle">{{ T "teu_hero_subtitle" }}</p>
         <div class="hero-cta">
@@ -115,4 +121,5 @@
     <p class="teu-legal">{{ T "teu_legal" }}</p>
   </div>
 </section>
+</div>
 {{ end }}
