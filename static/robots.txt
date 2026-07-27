@@ -3,3 +3,13 @@ Allow: /
 
 # Sitemap
 Sitemap: https://www.turbinevip.com/sitemap.xml
+
+# Geo-targeting hints
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Baidubot
+Allow: /

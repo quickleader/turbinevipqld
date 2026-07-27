@@ -2,7 +2,7 @@
 title = "Portapale"
 category = "turbine_parts"
 icon = "⚙"
-image = "/img/products/blade-carrier.jpg"
+image = "/img/products/blade-carrier.webp"
 description = "Carrier per pale e diaframma per turbine a vapore da fabbriche OEM."
 keywords = "porta pale, diaframma turbina, parti turbina a vapore, componenti turbina OEM, portapale"
 +++

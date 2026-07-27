@@ -4,7 +4,7 @@ subtitle: "Turbine a gas heavy-duty e industriali, parti hot-section, servizio i
 description: "Fornitura, ricambi e servizi in campo per turbine a gas con tecnologia GE e Siemens. Quickleader fornisce componenti hot-section, pale, palette e supporto manutentivo."
 type: "products"
 category: "gas_turbine"
-image: "/img/products/gas-turbine.jpg"
+image: "/img/products/gas-turbine.webp"
 summary: "Turbine a gas heavy-duty e industriali, componenti hot-section e servizi in campo per piattaforme GE e Siemens. I ricambi includono pale, palette, combustori e filtri."
 faq:
   - q: "Quali modelli di turbine a gas supportate?"

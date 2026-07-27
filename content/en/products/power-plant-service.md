@@ -4,8 +4,8 @@ subtitle: "Turnkey EPC, turbine retrofitting, major overhaul and 4S spare-parts 
 description: "Qingdao Quickleader (TurbineVIP) delivers power plant EPC, turbine retrofitting and 4S overhaul service. Contact our engineers for a quote."
 type: "products"
 category: "power_plant_service"
-image: "/img/products/epc.jpg"
-summary: "EPC turnkey, turbine retrofitting, major overhaul, multi-brand spare parts and annual 4S survey for steam, gas and biomass power plants."
+image: "/img/products/epc.webp"
+summary: "Turnkey EPC, installation, commissioning, overhaul, spare parts and annual inspection for steam, gas and biomass power plants. One-stop 4S service center."
 faq:
   - q: "What does your EPC service include?"
     a: "Our EPC scope covers feasibility study, basic and detailed engineering, equipment procurement, construction management, installation, commissioning, performance testing and handover. We can act as main EPC contractor or supply under EPCM — [示例] an Indonesia reference is available on request."

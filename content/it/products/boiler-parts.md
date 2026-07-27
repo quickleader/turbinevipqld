@@ -2,7 +2,7 @@
 title = "Componenti Caldaia"
 category = "boiler"
 icon = "🔩"
-image = "/img/products/boiler-parts-1.jpg"
+image = "/img/products/boiler-parts-1.webp"
 description = "Ricambi caldaia e accessori dai gruppi di Jinan, Wuxi e Tai'an. Griglie, fasci tubieri, spazzola fumi, preriscaldatori aria."
 keywords = "ricambi caldaia, accessori caldaia, griglia, fascio tubiero, spazzola fumi, preriscaldatore aria"
 +++

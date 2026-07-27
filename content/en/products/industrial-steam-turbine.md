@@ -2,9 +2,24 @@
 title = "Industrial Steam Turbine"
 category = "turbine"
 icon = "⚙"
-image = "/img/products/industrial-turbine-1.jpg"
+image = "/img/products/industrial-turbine-1.webp"
 description = "Industrial steam turbines for cogeneration and process applications from NTC, HTC and Qingdao Jieneng. Capacities from 50kW to 50MW."
 keywords = "industrial steam turbine, NTC turbine, HTC turbine, cogeneration turbine, process steam turbine"
+[[faq]]
+question = "What power capacity ranges do your industrial steam turbines cover?"
+answer = "Our industrial steam turbines cover a wide range from 50kW to 50MW, suitable for small-scale cogeneration plants up to large industrial complexes. Key manufacturers include Nanjing Turbine Group (NTC), Hangzhou Turbine Group (HTC), and Qingdao Jieneng."
+
+[[faq]]
+question = "What types of steam turbines are available?"
+answer = "We offer condensing turbines, back-pressure turbines, extraction-back-pressure turbines, and industrial process turbines. Each type is optimized for specific cogeneration or standalone power generation applications."
+
+[[faq]]
+question = "Do you provide installation and commissioning support?"
+answer = "Yes. Our engineering team provides complete lifecycle support including site survey, foundation design consultation, installation supervision, commissioning assistance, and ongoing maintenance. We have deployed teams in 15+ countries across Southeast Asia, Middle East, Europe, South America, and Africa."
+
+[[faq]]
+question = "What certifications do your turbines carry?"
+answer = "All our turbines and associated equipment comply with international quality standards including CE marking, BV (Bureau Veritas) inspection, and SGS certification. Manufacturers hold ASME and ISO 9001 certifications."
 +++
 
 ## Industrial Steam Turbine — Overview

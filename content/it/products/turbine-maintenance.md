@@ -2,7 +2,7 @@
 title = "Manutenzione Turbina"
 category = "service"
 icon = "🔧"
-image = "/img/products/maintenance-1.jpg"
+image = "/img/products/maintenance-1.webp"
 description = "Manutenzione, revisione e riparazione turbine a vapore sul sito da team ingegneristici qualificati."
 keywords = "manutenzione turbina, revisione turbina a vapore, riparazione turbina, manutenzione centrale elettrica, servizio in loco, ottimizzazione prestazioni turbina"
 +++

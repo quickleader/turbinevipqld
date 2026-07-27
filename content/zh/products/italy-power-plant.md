@@ -2,7 +2,7 @@
 title = "意大利电厂项目"
 category = "epc"
 icon = "🏗"
-image = "/img/products/epc-italy.jpg"
+image = "/img/products/epc-italy.webp"
 description = "意大利电站设备供应，欧洲合规认证。"
 keywords = "意大利电站, 欧洲电站设备, CE认证汽轮机, PED锅炉, 意大利EPC"
 +++

@@ -1,33 +1,88 @@
-{{/* SEO Partial — 为每个页面生成完整的 meta 标签 */}}
+{{/* SEO Partial — Enhanced for GEO and Global Search Engine Optimization */}}
 
-{{/* Canonical URL */}}
+{{/* ========================================
+     BASIC META TAGS (SEO Foundation)
+     ======================================== */}}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+{{/* Critical SEO: Description */}}
+<meta name="description" content="{{ with .Description }}{{ . | truncate 160 }}{{ else }}{{ .Site.Params.description | truncate 160 }}{{ end }}">
+
+{{/* Keywords — Product-focused */}}
+{{ with .Params.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
+
+{{/* Author & Robot */}}
+<meta name="author" content="{{ .Site.Params.companyFullName | default .Site.Params.companyName }}">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="googlebot" content="index, follow">
+<meta name="bingbot" content="index, follow">
+<meta name="baidubot" content="index, follow">
+
+{{/* ========================================
+     CANONICAL URL
+     ======================================== */}}
 <link rel="canonical" href="{{ .Permalink }}">
 
-{{/* Open Graph 标签 */}}
+{{/* ========================================
+     OPEN GRAPH — Facebook / LinkedIn / WeChat
+     ======================================== */}}
+{{ $logo := .Site.Params.logo | default "img/logo/mark.webp" }}
 <meta property="og:title" content="{{ .Title }}">
-<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-{{ $logo := .Site.Params.logo | default "img/logo/mark.jpg" }}
+<meta property="og:description" content="{{ with .Description }}{{ . | truncate 200 }}{{ else }}{{ .Site.Params.description | truncate 200 }}{{ end }}">
 <meta property="og:image" content="{{ if strings.HasPrefix $logo "http" }}{{ $logo }}{{ else }}{{ absURL $logo }}{{ end }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 {{ with .Site.Language.Lang }}<meta property="og:locale" content="{{ . }}">{{ end }}
 
-{{/* Twitter Card */}}
+{{/* GEO: Regional targeting via OG */}}
+{{ if eq .Site.Language.Lang "en" }}
+<meta property="og:country-name" content="China">
+{{ end }}
+
+{{/* ========================================
+     TWITTER CARD
+     ======================================== */}}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ .Title }}">
-<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-{{ $logo := .Site.Params.logo | default "img/logo/mark.jpg" }}
+<meta name="twitter:description" content="{{ with .Description }}{{ . | truncate 200 }}{{ else }}{{ .Site.Params.description | truncate 200 }}{{ end }}">
 <meta name="twitter:image" content="{{ if strings.HasPrefix $logo "http" }}{{ $logo }}{{ else }}{{ absURL $logo }}{{ end }}">
 
-{{/* Hreflang — 多语言站点核心 */}}
+{{/* ========================================
+     HREFLANG — Multi-language Core
+     .AllTranslations 已含当前页，无需再单独输出自身，避免重复
+     lang→hreflang 映射：zh 统一输出 zh-CN，与 sitemap 保持一致
+     ======================================== */}}
+{{ $hreflangMap := dict "en" "en" "zh" "zh-CN" "it" "it" }}
 {{ range .AllTranslations }}
-<link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
+<link rel="alternate" hreflang="{{ index $hreflangMap .Lang | default .Lang }}" href="{{ .Permalink }}">
 {{ end }}
-<link rel="alternate" hreflang="{{ .Site.Language.Lang }}" href="{{ .Permalink }}">
 <link rel="alternate" hreflang="x-default" href="{{ .Site.Home.Permalink }}">
 
-{{/* JSON-LD Structured Data */}}
+{{/* ========================================
+     GEO TARGETING — Country Codes & Coordinates
+     ======================================== */}}
+<meta name="geo.region" content="CN-SD">
+<meta name="geo.placename" content="Qingdao">
+<meta name="geo.position" content="36.0671;120.3826">
+<meta name="ICBM" content="36.0671, 120.3826">
+
+{{/* ========================================
+     FAVICON & MOBILE ICONS (PWA-ready)
+     ======================================== */}}
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="alternate" title="RSS" type="application/rss+xml" href="/rss.xml">
+
+{{/* ========================================
+     JSON-LD Structured Data (Schema.org)
+     ======================================== */}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -39,10 +94,15 @@
       "url": "{{ .Site.BaseURL }}",
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ if .Site.Params.logo }}{{ .Site.Params.logo }}{{ else }}{{ absURL "img/logo/mark.jpg" }}{{ end }}"
+        "url": "{{ if .Site.Params.logo }}{{ .Site.Params.logo }}{{ else }}{{ absURL "img/logo/mark.webp" }}{{ end }}"
       },
       "description": {{ .Site.Params.description | jsonify }},
       "foundingDate": {{ with .Site.Params.foundedYear }}"{{ . }}"{{ else }}"2003"{{ end }},
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "minValue": 100,
+        "unitCode": "OXS"
+      },
       "contactPoint": {
         "@type": "ContactPoint",
         "telephone": {{ .Site.Params.phone | default "+86-532-68880703" | jsonify }},
@@ -50,16 +110,27 @@
         "email": {{ .Site.Params.email | default "turbinevip@163.com" | jsonify }},
         "availableLanguage": [
           {"@type": "Language", "name": "English", "alternateName": "en"},
-          {"@type": "Language", "name": "中文", "alternateName": "zh"},
-          {"@type": "Language", "name": "Italiano", "alternateName": "it"}
-        ]
+          {"@type": "Language", "name": "Chinese", "alternateName": "zh"},
+          {"@type": "Language", "name": "Italian", "alternateName": "it"}
+        ],
+        "areaServed": {
+          "@type": "Text",
+          "description": "Global - Indonesia, Philippines, Dubai, Canada, Brazil, Italy, South Africa"
+        }
       },
       "address": {
         "@type": "PostalAddress",
         "streetAddress": {{ .Site.Params.address | default "RM.210, Tower B, Qingdao Plaza, No.379, Dunhua Road" | jsonify }},
         "addressLocality": "Qingdao",
+        "addressRegion": "Shandong",
+        "postalCode": "266071",
         "addressCountry": "CN"
-      }
+      },
+      "sameAs": [
+        {{ with .Site.Params.linkedin }}"{{ . }}",{{ end }}
+        {{ with .Site.Params.wechat }}"https://weixin.qq.com/r/{{ . }}",{{ end }}
+        {{ with .Site.Params.whatsapp }}"{{ . }}"{{ end }}
+      ]
     }
     {{ if not .IsHome }},
     {
@@ -78,11 +149,12 @@
           "position": {{ add $i 2 }},
           "name": {{ $anc.Title | jsonify }},
           "item": "{{ $anc.Permalink }}"
+
         }
         {{ end }}
         ,{
           "@type": "ListItem",
-          "position": {{ add (len (.Ancestors)) 2 }},
+          "position": {{ add $depth 1 }},
           "name": {{ .Title | jsonify }},
           "item": "{{ .Permalink }}"
         }
@@ -93,7 +165,9 @@
 }
 </script>
 
-{{/* RSS Feed */}}
+{{/* ========================================
+     RSS FEED LINKS
+     ======================================== */}}
 {{ range .Translations }}
 {{ with .OutputFormats.Get "RSS" }}
 <link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ $.Site.Title }} ({{ $.Lang }})">

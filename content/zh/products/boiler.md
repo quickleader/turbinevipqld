@@ -4,7 +4,7 @@ subtitle: "电站锅炉、余热锅炉、锅炉受压部件与替换件"
 description: "青岛乾利得供应燃煤锅炉、生物质锅炉、余热锅炉（HRSG）及受压部件、燃烧器、炉排、管束。合作品牌包括济南、无锡、泰安锅炉集团。"
 type: "products"
 category: "boiler"
-image: "/img/products/boiler.jpg"
+image: "/img/products/boiler.webp"
 summary: "用于发电和工艺蒸汽的燃煤、生物质及余热锅炉（HRSG）。提供受压部件、燃烧器、管束等替换件，合作品牌包括济南、无锡、泰安锅炉集团。"
 faq:
   - q: "你们供应哪些类型的锅炉？"

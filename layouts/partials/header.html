@@ -1,7 +1,7 @@
 <header class="site-header">
   <div class="container">
     <a href="{{ .Site.Home.RelPermalink }}" class="logo">
-      <img src="/img/logo/mark.jpg" alt="Quickleader" style="width:40px;height:40px;border-radius:8px;object-fit:cover;">
+      <img src="/img/logo/mark.webp" alt="Quickleader" style="width:40px;height:40px;border-radius:8px;object-fit:cover;">
       <span>{{ .Site.Params.companyName }}</span>
     </a>
     <ul class="nav-menu">
@@ -10,15 +10,15 @@
       {{ end }}
     </ul>
     <div class="lang-switch">
-      {{ range .Site.Languages }}
-      {{ if eq .Lang $.Site.Language.Lang }}
-      <a href="#" class="active">{{ .LanguageName | upper }}</a>
+      {{ $cur := site.Language.Lang }}
+      {{ $names := dict "en" "EN" "zh" "中文" "it" "ITALIANO" }}
+      {{ range $l := slice "en" "zh" "it" }}
+      {{ if eq $l $cur }}
+      <a href="#" class="active">{{ index $names $l }}</a>
       {{ else }}
-      {{ $link := printf "/%s/" .Lang }}
-      {{ if eq .Lang $.Site.Params.defaultContentLanguage }}
-      {{ $link = "/" }}
-      {{ end }}
-      <a href="{{ $link }}">{{ .LanguageName | upper }}</a>
+      {{ $link := printf "/%s/" $l }}
+      {{ if eq $l "en" }}{{ $link = "/" }}{{ end }}
+      <a href="{{ $link }}">{{ index $names $l }}</a>
       {{ end }}
       {{ end }}
     </div>

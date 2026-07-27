@@ -4,8 +4,8 @@ subtitle: "Condensing & back-pressure steam turbines for power plants, factories
 description: "Condensing & back-pressure steam turbines 50kW–200MW for power plants, factories & CHP. OEM spare parts, retrofit & full service. Get a quote within 24h."
 type: "products"
 category: "steam_turbine"
-image: "/img/products/industrial-turbine.jpg"
-summary: "Steam turbines 50 kW to 200 MW+: condensing, back-pressure and extraction units, with OEM spare parts and 4S lifecycle service."
+image: "/img/products/industrial-turbine.webp"
+summary: "Steam turbines from 50 kW to 200 MW+, including condensing, back-pressure and extraction units. Sourced from NTC, HTC, Qingdao Jieneng and Siemens-licensed channels."
 faq:
   - q: "What power range of steam turbines do you supply?"
     a: "We cover units from 50 kW up to 200 MW and above. This includes condensing, back-pressure, extraction and industrial drive turbines. For specific ratings and grid codes, we confirm the exact parameters with the OEM or our manufacturing partner before quotation."

@@ -4,7 +4,7 @@ subtitle: "Contratti EPC, installazione, revisione, ricambi e ispezione annuale"
 description: "Qingdao Quickleader fornisce EPC, servizio 4S, installazione, messa in servizio, revisione e gestione ricambi per centrali a vapore, a gas e a biomassa. Partner one-stop."
 type: "products"
 category: "power_plant_service"
-image: "/img/products/epc.jpg"
+image: "/img/products/epc.webp"
 summary: "EPC chiavi in mano, installazione, messa in servizio, revisione, ricambi e ispezione annuale per centrali a vapore, a gas e a biomassa. Centro di servizio 4S one-stop."
 faq:
   - q: "Cosa include il vostro servizio EPC?"

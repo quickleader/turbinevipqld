@@ -2,7 +2,7 @@
 title = "Progetto Centrale Italia"
 category = "epc"
 icon = "🏗"
-image = "/img/products/epc-italy.jpg"
+image = "/img/products/epc-italy.webp"
 description = "Fornitura apparecchiature per centrali elettriche per clienti italiani — certificazione europea CE/PED."
 keywords = "centrale Italia, apparecchiature centrali europee, turbina certificazione CE, caldaia PED, EPC italiano"
 +++

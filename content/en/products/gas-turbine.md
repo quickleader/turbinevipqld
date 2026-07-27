@@ -4,8 +4,8 @@ subtitle: "Authorized distributor of 1–50 MW gas turbines with 4S service, spa
 description: "Qingdao Quickleader (TurbineVIP) supplies 1–50 MW gas turbines as an authorized distributor + 4S center. Get a quote for parts and service."
 type: "products"
 category: "gas_turbine"
-image: "/img/products/gas-turbine.jpg"
-summary: "1–50 MW aeroderivative, industrial and heavy-duty gas turbines; HRSG combined cycle; GE/Siemens/Mitsubishi spare parts; 4S service center."
+image: "/img/products/gas-turbine.webp"
+summary: "Heavy-duty and industrial gas turbines, hot-section components and field services for GE and Siemens-technology platforms. Parts include blades, vanes, combustors and filters."
 faq:
   - q: "What gas turbine power range do you supply?"
     a: "We cover **1–50 MW** across aeroderivative (1–10 MW), industrial (10–30 MW) and heavy-duty (30–50 MW) classes, delivered as bare engines, turbine-generator packages or full islands. Exact models are confirmed per inquiry."

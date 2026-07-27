@@ -4,7 +4,7 @@ subtitle: "Caldaie per centrali elettriche, generatori di vapore a recupero e pa
 description: "Qingdao Quickleader fornisce caldaie a carbone, a biomassa e HRSG, oltre a parti in pressione, bruciatori, griglie e fasci tubieri. Marchi partner: Jinan, Wuxi e Tai'an Boiler Group."
 type: "products"
 category: "boiler"
-image: "/img/products/boiler.jpg"
+image: "/img/products/boiler.webp"
 summary: "Caldaie a carbone, a biomassa e HRSG per energia e vapore di processo. Ricambi per parti in pressione, bruciatori, fasci tubieri e supporto dai gruppi Jinan, Wuxi e Tai'an."
 faq:
   - q: "Che tipi di caldaie fornite?"

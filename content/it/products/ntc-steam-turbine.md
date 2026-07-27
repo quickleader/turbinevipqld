@@ -2,7 +2,7 @@
 title = "Turbina NTC"
 category = "turbine"
 icon = "⚙"
-image = "/img/products/ntc-turbine.jpg"
+image = "/img/products/ntc-turbine.webp"
 description = "Turbina a vapore industriale del Gruppo Nanjing (NTC) per generazione elettrica e applicazioni industriali."
 keywords = "turbina a vapore NTC, turbina Nanjing, turbina a vapore industriale, turbina cogenerazione, turbina utility"
 +++

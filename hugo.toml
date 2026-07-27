@@ -1,20 +1,28 @@
 baseURL = "https://www.turbinevip.com/"
-languageCode = "en-us"
+# languageCode 已弃用(Hugo v0.158)，改用各语言块的 locale
 title = "Qingdao Quickleader - Power Plant 4S Service Center"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 enableRobotsTXT = true
 enableGitInfo = true
+# Empty theme = custom layouts-only theme (no external dependency)
+theme = []
 
+# SEO Configuration
+disableKinds = []
+summaryLength = 80
+
+# Google Analytics
 googleAnalytics = "G-XXXXXXXXXX"
 googleSiteVerification = "google-site-verification=XXXXXXXXXXX"
 
+# Geo-targeting params
 [params]
   companyName = "Qingdao Quickleader"
   companyFullName = "Qingdao Quickleader International Trade Co., Ltd"
   companyNameZh = "青岛乾利得国际贸易有限公司"
   tagline = "Power Plant 4S Service Center"
-  slogan = "4S Service Center for Your Power Plant"
+  slogan = "4S Service Center for Your Plant"
   foundedYear = 2003
   email = "turbinevip@163.com"
   phone = "+86-532-68880703"
@@ -24,18 +32,27 @@ googleSiteVerification = "google-site-verification=XXXXXXXXXXX"
   skype = "power plant spare parts"
   address = "RM.210, Tower B, Qingdao Plaza, No.379, Dunhua Road, Qingdao, China"
   addressZh = "中国青岛市敦化路379号青岛广场B座210室"
+  postalCode = "266071"
+  lat = 36.0671
+  lng = 120.3826
   description = "Established in 2003, Qingdao Quickleader provides EPC solutions, steam turbines, boilers, power plant equipment, spare parts and maintenance services. Power Plant 4S Service Center: Sale, Spare Parts, Service, Survey."
+  logo = "img/logo/mark.jpg"
+  # Geo-targeting
+  country = "CN"
+  # Social profiles
+  linkedin = ""
 
 [params.social]
   whatsapp = "https://wa.me/8618669821130"
   skype = "skype:power plant spare parts?chat"
 
 [languages.en]
-  languageName = "English"
-  languageCode = "en"
+  label = "English"
+  locale = "en"
   weight = 1
   title = "Qingdao Quickleader - Power Plant 4S Service Center"
   contentDir = "content/en"
+  description = "Power Plant 4S Service Center: EPC, Steam Turbines, Boilers, Gas Turbines, Generator & Spare Parts"
 
   [[languages.en.menu.main]]
     identifier = "home"
@@ -64,11 +81,12 @@ googleSiteVerification = "google-site-verification=XXXXXXXXXXX"
     weight = 7
 
 [languages.zh]
-  languageName = "中文"
-  languageCode = "zh-cn"
+  label = "中文"
+  locale = "zh-cn"
   weight = 2
   title = "青岛乾利得 - 电站4S服务中心"
   contentDir = "content/zh"
+  description = "电站4S服务中心：EPC总包、汽轮机、锅炉、燃气轮机、发电机及配件备件"
 
   [[languages.zh.menu.main]]
     identifier = "home"
@@ -97,11 +115,12 @@ googleSiteVerification = "google-site-verification=XXXXXXXXXXX"
     weight = 7
 
 [languages.it]
-  languageName = "Italiano"
-  languageCode = "it"
+  label = "Italiano"
+  locale = "it"
   weight = 3
   title = "Qingdao Quickleader - Centro di Servizio 4S per Centrali Elettriche"
   contentDir = "content/it"
+  description = "Centro di Servizio 4S per Centrali: EPC, Turbine a Vapore, Caldaie, Turbine a Gas, Generatori e Ricambi"
 
   [[languages.it.menu.main]]
     identifier = "home"
@@ -132,5 +151,14 @@ googleSiteVerification = "google-site-verification=XXXXXXXXXXX"
 [markup.goldmark.renderer]
   unsafe = true
 
+# Extended outputs for RSS/Sitemap
 [outputs]
   home = ["HTML", "RSS"]
+  page = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+# Sitemap configuration
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5

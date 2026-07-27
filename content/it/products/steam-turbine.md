@@ -4,7 +4,7 @@ subtitle: "Turbine a vapore industriali, ricambi, retrofit e manutenzione"
 description: "Qingdao Quickleader fornisce turbine a vapore da 50 kW a oltre 200 MW, con i partner NTC, HTC, Siemens e Jieneng. Oltre 20 anni di servizio 4S per centrali elettriche."
 type: "products"
 category: "steam_turbine"
-image: "/img/products/industrial-turbine.jpg"
+image: "/img/products/industrial-turbine.webp"
 summary: "Turbine a vapore da 50 kW a oltre 200 MW, incluse unità a condensazione, a contropressione e a estrazione. Canali di approvvigionamento NTC, HTC, Qingdao Jieneng e piattaforme Siemens."
 faq:
   - q: "Qual è la gamma di potenza delle turbine a vapore che fornite?"

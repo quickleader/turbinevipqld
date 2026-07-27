@@ -4,7 +4,7 @@ subtitle: "重型及工业燃气轮机、热通道部件、现场服务"
 description: "为GE技术和西门子技术燃气轮机提供整机、备件与现场服务。乾利得提供热通道叶片、导叶、燃烧室及维护支持。"
 type: "products"
 category: "gas_turbine"
-image: "/img/products/gas-turbine.jpg"
+image: "/img/products/gas-turbine.webp"
 summary: "GE及西门子技术平台的重型/工业燃气轮机、热通道部件与现场服务。备件包括叶片、导叶、燃烧室、过渡段及过滤器。"
 faq:
   - q: "你们支持哪些燃气轮机型号？"

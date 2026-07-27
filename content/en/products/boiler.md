@@ -4,8 +4,8 @@ subtitle: "Authorized distributor of biomass, coal, oil and HRSG boilers with 4S
 description: "Qingdao Quickleader (TurbineVIP) supplies biomass, coal, oil and HRSG boilers as an authorized distributor + 4S center. Request a quote for parts and service."
 type: "products"
 category: "boiler"
-image: "/img/products/boiler.jpg"
-summary: "Biomass, coal, oil-fired, HRSG and utility boilers with fuel flexibility; pressure-part spares; 4S service for Indonesia, Philippines and beyond."
+image: "/img/products/boiler.webp"
+summary: "Coal-fired, biomass-fired and HRSG boilers for power and process steam. Replacement pressure parts, burners, tube bundles and support from Jinan, Wuxi and Tai'an boiler groups."
 faq:
   - q: "What boiler types do you supply?"
     a: "We supply **biomass, coal-fired, oil/gas-fired, HRSG (waste-heat) and utility boilers**, from small package units to large utility-class sets. Scope can be boiler island only or a full EPC power plant."

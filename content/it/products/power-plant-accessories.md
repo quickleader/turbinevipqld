@@ -2,7 +2,7 @@
 title = "Accessori Centrali Elettriche"
 category = "equipment"
 icon = "🔧"
-image = "/img/products/plant-parts-1.jpg"
+image = "/img/products/plant-parts-1.webp"
 description = "Accessori per centrali elettriche: contattori, sigilli meccanici, valvole e componenti."
 keywords = "accessori centrale elettrica, contattore, tenuta meccanica, parti valvola, attrezzature rotanti, componenti impianto"
 +++

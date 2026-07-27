@@ -4,7 +4,7 @@ subtitle: "EPC总承包、安装调试、大修、备件管理与年度巡检"
 description: "青岛乾利得提供电站EPC、4S服务、安装调试、检修、备件管理。汽轮机、燃气轮机、生物质电站一站式合作伙伴。"
 type: "products"
 category: "power_plant_service"
-image: "/img/products/epc.jpg"
+image: "/img/products/epc.webp"
 summary: "汽轮机、燃气轮机、生物质电站的交钥匙EPC、安装调试、大修、备件与年度巡检。一站式电站4S服务中心。"
 faq:
   - q: "你们的EPC服务包含哪些内容？"

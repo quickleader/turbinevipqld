@@ -2,7 +2,7 @@
 title = "电厂配件"
 category = "equipment"
 icon = "🔧"
-image = "/img/products/plant-parts-1.jpg"
+image = "/img/products/plant-parts-1.webp"
 description = "电厂配件：接触器、密封件、阀门组件等。"
 keywords = "电厂配件, 接触器, 机械密封, 阀门配件, 旋转设备, 电站组件"
 +++

@@ -4,7 +4,7 @@ subtitle: "工业汽轮机、杭汽/南汽汽轮机、备件、改造与检修"
 description: "青岛乾利得供应50 kW至200 MW+汽轮机，依托南汽、杭汽、西门子技术、青岛捷能等合作伙伴。20余年电站4S服务经验。"
 type: "products"
 category: "steam_turbine"
-image: "/img/products/industrial-turbine.jpg"
+image: "/img/products/industrial-turbine.webp"
 summary: "50 kW至200 MW+汽轮机，包括凝汽式、背压式、抽汽式及工业驱动机组。采购渠道覆盖南汽、杭汽、青岛捷能及西门子技术平台。"
 faq:
   - q: "你们供应多大功率范围的汽轮机？"

@@ -31,20 +31,8 @@
     "name": "Qingdao Quickleader International Trade Co., Ltd."
   },
   "category": {{ $catLabel | jsonify }},
-  "url": {{ .Permalink | jsonify }},
-  {{ with .Params.image }}"image": ["{{ absURL . }}"],
-  {{ end }}
-  "offers": {
-    "@type": "Offer",
-    "priceCurrency": "USD",
-    "availability": "https://schema.org/InStock",
-    "seller": {
-      "@type": "Organization",
-      "name": "Qingdao Quickleader International Trade Co., Ltd."
-    },
-    "url": {{ .Permalink | jsonify }},
-    "description": {{ with .Description }}{{ . | jsonify }}{{ else }}{{ printf "Get a quote for %s" .Title | jsonify }}{{ end }}
-  }
+  "url": {{ .Permalink | jsonify }}{{ with .Params.image }},
+  "image": ["{{ absURL . }}"]{{ end }}
 }
 </script>
 
