@@ -143,10 +143,12 @@
           "name": "{{ .Site.Home.Title }}",
           "item": "{{ .Site.Home.Permalink }}"
         }
-        {{ range $i, $anc := .Ancestors.Reverse }}
+        {{ $depth := 1 }}
+        {{ range $anc := .Ancestors.Reverse }}
+        {{ $depth = add $depth 1 }}
         ,{
           "@type": "ListItem",
-          "position": {{ add $i 2 }},
+          "position": {{ $depth }},
           "name": {{ $anc.Title | jsonify }},
           "item": "{{ $anc.Permalink }}"
 
