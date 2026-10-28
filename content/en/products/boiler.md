@@ -14,9 +14,9 @@ faq:
   - q: "Which fuels can your boilers handle?"
     a: "Coal, biomass (pellet, rice husk, wood chip, bagasse), fuel oil, natural gas and process waste-heat. A fuel analysis is required to size the furnace, grate and emission-control system."
   - q: "Do you supply HRSG for combined-cycle plants?"
-    a: "Yes. We design horizontal and vertical [HRSG units behind gas turbines](/products/gas-turbine/) for CCGT and CHP, matching steam pressure and flow to the turbine exhaust."
+    a: "Yes. We design horizontal and vertical [HRSG units behind gas turbines](/en/products/gas-turbine/) for CCGT and CHP, matching steam pressure and flow to the turbine exhaust."
   - q: "Can you provide boiler spare parts?"
-    a: "Yes — membrane water walls, economizers, superheaters, reheaters, burners, grates, headers, valves and instrumentation, matched from drawings or samples. See [spare parts](/products/turbine-spare-parts/)."
+    a: "Yes — membrane water walls, economizers, superheaters, reheaters, burners, grates, headers, valves and instrumentation, matched from drawings or samples. See [spare parts](/en/products/turbine-spare-parts/)."
   - q: "Do you support projects in Indonesia and the Philippines?"
     a: "Yes. We have [示例] biomass-boiler references in Indonesia and supply industrial boilers for Philippine plants, with export documentation and on-site supervision."
 ---
@@ -68,9 +68,8 @@ Boiler efficiency is driven by combustion control, excess-air management and how
 
 ## Related
 
-- [HRSG and combined-cycle gas turbine packages](/products/gas-turbine/)
-- [Boiler and power plant EPC, installation & commissioning](/products/power-plant-service/)
-- [Boiler pressure-part and burner spare parts](/products/turbine-spare-parts/)
-- [Boiler supplier for Indonesia — references & specs](/markets/indonesia-boiler/) [示例]
-- [Boiler supplier for the Philippines](/markets/) [示例]
-- [HRSG design and combined-cycle efficiency guide](/blog/) [示例]
+- [HRSG and combined-cycle gas turbine packages](/en/products/gas-turbine/)
+- [Boiler and power plant EPC, installation & commissioning](/en/products/power-plant-service/)
+- [Boiler pressure-part and burner spare parts](/en/products/turbine-spare-parts/)
+- [Boiler supplier for Indonesia — references & specs](/en/products/indonesia-boiler/)
+- [HRSG design and combined-cycle efficiency guide](/en/blog/)

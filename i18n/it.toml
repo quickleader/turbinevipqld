@@ -13,6 +13,18 @@ other = "Contatti"
 [rights_reserved]
 other = "Tutti i diritti riservati."
 
+[steam_turbine]
+other = "Turbine a Vapore"
+
+[gas_turbine]
+other = "Turbine a Gas"
+
+[boiler]
+other = "Caldaie"
+
+[valves]
+other = "Valvole"
+
 [hero_eyebrow]
 other = "Centro di Servizio 4S per Centrali Elettriche · Dal 2003"
 
@@ -135,6 +147,24 @@ other = "Il Tuo Messaggio"
 
 [submit]
 other = "Invia Messaggio"
+
+[form_sending]
+other = "Invio in corso…"
+
+[form_success]
+other = "Grazie! Il tuo messaggio è stato inviato. Ti risponderemo entro 24 ore."
+
+[form_error]
+other = "Spiacenti, qualcosa è andato storto. Scrivici direttamente a turbinevip@163.com."
+
+[product_small_turbine]
+other = "Piccola Turbina a Vapore"
+
+[product_spare_parts]
+other = "Ricambi"
+
+[product_new_energy]
+other = "Nuova Energia"
 
 [other]
 other = "Altro"

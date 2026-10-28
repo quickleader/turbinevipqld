@@ -13,6 +13,18 @@ other = "Contact Us"
 [rights_reserved]
 other = "All rights reserved."
 
+[steam_turbine]
+other = "Steam Turbines"
+
+[gas_turbine]
+other = "Gas Turbines"
+
+[boiler]
+other = "Boilers"
+
+[valves]
+other = "Valves"
+
 [hero_eyebrow]
 other = "Power Plant 4S Service Center · Since 2003"
 
@@ -135,6 +147,24 @@ other = "Your Message"
 
 [submit]
 other = "Send Message"
+
+[form_sending]
+other = "Sending…"
+
+[form_success]
+other = "Thank you! Your message has been sent. We will reply within 24 hours."
+
+[form_error]
+other = "Sorry, something went wrong. Please email us directly at turbinevip@163.com."
+
+[product_small_turbine]
+other = "Small Steam Turbine"
+
+[product_spare_parts]
+other = "Spare Parts"
+
+[product_new_energy]
+other = "New Energy"
 
 [other]
 other = "Other"

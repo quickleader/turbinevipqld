@@ -14,7 +14,7 @@ faq:
   - q: "Which OEM platforms do your spare parts cover?"
     a: "We stock and source parts for **GE, Siemens Energy, Mitsubishi Power** and licensed Chinese frames, including blades, vanes, combustors, seals and filters. For obsolete units we offer cross-referenced or reverse-engineered equivalents with technical-equivalence statements."
   - q: "Can you supply a combined-cycle or CHP package?"
-    a: "Yes. We pair the gas turbine with a [heat recovery steam generator (HRSG)](/products/boiler/) for combined-cycle or cogeneration duty, raising overall efficiency toward 50–55% (CCGT) or >80% (CHP)."
+    a: "Yes. We pair the gas turbine with a [heat recovery steam generator (HRSG)](/en/products/boiler/) for combined-cycle or cogeneration duty, raising overall efficiency toward 50–55% (CCGT) or >80% (CHP)."
   - q: "Do you provide a complete turbine-generator package?"
     a: "Yes. Our skid-mounted packages include the generator, governing/control, lube and starting systems, and are dynamically balanced and functionally tested before dispatch."
   - q: "What after-sales support do you provide?"
@@ -66,9 +66,8 @@ Simple-cycle gas turbines in this band typically return 30–42% electrical effi
 
 ## Related
 
-- [Steam turbines for back-pressure and extraction duty](/products/steam-turbine/)
-- [HRSG and waste-heat recovery boilers for combined cycle](/products/boiler/)
-- [Gas turbine overhaul and 4S field service](/products/power-plant-service/)
-- [Gas turbine spare parts and hot-section components](/products/turbine-spare-parts/)
-- [Gas turbines for the Philippines and Italy — market references](/markets/) [示例]
-- [HRSG and combined-cycle design guide](/blog/) [示例]
+- [Steam turbines for back-pressure and extraction duty](/en/products/steam-turbine/)
+- [HRSG and waste-heat recovery boilers for combined cycle](/en/products/boiler/)
+- [Gas turbine overhaul and 4S field service](/en/products/power-plant-service/)
+- [Gas turbine spare parts and hot-section components](/en/products/turbine-spare-parts/)
+- [HRSG and combined-cycle design guide](/en/blog/)

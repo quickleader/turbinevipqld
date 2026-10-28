@@ -78,7 +78,7 @@
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#ffffff">
 
-<link rel="alternate" title="RSS" type="application/rss+xml" href="/rss.xml">
+{{ with .OutputFormats.Get "RSS" }}<link rel="alternate" title="RSS" type="application/rss+xml" href="{{ .Permalink }}">{{ end }}
 
 {{/* ========================================
      JSON-LD Structured Data (Schema.org)
@@ -94,7 +94,7 @@
       "url": "{{ .Site.BaseURL }}",
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ if .Site.Params.logo }}{{ .Site.Params.logo }}{{ else }}{{ absURL "img/logo/mark.webp" }}{{ end }}"
+        "url": "{{ if strings.HasPrefix $logo "http" }}{{ $logo }}{{ else }}{{ absURL $logo }}{{ end }}"
       },
       "description": {{ .Site.Params.description | jsonify }},
       "foundingDate": {{ with .Site.Params.foundedYear }}"{{ . }}"{{ else }}"2003"{{ end }},
@@ -127,9 +127,10 @@
         "addressCountry": "CN"
       },
       "sameAs": [
-        {{ with .Site.Params.linkedin }}"{{ . }}",{{ end }}
-        {{ with .Site.Params.wechat }}"https://weixin.qq.com/r/{{ . }}",{{ end }}
-        {{ with .Site.Params.whatsapp }}"{{ . }}"{{ end }}
+        {{ $socials := slice }}
+        {{ with .Site.Params.social.whatsapp }}{{ $socials = $socials | append . }}{{ end }}
+        {{ with .Site.Params.linkedin }}{{ $socials = $socials | append . }}{{ end }}
+        {{ range $i, $s := $socials }}{{ if gt $i 0 }},{{ end }}"{{ $s }}"{{ end }}
       ]
     }
     {{ if not .IsHome }},

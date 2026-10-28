@@ -36,7 +36,7 @@ googleSiteVerification = "google-site-verification=XXXXXXXXXXX"
   lat = 36.0671
   lng = 120.3826
   description = "Established in 2003, Qingdao Quickleader provides EPC solutions, steam turbines, boilers, power plant equipment, spare parts and maintenance services. Power Plant 4S Service Center: Sale, Spare Parts, Service, Survey."
-  logo = "img/logo/mark.jpg"
+  logo = "img/logo/mark.webp"
   # Geo-targeting
   country = "CN"
   # Social profiles
@@ -57,27 +57,27 @@ googleSiteVerification = "google-site-verification=XXXXXXXXXXX"
   [[languages.en.menu.main]]
     identifier = "home"
     name = "Home"
-    url = "/"
+    pageRef = "/"
     weight = 1
   [[languages.en.menu.main]]
     identifier = "about"
     name = "About Us"
-    url = "/about/"
+    pageRef = "/about"
     weight = 2
   [[languages.en.menu.main]]
     identifier = "products"
     name = "Products & Services"
-    url = "/products/"
+    pageRef = "/products"
     weight = 3
   [[languages.en.menu.main]]
     identifier = "contact"
     name = "Contact Us"
-    url = "/contact/"
+    pageRef = "/contact"
     weight = 4
-      [[languages.en.menu.main]]
+  [[languages.en.menu.main]]
     identifier = "transformers_eu"
     name = "Transformers · EU"
-    url = "/transformers-eu/"
+    pageRef = "/transformers-eu"
     weight = 7
 
 [languages.zh]
@@ -91,27 +91,27 @@ googleSiteVerification = "google-site-verification=XXXXXXXXXXX"
   [[languages.zh.menu.main]]
     identifier = "home"
     name = "首页"
-    url = "/"
+    pageRef = "/"
     weight = 1
   [[languages.zh.menu.main]]
     identifier = "about"
     name = "关于我们"
-    url = "/about/"
+    pageRef = "/about"
     weight = 2
   [[languages.zh.menu.main]]
     identifier = "products"
     name = "产品与服务"
-    url = "/products/"
+    pageRef = "/products"
     weight = 3
   [[languages.zh.menu.main]]
     identifier = "contact"
     name = "联系我们"
-    url = "/contact/"
+    pageRef = "/contact"
     weight = 4
-      [[languages.zh.menu.main]]
+  [[languages.zh.menu.main]]
     identifier = "transformers_eu"
     name = "变压器·欧美"
-    url = "/transformers-eu/"
+    pageRef = "/transformers-eu"
     weight = 7
 
 [languages.it]
@@ -125,27 +125,27 @@ googleSiteVerification = "google-site-verification=XXXXXXXXXXX"
   [[languages.it.menu.main]]
     identifier = "home"
     name = "Home"
-    url = "/"
+    pageRef = "/"
     weight = 1
   [[languages.it.menu.main]]
     identifier = "about"
     name = "Chi Siamo"
-    url = "/about/"
+    pageRef = "/about"
     weight = 2
   [[languages.it.menu.main]]
     identifier = "products"
     name = "Prodotti e Servizi"
-    url = "/products/"
+    pageRef = "/products"
     weight = 3
   [[languages.it.menu.main]]
     identifier = "contact"
     name = "Contatti"
-    url = "/contact/"
+    pageRef = "/contact"
     weight = 4
-      [[languages.it.menu.main]]
+  [[languages.it.menu.main]]
     identifier = "transformers_eu"
     name = "Trasformatori · EU"
-    url = "/transformers-eu/"
+    pageRef = "/transformers-eu"
     weight = 7
 
 [markup.goldmark.renderer]

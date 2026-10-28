@@ -4,7 +4,7 @@ subtitle: "Industrial and utility boilers for Indonesian plants — biomass, pal
 description: "Industrial boiler supplier in Indonesia — biomass, palm oil, sugar & cement. CE/ISO certified, Bahasa support, fast shipping. Get a quote via WhatsApp."
 type: "products"
 category: "boiler"
-image: "/img/products/industrial-boiler.jpg"
+image: "/img/products/boiler.webp"
 summary: "Industrial and utility boilers for Indonesia — biomass, waste-heat (HRSG) and coal designs with Bahasa-speaking support and 4S service."
 faq:
   - q: "What boiler types do you supply for Indonesia?"
@@ -42,6 +42,6 @@ We handle export packing, sea freight to Tanjung Priok / Belawan, and documentat
 - EPC coordination for power plant EPC Indonesia scopes
 
 ## Related
-- [Power Plant EPC & Service](/products/power-plant-service/)
-- [Gas Turbines](/products/gas-turbine/)
-- [Steam Turbines](/products/steam-turbine/)
+- [Power Plant EPC & Service](/en/products/power-plant-service/)
+- [Gas Turbines](/en/products/gas-turbine/)
+- [Steam Turbines](/en/products/steam-turbine/)

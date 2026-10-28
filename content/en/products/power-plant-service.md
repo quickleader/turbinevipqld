@@ -10,7 +10,7 @@ faq:
   - q: "What does your EPC service include?"
     a: "Our EPC scope covers feasibility study, basic and detailed engineering, equipment procurement, construction management, installation, commissioning, performance testing and handover. We can act as main EPC contractor or supply under EPCM — [示例] an Indonesia reference is available on request."
   - q: "What is turbine retrofitting?"
-    a: "Retrofitting upgrades the control/governing system, first-stage blades and vanes, and inter-stage or shaft seals to restore the efficiency an aging turbine has lost, without a full rebuild. See our guides on [condensing vs back-pressure turbines](/blog/)."
+    a: "Retrofitting upgrades the control/governing system, first-stage blades and vanes, and inter-stage or shaft seals to restore the efficiency an aging turbine has lost, without a full rebuild. See our guides on [condensing vs back-pressure turbines](/en/blog/)."
   - q: "What does a major overhaul cover?"
     a: "A major overhaul includes rotor, casing, bearings, gland and — for gas turbines — the hot gas path. Typical on-site duration is **3–8 weeks per unit**, with workshop support for heavy components."
   - q: "Do you supply spare parts for multiple brands?"
@@ -45,7 +45,7 @@ Durations are indicative and confirmed in the project execution plan; emergency 
 
 ## Efficiency & Technology
 
-Most efficiency loss in an aging turbine is recoverable. Retrofitting the governing and control system — modern DEH/control with faster response — stabilizes load and frequency. Upgrading first-stage blades and vanes, and renewing inter-stage and shaft seals, restores the expansion efficiency the original design promised. On the steam side, correcting condenser performance and choosing the right back-pressure or extraction configuration can add meaningful output; our guide on [condensing vs back-pressure turbines](/blog/) explains the trade-off. For combined-cycle assets, coupling a retrofit with an [HRSG upgrade](/blog/) often yields the fastest payback. We back every upgrade with before/after performance testing so the improvement is documented, not assumed.
+Most efficiency loss in an aging turbine is recoverable. Retrofitting the governing and control system — modern DEH/control with faster response — stabilizes load and frequency. Upgrading first-stage blades and vanes, and renewing inter-stage and shaft seals, restores the expansion efficiency the original design promised. On the steam side, correcting condenser performance and choosing the right back-pressure or extraction configuration can add meaningful output; our guide on [condensing vs back-pressure turbines](/en/blog/) explains the trade-off. For combined-cycle assets, coupling a retrofit with an [HRSG upgrade](/en/blog/) often yields the fastest payback. We back every upgrade with before/after performance testing so the improvement is documented, not assumed.
 
 ## Application Scope
 
@@ -68,9 +68,8 @@ Most efficiency loss in an aging turbine is recoverable. Retrofitting the govern
 
 ## Related
 
-- [Steam turbine maintenance and retrofitting](/products/steam-turbine/)
-- [Gas turbine overhaul service](/products/gas-turbine/)
-- [Boiler installation and EPC](/products/boiler/)
-- [Power plant and turbine spare parts](/products/turbine-spare-parts/)
-- [Condensing vs back-pressure turbines & HRSG guides](/blog/) [示例]
-- [Power plant EPC in Indonesia — references](/markets/) [示例]
+- [Steam turbine maintenance and retrofitting](/en/products/steam-turbine/)
+- [Gas turbine overhaul service](/en/products/gas-turbine/)
+- [Boiler installation and EPC](/en/products/boiler/)
+- [Power plant and turbine spare parts](/en/products/turbine-spare-parts/)
+- [Condensing vs back-pressure turbines & HRSG guides](/en/blog/)

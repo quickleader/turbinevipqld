@@ -37,22 +37,26 @@
       </div>
       <div class="contact-form">
         <h3 style="font-size:22px;margin-bottom:24px;">{{ T "send_message" }}</h3>
-        <form action="mailto:{{ .Site.Params.email }}" method="post" enctype="text/plain">
-          <div class="form-group">
-            <label>{{ T "form_name" }}</label>
-            <input type="text" name="name" required>
+        <form id="contact-form" action="/api/contact" method="post">
+          <div class="form-group" style="display:none" aria-hidden="true">
+            <label for="website">Website</label>
+            <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
           </div>
           <div class="form-group">
-            <label>{{ T "form_email" }}</label>
-            <input type="email" name="email" required>
+            <label for="name">{{ T "form_name" }}</label>
+            <input type="text" id="name" name="name" required>
           </div>
           <div class="form-group">
-            <label>{{ T "form_company" }}</label>
-            <input type="text" name="company">
+            <label for="email">{{ T "form_email" }}</label>
+            <input type="email" id="email" name="email" required>
           </div>
           <div class="form-group">
-            <label>{{ T "form_product" }}</label>
-            <select name="product">
+            <label for="company">{{ T "form_company" }}</label>
+            <input type="text" id="company" name="company">
+          </div>
+          <div class="form-group">
+            <label for="product">{{ T "form_product" }}</label>
+            <select id="product" name="product">
               <option>{{ T "product_epc" }}</option>
               <option>{{ T "product_industrial_turbine" }}</option>
               <option>{{ T "product_htc_turbine" }}</option>
@@ -66,11 +70,69 @@
             </select>
           </div>
           <div class="form-group">
-            <label>{{ T "form_message" }}</label>
-            <textarea name="message" required></textarea>
+            <label for="message">{{ T "form_message" }}</label>
+            <textarea id="message" name="message" required></textarea>
           </div>
-          <button type="submit" class="btn btn-primary" style="width:100%;">{{ T "submit" }}</button>
+          <div id="contact-status" class="form-status" role="status" aria-live="polite"></div>
+          <button type="submit" id="contact-submit" class="btn btn-primary" style="width:100%;">{{ T "submit" }}</button>
         </form>
+        <script>
+        (function () {
+          var form = document.getElementById('contact-form');
+          if (!form) return;
+          var status = document.getElementById('contact-status');
+          var btn = document.getElementById('contact-submit');
+          var submitLabel = {{ T "submit" | jsonify | safeJS }};
+          var sendingLabel = {{ T "form_sending" | jsonify | safeJS }};
+          var successLabel = {{ T "form_success" | jsonify | safeJS }};
+          var errorLabel = {{ T "form_error" | jsonify | safeJS }};
+
+          form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            var data = {};
+            new FormData(form).forEach(function (v, k) { data[k] = v; });
+
+            btn.disabled = true;
+            btn.textContent = sendingLabel;
+            status.className = 'form-status';
+            status.textContent = '';
+
+            fetch('/api/contact', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(data)
+            })
+              .then(function (r) {
+                return r.json().catch(function () { return {}; }).then(function (j) {
+                  return { ok: r.ok, body: j };
+                });
+              })
+              .then(function (o) {
+                if (o.ok && o.body.ok) {
+                  status.className = 'form-status form-status-ok';
+                  status.textContent = successLabel;
+                  form.reset();
+                } else {
+                  status.className = 'form-status form-status-err';
+                  status.textContent = (o.body && o.body.error) || errorLabel;
+                }
+              })
+              .catch(function () {
+                status.className = 'form-status form-status-err';
+                status.textContent = errorLabel;
+              })
+              .finally(function () {
+                btn.disabled = false;
+                btn.textContent = submitLabel;
+              });
+          });
+        })();
+        </script>
+        <style>
+          .form-status{min-height:20px;margin:12px 0 4px;font-size:14px;line-height:1.5;}
+          .form-status-ok{color:#0b6e4f;}
+          .form-status-err{color:#b42318;}
+        </style>
       </div>
     </div>
   </div>

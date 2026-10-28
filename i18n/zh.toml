@@ -13,6 +13,18 @@ other = "联系我们"
 [rights_reserved]
 other = "版权所有。"
 
+[steam_turbine]
+other = "汽轮机"
+
+[gas_turbine]
+other = "燃气轮机"
+
+[boiler]
+other = "锅炉"
+
+[valves]
+other = "阀门"
+
 [hero_eyebrow]
 other = "电站4S服务中心 · 始于2003"
 
@@ -135,6 +147,24 @@ other = "您的留言"
 
 [submit]
 other = "发送留言"
+
+[form_sending]
+other = "发送中…"
+
+[form_success]
+other = "感谢！您的留言已发送，我们将在 24 小时内回复。"
+
+[form_error]
+other = "抱歉，发送失败，请直接发送邮件至 turbinevip@163.com。"
+
+[product_small_turbine]
+other = "小型汽轮机"
+
+[product_spare_parts]
+other = "备件"
+
+[product_new_energy]
+other = "新能源"
 
 [other]
 other = "其他"

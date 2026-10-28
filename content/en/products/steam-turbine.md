@@ -56,7 +56,7 @@ A steam turbine for power plant operation is our core business: we supply comple
 - Spare parts for major brands, including reverse-engineered hard-to-find components
 
 ## Related
-- [Gas Turbines](/products/gas-turbine/)
-- [Industrial Boilers & HRSG](/products/boiler/)
-- [Power Plant EPC & Service](/products/power-plant-service/)
-- [Turbine Spare Parts](/products/turbine-spare-parts/)
+- [Gas Turbines](/en/products/gas-turbine/)
+- [Industrial Boilers & HRSG](/en/products/boiler/)
+- [Power Plant EPC & Service](/en/products/power-plant-service/)
+- [Turbine Spare Parts](/en/products/turbine-spare-parts/)

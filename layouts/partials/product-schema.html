@@ -15,11 +15,14 @@
 }}
 
 {{ $catLabel := index $categoryMap .Params.category | default "Industrial Equipment" }}
+{{ $sku := .File.BaseFileName }}
+{{ with .Params.sku }}{{ $sku = . }}{{ end }}
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Product",
+  "sku": {{ $sku | jsonify }},
   "name": {{ .Title | jsonify }},
   "description": {{ with .Description }}{{ . | jsonify }}{{ else }}"High-performance {{ $catLabel }} from Qingdao Quickleader International Trade Co., Ltd."{{ end }},
   "brand": {
@@ -44,7 +47,7 @@
   "provider": {
     "@type": "Organization",
     "name": "Qingdao Quickleader International Trade Co., Ltd.",
-    "url": "{{ .Site.BaseURL }}"
+    "url": {{ .Site.BaseURL | jsonify }}
   },
   "areaServed": {
     "@type": "GeoCircle",
@@ -70,17 +73,14 @@
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {{ range $i, $faq := .Params.faq }}
-    {{ if gt $i 0 }},{{ end }}
-    {
+    {{ range $i, $faq := .Params.faq }}{{ if gt $i 0 }},{{ end }}{
       "@type": "Question",
       "name": {{ $faq.q | jsonify }},
       "acceptedAnswer": {
         "@type": "Answer",
         "text": {{ $faq.a | jsonify }}
       }
-    }
-    {{ end }}
+    }{{ end }}
   ]
 }
 </script>
