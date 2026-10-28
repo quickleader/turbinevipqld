@@ -19,6 +19,11 @@
 .teu-badge { display:inline-flex; align-items:center; gap:8px; background:rgba(67,56,202,.10); color:var(--c-primary); border:1px solid rgba(67,56,202,.28); font-size:12px; font-weight:700; padding:6px 13px; border-radius:999px; margin-bottom:14px; }
 .teu-hero-visual img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .teu-page .product-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.teu-gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.teu-gallery figure { margin: 0; background: var(--c-bg); border: 1px solid var(--c-border); border-radius: 12px; overflow: hidden; }
+.teu-gallery img { width: 100%; display: block; aspect-ratio: 3/2; object-fit: cover; }
+.teu-gallery figcaption { padding: 10px 14px; font-size: 13px; font-weight: 600; color: var(--c-primary); letter-spacing: 0.3px; }
+@media (max-width: 760px) { .teu-gallery { grid-template-columns: 1fr 1fr; } }
 </style>
 
 <section class="hero" id="home">
@@ -71,6 +76,19 @@
       <div class="product-card"><div class="product-img"><img src="/img/transformers/monitoring.webp" alt="Online condition monitoring" loading="lazy" width="800" height="500"></div><div class="product-body"><span class="product-tag cat-turbine">{{ T "teu_tag_monitor" }}</span><h3>{{ T "teu_p9_t" }}</h3><p>{{ T "teu_p9_d" }}</p></div></div>
     </div>
     <div class="teu-env"><strong>{{ T "teu_env_str" }}</strong><span>{{ T "teu_env_sub" }}</span></div>
+  </div>
+</section>
+
+<section class="section" id="reference">
+  <div class="container">
+    <div class="section-title"><h2>{{ T "teu_ref_title" }}</h2><p>{{ T "teu_ref_sub" }}</p></div>
+    <div class="teu-gallery">
+      <figure><img src="/img/transformers/ref-odfps-1000000.webp" alt="ODFPS-1000000/1000 ultra-high-voltage power transformer" loading="lazy" width="640" height="427"><figcaption>ODFPS-1000000/1000</figcaption></figure>
+      <figure><img src="/img/transformers/ref-odfps-500000.webp" alt="ODFPS-500000/750 power transformer" loading="lazy" width="640" height="427"><figcaption>ODFPS-500000/750</figcaption></figure>
+      <figure><img src="/img/transformers/ref-odfps-750000.webp" alt="ODFPS-750000/500 power transformer" loading="lazy" width="640" height="427"><figcaption>ODFPS-750000/500</figcaption></figure>
+      <figure><img src="/img/transformers/ref-sfz-150000.webp" alt="SFZ-150000/138 substation power transformer" loading="lazy" width="640" height="427"><figcaption>SFZ-150000/138</figcaption></figure>
+      <figure><img src="/img/transformers/ref-sz22-10000.webp" alt="SZ22-10000/10 power transformer" loading="lazy" width="640" height="427"><figcaption>SZ22-10000/10</figcaption></figure>
+    </div>
   </div>
 </section>
 
