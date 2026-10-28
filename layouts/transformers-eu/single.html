@@ -17,6 +17,8 @@
 .teu-page { --c-primary: #4338ca; --c-primary-light: #6366f1; --c-accent: #06b6d4; }
 .teu-ribbon { background: linear-gradient(90deg, var(--c-primary), var(--c-primary-light)); color:#fff; font-size:13px; font-weight:700; letter-spacing:.3px; padding:9px 0; text-align:center; }
 .teu-badge { display:inline-flex; align-items:center; gap:8px; background:rgba(67,56,202,.10); color:var(--c-primary); border:1px solid rgba(67,56,202,.28); font-size:12px; font-weight:700; padding:6px 13px; border-radius:999px; margin-bottom:14px; }
+.teu-hero-visual img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.teu-page .product-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
 </style>
 
 <section class="hero" id="home">
@@ -37,7 +39,7 @@
           <div><div class="stat-num">IEC · IEEE</div><div class="stat-label">{{ T "teu_stat3" }}</div></div>
         </div>
       </div>
-      <div class="teu-hero-visual">⚡</div>
+      <div class="teu-hero-visual"><img src="/img/transformers/hero.webp" alt="Power transformer station with transmission lines" fetchpriority="high"></div>
     </div>
   </div>
 </section>
@@ -58,15 +60,15 @@
   <div class="container">
     <div class="section-title"><h2>{{ T "teu_prod_title" }}</h2><p>{{ T "teu_prod_sub" }}</p></div>
     <div class="products-grid">
-      <div class="product-card"><div class="product-img">🛢️</div><div class="product-body"><span class="product-tag cat-turbine">{{ T "teu_tag_power" }}</span><h3>{{ T "teu_p1_t" }}</h3><p>{{ T "teu_p1_d" }}</p></div></div>
-      <div class="product-card"><div class="product-img">🧊</div><div class="product-body"><span class="product-tag cat-new_energy">{{ T "teu_tag_dry" }}</span><h3>{{ T "teu_p2_t" }}</h3><p>{{ T "teu_p2_d" }}</p></div></div>
-      <div class="product-card"><div class="product-img">⚙️</div><div class="product-body"><span class="product-tag cat-equipment">{{ T "teu_tag_special" }}</span><h3>{{ T "teu_p3_t" }}</h3><p>{{ T "teu_p3_d" }}</p></div></div>
-      <div class="product-card"><div class="product-img">📐</div><div class="product-body"><span class="product-tag cat-gas">{{ T "teu_tag_instr" }}</span><h3>{{ T "teu_p4_t" }}</h3><p>{{ T "teu_p4_d" }}</p></div></div>
-      <div class="product-card"><div class="product-img">🌀</div><div class="product-body"><span class="product-tag cat-boiler">{{ T "teu_tag_reactor" }}</span><h3>{{ T "teu_p5_t" }}</h3><p>{{ T "teu_p5_d" }}</p></div></div>
-      <div class="product-card"><div class="product-img">🛡️</div><div class="product-body"><span class="product-tag cat-service">{{ T "teu_tag_arrester" }}</span><h3>{{ T "teu_p6_t" }}</h3><p>{{ T "teu_p6_d" }}</p></div></div>
-      <div class="product-card"><div class="product-img">🔬</div><div class="product-body"><span class="product-tag cat-turbine_parts">{{ T "teu_tag_test" }}</span><h3>{{ T "teu_p7_t" }}</h3><p>{{ T "teu_p7_d" }}</p></div></div>
-      <div class="product-card"><div class="product-img">🔀</div><div class="product-body"><span class="product-tag cat-epc">{{ T "teu_tag_tap" }}</span><h3>{{ T "teu_p8_t" }}</h3><p>{{ T "teu_p8_d" }}</p></div></div>
-      <div class="product-card"><div class="product-img">📡</div><div class="product-body"><span class="product-tag cat-turbine">{{ T "teu_tag_monitor" }}</span><h3>{{ T "teu_p9_t" }}</h3><p>{{ T "teu_p9_d" }}</p></div></div>
+      <div class="product-card"><div class="product-img"><img src="/img/transformers/power-transformer.webp" alt="Oil-immersed power transformers" loading="lazy" width="800" height="500"></div><div class="product-body"><span class="product-tag cat-turbine">{{ T "teu_tag_power" }}</span><h3>{{ T "teu_p1_t" }}</h3><p>{{ T "teu_p1_d" }}</p></div></div>
+      <div class="product-card"><div class="product-img"><img src="/img/transformers/dry-type.webp" alt="Dry-type cast-resin transformers" loading="lazy" width="800" height="500"></div><div class="product-body"><span class="product-tag cat-new_energy">{{ T "teu_tag_dry" }}</span><h3>{{ T "teu_p2_t" }}</h3><p>{{ T "teu_p2_d" }}</p></div></div>
+      <div class="product-card"><div class="product-img"><img src="/img/transformers/special.webp" alt="Special and application transformers" loading="lazy" width="800" height="500"></div><div class="product-body"><span class="product-tag cat-equipment">{{ T "teu_tag_special" }}</span><h3>{{ T "teu_p3_t" }}</h3><p>{{ T "teu_p3_d" }}</p></div></div>
+      <div class="product-card"><div class="product-img"><img src="/img/transformers/instrument.webp" alt="Instrument transformers" loading="lazy" width="800" height="500"></div><div class="product-body"><span class="product-tag cat-gas">{{ T "teu_tag_instr" }}</span><h3>{{ T "teu_p4_t" }}</h3><p>{{ T "teu_p4_d" }}</p></div></div>
+      <div class="product-card"><div class="product-img"><img src="/img/transformers/reactor.webp" alt="Reactors" loading="lazy" width="800" height="500"></div><div class="product-body"><span class="product-tag cat-boiler">{{ T "teu_tag_reactor" }}</span><h3>{{ T "teu_p5_t" }}</h3><p>{{ T "teu_p5_d" }}</p></div></div>
+      <div class="product-card"><div class="product-img"><img src="/img/transformers/arrester.webp" alt="Surge arresters" loading="lazy" width="800" height="500"></div><div class="product-body"><span class="product-tag cat-service">{{ T "teu_tag_arrester" }}</span><h3>{{ T "teu_p6_t" }}</h3><p>{{ T "teu_p6_d" }}</p></div></div>
+      <div class="product-card"><div class="product-img"><img src="/img/transformers/test.webp" alt="Test transformers" loading="lazy" width="800" height="500"></div><div class="product-body"><span class="product-tag cat-turbine_parts">{{ T "teu_tag_test" }}</span><h3>{{ T "teu_p7_t" }}</h3><p>{{ T "teu_p7_d" }}</p></div></div>
+      <div class="product-card"><div class="product-img"><img src="/img/transformers/tap-changer.webp" alt="Tap changers" loading="lazy" width="800" height="500"></div><div class="product-body"><span class="product-tag cat-epc">{{ T "teu_tag_tap" }}</span><h3>{{ T "teu_p8_t" }}</h3><p>{{ T "teu_p8_d" }}</p></div></div>
+      <div class="product-card"><div class="product-img"><img src="/img/transformers/monitoring.webp" alt="Online condition monitoring" loading="lazy" width="800" height="500"></div><div class="product-body"><span class="product-tag cat-turbine">{{ T "teu_tag_monitor" }}</span><h3>{{ T "teu_p9_t" }}</h3><p>{{ T "teu_p9_d" }}</p></div></div>
     </div>
     <div class="teu-env"><strong>{{ T "teu_env_str" }}</strong><span>{{ T "teu_env_sub" }}</span></div>
   </div>
