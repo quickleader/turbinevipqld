@@ -579,3 +579,48 @@ other = "Prodotti di Riferimento"
 [teu_ref_sub]
 other = "Trasformatori di potenza reali prodotti e consegnati per progetti UHV, di rete e industriali."
 
+[teu_mon_title]
+other = "Monitoraggio e Controllo Intelligente"
+
+[teu_mon_sub]
+other = "Prodotti per monitoraggio, analisi DGA e controllo ausiliario delle sottostazioni."
+
+[teu_wy1]
+other = "Armadio di Acquisizione Segnali Integrato"
+
+[teu_wy2]
+other = "Armadio Resistore di Messa a Terra del Neutro"
+
+[teu_wy3]
+other = "Sistema Antincendio ad Azoto"
+
+[teu_wy4]
+other = "Monitoraggio Temperatura in Fibra Ottica"
+
+[teu_wy5]
+other = "Termoregolatore in Fibra Ottica"
+
+[teu_wy6]
+other = "Monitor DGA Monogas"
+
+[teu_wy7]
+other = "Monitor DGA Online Multi-Gas"
+
+[teu_wy8]
+other = "Armadio Componenti Intelligente"
+
+[teu_wy9]
+other = "Monitor Online Umidità Olio"
+
+[teu_wy10]
+other = "Controllo Cabina Prefabbricata"
+
+[teu_wy11]
+other = "Monitor Corrente di Terra del Nucleo"
+
+[teu_wy12]
+other = "Monitor Forza di Serraggio del Nucleo"
+
+[teu_wy13]
+other = "Armadio Controllo Raffreddamento ad Aria"
+

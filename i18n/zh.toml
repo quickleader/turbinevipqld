@@ -579,3 +579,48 @@ other = "产品实拍"
 [teu_ref_sub]
 other = "为特高压、电网及工业项目制造并交付的电力变压器实机。"
 
+[teu_mon_title]
+other = "智能监测与控制"
+
+[teu_mon_sub]
+other = "变电站在线监测、油中气体分析与辅助控制产品。"
+
+[teu_wy1]
+other = "综合监测信号采集柜"
+
+[teu_wy2]
+other = "中性点接地电阻柜"
+
+[teu_wy3]
+other = "充氮灭火装置"
+
+[teu_wy4]
+other = "光纤测温在线监测装置"
+
+[teu_wy5]
+other = "光纤温控器"
+
+[teu_wy6]
+other = "单组分油气监测装置"
+
+[teu_wy7]
+other = "多组分油气在线监测装置"
+
+[teu_wy8]
+other = "变压器智能组件柜"
+
+[teu_wy9]
+other = "油中含水量在线监测装置"
+
+[teu_wy10]
+other = "箱变智能测控装置"
+
+[teu_wy11]
+other = "铁心接地电流在线监测装置"
+
+[teu_wy12]
+other = "铁心紧固力监测装置"
+
+[teu_wy13]
+other = "风冷控制柜"
+

@@ -24,6 +24,12 @@
 .teu-gallery img { width: 100%; display: block; aspect-ratio: 3/2; object-fit: cover; }
 .teu-gallery figcaption { padding: 10px 14px; font-size: 13px; font-weight: 600; color: var(--c-primary); letter-spacing: 0.3px; }
 @media (max-width: 760px) { .teu-gallery { grid-template-columns: 1fr 1fr; } }
+.teu-mon-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.teu-mon-card { margin: 0; background: var(--c-bg); border: 1px solid var(--c-border); border-radius: 12px; overflow: hidden; }
+.teu-mon-card img { width: 100%; display: block; aspect-ratio: 4/3; object-fit: cover; background: #fff; }
+.teu-mon-card figcaption { padding: 10px 12px; font-size: 12.5px; font-weight: 600; color: var(--c-text); line-height: 1.4; }
+@media (max-width: 900px) { .teu-mon-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 600px) { .teu-mon-grid { grid-template-columns: repeat(2, 1fr); } }
 </style>
 
 <section class="hero" id="home">
@@ -88,6 +94,27 @@
       <figure><img src="/img/transformers/ref-odfps-750000.webp" alt="ODFPS-750000/500 power transformer" loading="lazy" width="640" height="427"><figcaption>ODFPS-750000/500</figcaption></figure>
       <figure><img src="/img/transformers/ref-sfz-150000.webp" alt="SFZ-150000/138 substation power transformer" loading="lazy" width="640" height="427"><figcaption>SFZ-150000/138</figcaption></figure>
       <figure><img src="/img/transformers/ref-sz22-10000.webp" alt="SZ22-10000/10 power transformer" loading="lazy" width="640" height="427"><figcaption>SZ22-10000/10</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="monitoring">
+  <div class="container">
+    <div class="section-title"><h2>{{ T "teu_mon_title" }}</h2><p>{{ T "teu_mon_sub" }}</p></div>
+    <div class="teu-mon-grid">
+      <figure class="teu-mon-card"><img src="/img/transformers/wy-trams.webp" alt="Integrated signal acquisition cabinet" loading="lazy" width="800" height="600"><figcaption>{{ T "teu_wy1" }}</figcaption></figure>
+      <figure class="teu-mon-card"><img src="/img/transformers/wy-ngr.webp" alt="Neutral grounding resistor cabinet" loading="lazy" width="800" height="600"><figcaption>{{ T "teu_wy2" }}</figcaption></figure>
+      <figure class="teu-mon-card"><img src="/img/transformers/wy-fire.webp" alt="Nitrogen fire suppression system" loading="lazy" width="800" height="600"><figcaption>{{ T "teu_wy3" }}</figcaption></figure>
+      <figure class="teu-mon-card"><img src="/img/transformers/wy-fiber-temp.webp" alt="Fiber-optic temperature monitoring" loading="lazy" width="800" height="600"><figcaption>{{ T "teu_wy4" }}</figcaption></figure>
+      <figure class="teu-mon-card"><img src="/img/transformers/wy-temp-ctrl.webp" alt="Fiber-optic temperature controller" loading="lazy" width="800" height="600"><figcaption>{{ T "teu_wy5" }}</figcaption></figure>
+      <figure class="teu-mon-card"><img src="/img/transformers/wy-dga-1.webp" alt="Single-gas DGA monitor" loading="lazy" width="800" height="600"><figcaption>{{ T "teu_wy6" }}</figcaption></figure>
+      <figure class="teu-mon-card"><img src="/img/transformers/wy-dga-n.webp" alt="Multi-gas DGA online monitor" loading="lazy" width="800" height="600"><figcaption>{{ T "teu_wy7" }}</figcaption></figure>
+      <figure class="teu-mon-card"><img src="/img/transformers/wy-smart-cab.webp" alt="Intelligent component cabinet" loading="lazy" width="800" height="600"><figcaption>{{ T "teu_wy8" }}</figcaption></figure>
+      <figure class="teu-mon-card"><img src="/img/transformers/wy-moisture.webp" alt="Oil moisture online monitor" loading="lazy" width="800" height="600"><figcaption>{{ T "teu_wy9" }}</figcaption></figure>
+      <figure class="teu-mon-card"><img src="/img/transformers/wy-box-ctrl.webp" alt="Box substation monitoring and control" loading="lazy" width="800" height="600"><figcaption>{{ T "teu_wy10" }}</figcaption></figure>
+      <figure class="teu-mon-card"><img src="/img/transformers/wy-core-current.webp" alt="Core grounding current monitor" loading="lazy" width="800" height="600"><figcaption>{{ T "teu_wy11" }}</figcaption></figure>
+      <figure class="teu-mon-card"><img src="/img/transformers/wy-core-clamp.webp" alt="Core clamping force monitor" loading="lazy" width="800" height="600"><figcaption>{{ T "teu_wy12" }}</figcaption></figure>
+      <figure class="teu-mon-card"><img src="/img/transformers/wy-air-cool.webp" alt="Air-cooling control cabinet" loading="lazy" width="800" height="600"><figcaption>{{ T "teu_wy13" }}</figcaption></figure>
     </div>
   </div>
 </section>

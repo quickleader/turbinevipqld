@@ -588,3 +588,48 @@ other = "Reference Products"
 [teu_ref_sub]
 other = "Real power transformers manufactured and delivered for UHV, grid and industrial projects."
 
+[teu_mon_title]
+other = "Intelligent Monitoring & Control"
+
+[teu_mon_sub]
+other = "Substation monitoring, DGA and auxiliary control products."
+
+[teu_wy1]
+other = "Integrated Signal Acquisition Cabinet"
+
+[teu_wy2]
+other = "Neutral Grounding Resistor Cabinet"
+
+[teu_wy3]
+other = "Nitrogen Fire Suppression System"
+
+[teu_wy4]
+other = "Fiber-Optic Temperature Monitoring"
+
+[teu_wy5]
+other = "Fiber-Optic Temperature Controller"
+
+[teu_wy6]
+other = "Single-Gas DGA Monitor"
+
+[teu_wy7]
+other = "Multi-Gas DGA Online Monitor"
+
+[teu_wy8]
+other = "Intelligent Component Cabinet"
+
+[teu_wy9]
+other = "Oil Moisture Online Monitor"
+
+[teu_wy10]
+other = "Box Substation Monitoring & Control"
+
+[teu_wy11]
+other = "Core Grounding Current Monitor"
+
+[teu_wy12]
+other = "Core Clamping Force Monitor"
+
+[teu_wy13]
+other = "Air-Cooling Control Cabinet"
+
