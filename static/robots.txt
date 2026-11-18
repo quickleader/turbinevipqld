@@ -11,5 +11,5 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-User-agent: Baidubot
+User-agent: Baiduspider
 Allow: /
