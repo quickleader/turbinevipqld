@@ -1,4 +1,6 @@
 +++
+price = 10000
+priceCurrency = "USD"
 title = "Steam Turbine Maintenance"
 category = "service"
 icon = "🔧"

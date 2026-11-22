@@ -1,4 +1,7 @@
 +++
+price_low = 20000
+price_high = 100000
+priceCurrency = "USD"
 title = "Progetto Centrale Indonesia"
 category = "epc"
 icon = "🏗"

@@ -1,4 +1,7 @@
 ---
+price_low: 40000
+price_high: 100000
+priceCurrency: USD
 title: "Soluzioni per Caldaie | Carbone, Biomassa, HRSG e Ricambi"
 subtitle: "Caldaie per centrali elettriche, generatori di vapore a recupero e parti di ricambio"
 description: "Qingdao Quickleader fornisce caldaie a carbone, a biomassa e HRSG, oltre a parti in pressione, bruciatori, griglie e fasci tubieri. Marchi partner: Jinan, Wuxi e Tai'an Boiler Group."

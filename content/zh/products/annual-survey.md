@@ -1,4 +1,6 @@
 +++
+price = 10000
+priceCurrency = "USD"
 title = "年度巡检"
 category = "service"
 icon = "📋"

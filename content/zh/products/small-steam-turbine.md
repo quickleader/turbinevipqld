@@ -1,4 +1,7 @@
 +++
+price_low = 60000
+price_high = 300000
+priceCurrency = "USD"
 title = "小型汽轮机 (50kW-1MW)"
 category = "turbine"
 icon = "⚙"

@@ -1,4 +1,7 @@
 +++
+price_low = 300000
+price_high = 5000000
+priceCurrency = "USD"
 title = "7MW汽轮机"
 category = "turbine"
 icon = "⚙"

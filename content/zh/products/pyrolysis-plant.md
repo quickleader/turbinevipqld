@@ -1,4 +1,7 @@
 +++
+price_low = 300000
+price_high = 1000000
+priceCurrency = "USD"
 title = "轮胎/塑料裂解装置"
 category = "new_energy"
 icon = "♻"

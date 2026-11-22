@@ -1,4 +1,7 @@
 +++
+price_low = 100000
+price_high = 500000
+priceCurrency = "USD"
 title = "Turbina a Vapore Industriale"
 category = "turbine"
 icon = "⚙"

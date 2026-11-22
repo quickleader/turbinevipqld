@@ -1,4 +1,7 @@
 +++
+price_low = 300000
+price_high = 5000000
+priceCurrency = "USD"
 title = "Turbina a Vapore 7MW"
 category = "turbine"
 icon = "⚙"

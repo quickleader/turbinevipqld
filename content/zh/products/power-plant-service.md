@@ -1,4 +1,6 @@
 ---
+price: 10000
+priceCurrency: USD
 title: "电站服务与EPC | 电站4S服务中心"
 subtitle: "EPC总承包、安装调试、大修、备件管理与年度巡检"
 description: "青岛乾利得提供电站EPC、4S服务、安装调试、检修、备件管理。汽轮机、燃气轮机、生物质电站一站式合作伙伴。"

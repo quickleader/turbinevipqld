@@ -1,4 +1,7 @@
 +++
+price_low = 300000
+price_high = 1000000
+priceCurrency = "USD"
 title = "Impianto Pirolisi Pneumatici/Plastica"
 category = "new_energy"
 icon = "♻"

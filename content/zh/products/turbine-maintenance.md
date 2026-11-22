@@ -1,4 +1,6 @@
 +++
+price = 10000
+priceCurrency = "USD"
 title = "汽轮机维修"
 category = "service"
 icon = "🔧"

@@ -1,4 +1,7 @@
 +++
+price_low = 40000
+price_high = 100000
+priceCurrency = "USD"
 title = "工业锅炉"
 category = "boiler"
 icon = "🏭"

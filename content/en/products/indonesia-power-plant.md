@@ -1,4 +1,7 @@
 +++
+price_low = 20000
+price_high = 100000
+priceCurrency = "USD"
 title = "Indonesia Power Plant Project"
 category = "epc"
 icon = "🏗"

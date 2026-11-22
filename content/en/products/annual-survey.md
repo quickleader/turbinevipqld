@@ -1,4 +1,6 @@
 +++
+price = 10000
+priceCurrency = "USD"
 title = "Annual Survey and Inspection"
 category = "service"
 icon = "📋"

@@ -1,4 +1,6 @@
 +++
+price = 10000
+priceCurrency = "USD"
 title = "Manutenzione Turbina"
 category = "service"
 icon = "🔧"

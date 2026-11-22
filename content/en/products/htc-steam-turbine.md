@@ -1,4 +1,7 @@
 +++
+price_low = 300000
+price_high = 5000000
+priceCurrency = "USD"
 title = "HTC Steam Turbine (3MW-200MW)"
 category = "turbine"
 icon = "⚙"

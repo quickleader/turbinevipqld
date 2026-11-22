@@ -1,4 +1,7 @@
 +++
+price_low = 100000
+price_high = 500000
+priceCurrency = "USD"
 title = "工业汽轮机"
 category = "turbine"
 icon = "⚙"

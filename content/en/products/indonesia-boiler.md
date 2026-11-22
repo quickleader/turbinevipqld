@@ -1,4 +1,7 @@
 ---
+price_low: 40000
+price_high: 100000
+priceCurrency: USD
 title: "Boiler Supplier in Indonesia"
 subtitle: "Industrial and utility boilers for Indonesian plants — biomass, palm oil, sugar & cement"
 description: "Industrial boiler supplier in Indonesia — biomass, palm oil, sugar & cement. CE/ISO certified, Bahasa support, fast shipping. Get a quote via WhatsApp."
