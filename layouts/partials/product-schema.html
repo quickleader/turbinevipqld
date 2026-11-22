@@ -23,6 +23,8 @@
   "@context": "https://schema.org",
   "@type": "Product",
   "sku": {{ $sku | jsonify | safeJS }},
+  "mpn": {{ .Params.mpn | default $sku | jsonify | safeJS }},
+  {{ with .Params.gtin }}"gtin": {{ . | jsonify | safeJS }},{{ end }}
   "name": {{ .Title | jsonify | safeJS }},
   "description": {{ with .Description }}{{ . | jsonify | safeJS }}{{ else }}"High-performance {{ $catLabel }} from Qingdao Quickleader International Trade Co., Ltd."{{ end }},
   "brand": {

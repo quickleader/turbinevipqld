@@ -1,7 +1,0 @@
-# Cloudflare Pages redirects — SEO 审计 2026-11-22
-# 规范域为 www.turbinevip.com（与 canonical/sitemap/hreflang 一致）
-# 无 www apex 域此前直接返回 200 导致重复内容与权重分散，统一 301 归一化
-
-# apex -> www（含 http/https、所有路径）
-https://turbinevip.com/*    https://www.turbinevip.com/:splat    301
-http://turbinevip.com/*     https://www.turbinevip.com/:splat    301
