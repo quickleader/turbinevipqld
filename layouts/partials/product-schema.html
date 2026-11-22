@@ -22,9 +22,9 @@
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "sku": {{ $sku | jsonify }},
-  "name": {{ .Title | jsonify }},
-  "description": {{ with .Description }}{{ . | jsonify }}{{ else }}"High-performance {{ $catLabel }} from Qingdao Quickleader International Trade Co., Ltd."{{ end }},
+  "sku": {{ $sku | jsonify | safeJS }},
+  "name": {{ .Title | jsonify | safeJS }},
+  "description": {{ with .Description }}{{ . | jsonify | safeJS }}{{ else }}"High-performance {{ $catLabel }} from Qingdao Quickleader International Trade Co., Ltd."{{ end }},
   "brand": {
     "@type": "Brand",
     "name": "Qingdao Quickleader"
@@ -33,9 +33,23 @@
     "@type": "Organization",
     "name": "Qingdao Quickleader International Trade Co., Ltd."
   },
-  "category": {{ $catLabel | jsonify }},
-  "url": {{ .Permalink | jsonify }}{{ with .Params.image }},
-  "image": ["{{ absURL . }}"]{{ end }}
+  "category": {{ $catLabel | jsonify | safeJS }},
+  "url": {{ .Permalink | jsonify | safeJS }}{{ with .Params.image }},
+  "image": ["{{ absURL . }}"]{{ end }}{{ with .Params.price }},
+  {{/* offers 仅在 front matter 提供真实 price 时输出；询价型 B2B 无固定价产品不输出，
+     避免 Google Merchant Listing "Missing field price" 错误（SEO 审计 2026-11-22） */}}
+  "offers": {
+    "@type": "Offer",
+    "price": {{ . | jsonify | safeJS }},
+    "priceCurrency": {{ $.Params.priceCurrency | default "USD" | jsonify | safeJS }},
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "seller": {
+      "@type": "Organization",
+      "name": "Qingdao Quickleader International Trade Co., Ltd."
+    },
+    "url": {{ .Permalink | jsonify | safeJS }}
+  }{{ end }}
 }
 </script>
 
@@ -43,11 +57,11 @@
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "serviceType": {{ $catLabel | jsonify }},
+  "serviceType": {{ $catLabel | jsonify | safeJS }},
   "provider": {
     "@type": "Organization",
     "name": "Qingdao Quickleader International Trade Co., Ltd.",
-    "url": {{ .Site.BaseURL | jsonify }}
+    "url": {{ .Site.BaseURL | jsonify | safeJS }}
   },
   "areaServed": {
     "@type": "GeoCircle",
@@ -61,8 +75,8 @@
     },
     "geoRadius": "10000000"
   },
-  "description": {{ with .Description }}{{ . | jsonify }}{{ else }}"Professional {{ $catLabel }} supply and EPC services."{{ end }},
-  "url": {{ .Permalink | jsonify }}
+  "description": {{ with .Description }}{{ . | jsonify | safeJS }}{{ else }}"Professional {{ $catLabel }} supply and EPC services."{{ end }},
+  "url": {{ .Permalink | jsonify | safeJS }}
 }
 </script>
 
@@ -75,10 +89,10 @@
   "mainEntity": [
     {{ range $i, $faq := .Params.faq }}{{ if gt $i 0 }},{{ end }}{
       "@type": "Question",
-      "name": {{ $faq.q | jsonify }},
+      "name": {{ $faq.q | jsonify | safeJS }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": {{ $faq.a | jsonify }}
+        "text": {{ $faq.a | jsonify | safeJS }}
       }
     }{{ end }}
   ]

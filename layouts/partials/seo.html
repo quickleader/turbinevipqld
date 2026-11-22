@@ -90,13 +90,13 @@
     {
       "@type": "Organization",
       "@id": "{{ .Site.Home.Permalink }}#organization",
-      "name": {{ .Site.Params.companyName | default .Site.Title | jsonify }},
+      "name": {{ .Site.Params.companyName | default .Site.Title | jsonify | safeJS }},
       "url": "{{ .Site.BaseURL }}",
       "logo": {
         "@type": "ImageObject",
         "url": "{{ if strings.HasPrefix $logo "http" }}{{ $logo }}{{ else }}{{ absURL $logo }}{{ end }}"
       },
-      "description": {{ .Site.Params.description | jsonify }},
+      "description": {{ .Site.Params.description | jsonify | safeJS }},
       "foundingDate": {{ with .Site.Params.foundedYear }}"{{ . }}"{{ else }}"2003"{{ end }},
       "numberOfEmployees": {
         "@type": "QuantitativeValue",
@@ -105,9 +105,9 @@
       },
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": {{ .Site.Params.phone | default "+86-532-68880703" | jsonify }},
+        "telephone": {{ .Site.Params.phone | default "+86-532-68880703" | jsonify | safeJS }},
         "contactType": "customer service",
-        "email": {{ .Site.Params.email | default "turbinevip@163.com" | jsonify }},
+        "email": {{ .Site.Params.email | default "turbinevip@163.com" | jsonify | safeJS }},
         "availableLanguage": [
           {"@type": "Language", "name": "English", "alternateName": "en"},
           {"@type": "Language", "name": "Chinese", "alternateName": "zh"},
@@ -120,7 +120,7 @@
       },
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": {{ .Site.Params.address | default "RM.210, Tower B, Qingdao Plaza, No.379, Dunhua Road" | jsonify }},
+        "streetAddress": {{ .Site.Params.address | default "RM.210, Tower B, Qingdao Plaza, No.379, Dunhua Road" | jsonify | safeJS }},
         "addressLocality": "Qingdao",
         "addressRegion": "Shandong",
         "postalCode": "266071",
@@ -150,7 +150,7 @@
         ,{
           "@type": "ListItem",
           "position": {{ $depth }},
-          "name": {{ $anc.Title | jsonify }},
+          "name": {{ $anc.Title | jsonify | safeJS }},
           "item": "{{ $anc.Permalink }}"
 
         }
@@ -158,7 +158,7 @@
         ,{
           "@type": "ListItem",
           "position": {{ add $depth 1 }},
-          "name": {{ .Title | jsonify }},
+          "name": {{ .Title | jsonify | safeJS }},
           "item": "{{ .Permalink }}"
         }
       ]

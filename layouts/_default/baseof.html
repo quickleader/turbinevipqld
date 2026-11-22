@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ partial "ga.html" . }}
-  <title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-  {{ with .Params.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
+  {{/* 首页 title 只用 Site.Title，避免与 front matter title 拼接重复（SEO 审计 2026-11-22） */}}
+  <title>{{ block "title" . }}{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}{{ end }}</title>
+  {{/* description/keywords 由 seo.html 统一输出（含 truncate 长度控制），此处不再重复输出 */}}
   {{ partial "seo.html" . }}
   {{ $css := resources.Get "css/style.css" | minify }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">
